@@ -131,7 +131,6 @@ class d_Tree(WeightingRegressor):
  
     # General syntax: Generator[YieldType, SendType, ReturnType]
     def _propose_splits(self, X_j, rows_X, j, M) -> Generator[float, None, None]:
-        ##AQUI RECIBIR Y PASAR INDICES TB
         if self.split_type == '2means':
             return _2means_propose_splits(X_j, rows_X, M, self.distance_matrix[j], self.seed)
         else:
