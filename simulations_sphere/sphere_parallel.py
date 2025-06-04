@@ -127,7 +127,7 @@ def task(file) -> None:
 
     ############################################################################################################
     # TYPE I COVERAGE RESULTS
-    n_estimations = 50
+    n_estimations = 500
     pb_i_cov = np.zeros(shape = (n_estimations, 3))
     for estimation in range(n_estimations):
         # Randomly select rows from the dataframe
@@ -140,7 +140,7 @@ def task(file) -> None:
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
-    MC = 500
+    MC = 1000
     #Generate observations to estimate the probability
     theta_samples = np.array([vonmises_line(kappa = 1).rvs(MC)]).reshape(-1, 1)
     new_thetas, new_ys = simulate_data(m_0 = m_0, kappa = kappa, theta_samples = theta_samples, mu=mu)
