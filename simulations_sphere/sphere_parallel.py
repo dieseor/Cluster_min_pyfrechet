@@ -169,43 +169,6 @@ def task(file) -> None:
     pb_new_pred = forest.predict(theta.reshape(-1,1))
     pb_iv_cov = np.sum(M.d(MetricData(M, new_y), pb_new_pred) <= np.tile(oob_quantile, (MC, 1)), axis = 0) / MC
 
-############################################################################################################
-    # Error inside and outside interquartile range
-
-    theta_array = np.linspace(-np.pi, np.pi, 1000)
-    sphere_values = m_0(theta_array, mu)
-
-    theta_q_5 = vonmises_line.ppf(0.05, loc=0, kappa=1)
-    theta_q_15 = vonmises_line.ppf(0.15, loc=0, kappa=1)
-    theta_q_25 = vonmises_line.ppf(0.25, loc=0, kappa=1)
-    theta_q_75 = vonmises_line.ppf(0.75, loc=0, kappa=1)
-    theta_q_85 = vonmises_line.ppf(0.85, loc=0, kappa=1)
-    theta_q_95 = vonmises_line.ppf(0.95, loc=0, kappa=1)
-
-    assert(np.allclose(theta_q_5, -theta_q_95))
-    assert(np.allclose(theta_q_15, -theta_q_85))
-    assert(np.allclose(theta_q_25, -theta_q_75))
-
-    # select the values of forest_oob_errors_sorted that correspond to the predictors on the left of the 0.1 quantile
-    extreme_theta_quantile_5 = np.logical_or(theta_array < theta_q_5, theta_array > theta_q_95)
-    extreme_theta_quantile_15 = np.logical_or(theta_array < theta_q_15, theta_array > theta_q_85)
-    extreme_theta_quantile_25 = np.logical_or(theta_array < theta_q_25, theta_array > theta_q_75)
-
-    # select the values of forest_oob_errors_sorted that correspond to the predictors between the 0.1 and the 0.9 quantile
-    middle_theta_quantile_5 = np.logical_and(theta_array > theta_q_5, theta_array < theta_q_95)
-    middle_theta_quantile_15 = np.logical_and(theta_array > theta_q_15, theta_array < theta_q_85)
-    middle_theta_quantile_25 = np.logical_and(theta_array > theta_q_25, theta_array < theta_q_75)
-
-    errors = M.d(MetricData(M, sphere_values), forest.predict(theta_array.reshape(-1, 1)))
-
-    forest_errors_extreme_5 = errors[extreme_theta_quantile_5].mean()
-    forest_errors_extreme_15 = errors[extreme_theta_quantile_15].mean()
-    forest_errors_extreme_25 = errors[extreme_theta_quantile_25].mean()
-
-    forest_errors_middle_5 = errors[middle_theta_quantile_5].mean()
-    forest_errors_middle_15 = errors[middle_theta_quantile_15].mean()
-    forest_errors_middle_25 = errors[middle_theta_quantile_25].mean()
-
     # Store results
     results = {
         'i_cov': pb_i_cov,
@@ -213,12 +176,6 @@ def task(file) -> None:
         'iii_cov': pb_iii_cov,
         'iv_cov': pb_iv_cov,
         'OOB_quantile': oob_quantile,
-        'extreme_5': forest_errors_extreme_5,
-        'extreme_15': forest_errors_extreme_15,
-        'extreme_25': forest_errors_extreme_25,
-        'middle_5': forest_errors_middle_5,
-        'middle_15': forest_errors_middle_15,
-        'middle_25': forest_errors_middle_25
         }
 
     results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')

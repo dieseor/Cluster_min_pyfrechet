@@ -4,7 +4,7 @@ sys.path.append(os.getcwd())
 import pickle
 import numpy as np
 from sklearn.model_selection import train_test_split
-from pyfrechet.metric_spaces import MetricData, Euclidean
+from pyfrechet.metric_spaces import MetricData, Euclidean, two_euclidean
 from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
 from pyfrechet.metrics import mse

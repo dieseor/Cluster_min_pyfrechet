@@ -117,7 +117,7 @@ def task(file):
 
 ############################################################################################################
     # TYPE I COVERAGE RESULTS
-    n_estimations = 50
+    n_estimations = 500
     pb_i_cov = np.zeros(shape = (n_estimations, 3))
     conf_i_cov = np.zeros(shape = (n_estimations, 3))
 
@@ -138,7 +138,7 @@ def task(file):
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
-    MC = 500
+    MC = 1000
     #Generate observations to estimate the probability
     new_X = 2*np.sqrt(5)*(np.random.beta(2, 2, (MC, n_predictors)) - 1/2)
     new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas = betas)
