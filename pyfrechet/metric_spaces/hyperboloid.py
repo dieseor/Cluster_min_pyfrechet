@@ -12,6 +12,3 @@ class H2(RiemannianManifold):
 
     def __str__(self):
         return f'Hyperboloid(dim = {self.manifold.dim})'
- 
-def extrinsic_to_intrinsic(x):
-    return Hyperboloid(dim = dim).extrinsic_to_intrinsic_coords(x)

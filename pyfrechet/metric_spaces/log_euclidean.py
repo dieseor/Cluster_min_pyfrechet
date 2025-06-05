@@ -17,7 +17,7 @@ class LogEuclidean(RiemannianManifold):
         In: Differential Geometry and Lie Groups. Geometry and Computing, vol 12. Springer, Cham. https://doi.org/10.1007/978-3-030-46040-2_22
     """
     def __init__(self, dim):
-        super().__init__(SPDMatrices(n = dim, metric = SPDMetricLogEuclidean(n = dim)))
+        super().__init__(SPDMatrices(n = dim, metric = SPDLogEuclideanMetric(n = dim)))
 
     def __str__(self):
         return f'SPD_matrices (log-Euclidean metric) (dim={self.manifold.n})'
