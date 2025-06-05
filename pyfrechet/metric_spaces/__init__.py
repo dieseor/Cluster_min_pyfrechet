@@ -3,7 +3,7 @@ from .metric_data import MetricData
 from .euclidean import Euclidean
 from .sphere import Sphere, r2_to_angle, r3_to_angles
 from .anisotropic_sphere import AnisotropicSphere
-from .hyperboloid import H2, extrinsic_to_intrinsic
+from .hyperboloid import H2
 from .correlation import CorrFrobenius
 from .wasserstein_1d import Wasserstein1D
 from .network import NetworkCholesky
