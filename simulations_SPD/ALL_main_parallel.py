@@ -9,7 +9,7 @@ from pyfrechet.metrics import mse
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer
 from joblib import Parallel, delayed
-from pyfrechet.metric_spaces import MetricData, Euclidean, LogEuclidean, CustomAffineInvariant, LogCholesky, spd_to_log_chol
+from pyfrechet.metric_spaces import MetricData, LogEuclidean, CustomAffineInvariant, LogCholesky, spd_to_log_chol
 from pyfrechet.regression.bagged_regressor import BaggedRegressor
 from pyfrechet.regression.trees import Tree
 import contextlib
@@ -42,7 +42,7 @@ neg_mse = make_scorer(mse, greater_is_better=False)
 
 # By-blocks execution
 n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_SPD', 'data')))
-current_block = 5
+current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
 base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
