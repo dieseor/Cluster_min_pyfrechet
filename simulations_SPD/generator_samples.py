@@ -39,7 +39,7 @@ Sigma_2 = np.array([[1, 0],
 Sigma_3 = np.array([[0.5, 0.4],
                   [0.4, 1]])
 
-n_samples = 500
+n_samples = 1000
 sample_sizes = [50, 100, 200, 500]
 sample_sizes = [size for size in sample_sizes]
 dfs = [5, 15]

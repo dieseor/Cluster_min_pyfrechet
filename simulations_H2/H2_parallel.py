@@ -78,7 +78,7 @@ def task(file) -> None:
     
     ############################################################################################################
     # TYPE I COVERAGE RESULTS
-    n_estimations = 50
+    n_estimations = 500
     pb_i_cov = np.zeros(shape = (n_estimations, 3))
     for estimation in range(n_estimations):
         filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIdata', f'estimation_{estimation+1}_N{N}_kappa{kappa}.csv')
@@ -94,7 +94,7 @@ def task(file) -> None:
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
-    MC = 500
+    MC = 1000
     filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIIdata', f'samp_{samp}_N_{N}_kappa{kappa}.csv')
     hyp_data = pd.read_csv(filename)
     hyp_data.drop(columns = ['Unnamed: 0'], inplace = True)
