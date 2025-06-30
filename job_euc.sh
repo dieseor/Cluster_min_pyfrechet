@@ -10,7 +10,7 @@ git push
 
 # for b in {1..8}
 # do
-#   sbatch --time=01:20:00 -n 1 --cpus-per-task=32 --mem=8GB --mail-type=END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="%j-euc-block$b.out" job_euc.sh
+#   sbatch --time=01:15:00 -n 1 --cpus-per-task=32 --mem=8GB --mail-type=END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="%j-euc-block$b.out" job_euc.sh
 # done
 
-# sbatch --time=01:20:00 -n 1 --cpus-per-task=32 --mem=8GB --mail-type=END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="%j-euc-block1.out" job_euc.sh
+# sbatch --time=01:15:00 -n 1 --cpus-per-task=32 --mem=8GB --mail-type=END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="%j-euc-block1.out" job_euc.sh

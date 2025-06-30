@@ -1,5 +1,7 @@
 #!/bin/sh
-module load python/3.9.9
+module load cesga/2020 python/3.9.9
+export PYTHONNOUSERSITE=1
+source $STORE/pballs/bin/activate
 lscpu
 python simulations_SPD/ALL_main_parallel.py $block
 git add .
