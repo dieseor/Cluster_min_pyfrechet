@@ -1,4 +1,4 @@
-from geomstats.geometry.spd_matrices import SPDMatrices
+from geomstats.geometry.spd_matrices import SPDMatrices, SPDAffineMetric
 from .riemannian_manifold import RiemannianManifold
 
 class AffineInvariant(RiemannianManifold):
@@ -20,7 +20,9 @@ class AffineInvariant(RiemannianManifold):
         M. Moakher. SIAM J Matrix Anal Appl, 2005, 26 (3), pp. 735-747
     """
     def __init__(self, dim):
-        super().__init__(SPDMatrices(n=dim))
+        manifold = SPDMatrices(n=dim)
+        manifold.metric = SPDAffineMetric(space=manifold)
+        super().__init__(manifold)
 
     def __str__(self):
-        return f'SPD_matrices (affine invariant metric) (dim={self.manifold.dim})'
+        return f'SPD_matrices (affine invariant metric) (dim={self.manifold.n})'

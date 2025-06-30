@@ -17,7 +17,9 @@ class LogEuclidean(RiemannianManifold):
         In: Differential Geometry and Lie Groups. Geometry and Computing, vol 12. Springer, Cham. https://doi.org/10.1007/978-3-030-46040-2_22
     """
     def __init__(self, dim):
-        super().__init__(SPDMatrices(n = dim, metric = SPDLogEuclideanMetric(n = dim)))
+        manifold = SPDMatrices(n=dim)
+        manifold.metric = SPDLogEuclideanMetric(space=manifold)
+        super().__init__(manifold)
 
     def __str__(self):
         return f'SPD_matrices (log-Euclidean metric) (dim={self.manifold.n})'
@@ -39,7 +41,7 @@ class LogEuclidean(RiemannianManifold):
 
     def _frechet_mean(self, vectors, w):
         matrices = np.array([devectorize(v) for v in vectors])
-        mean = FrechetMean(metric=self.manifold.metric, point_type='matrix', verbose=False)
+        mean = FrechetMean(space=self.manifold)
         mean.fit(matrices, weights=w)
         matrix_frechet_mean = mean.estimate_
         return vectorize(matrix_frechet_mean)
