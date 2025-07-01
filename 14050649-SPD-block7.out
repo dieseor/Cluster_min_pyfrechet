@@ -70,4 +70,5 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  62%|██████▎   | 50/80 [1:23:44<1:22:42, 165.43s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  64%|██████▍   | 51/80 [1:24:03<58:44, 121.54s/it]  Percentage of tasks completed::  65%|██████▌   | 52/80 [1:25:25<51:06, 109.51s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  66%|██████▋   | 53/80 [1:32:58<1:35:44, 212.75s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:33:19<1:07:15, 155.20s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  69%|██████▉   | 55/80 [1:33:44<48:21, 116.06s/it]  
+Percentage of tasks completed::  69%|██████▉   | 55/80 [1:33:44<48:21, 116.06s/it]  WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  70%|███████   | 56/80 [1:41:52<1:31:02, 227.60s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:42:18<1:04:07, 167.27s/it]
