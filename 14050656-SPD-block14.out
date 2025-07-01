@@ -64,3 +64,30 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  46%|████▋     | 37/80 [57:13<36:01, 50.27s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [1:04:17<1:53:46, 162.53s/it]Percentage of tasks completed::  49%|████▉     | 39/80 [1:05:03<1:27:03, 127.41s/it]Percentage of tasks completed::  50%|█████     | 40/80 [1:05:55<1:09:55, 104.88s/it]Percentage of tasks completed::  51%|█████▏    | 41/80 [1:06:28<54:02, 83.13s/it]   Percentage of tasks completed::  52%|█████▎    | 42/80 [1:06:43<39:44, 62.76s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:11:30<1:20:16, 130.18s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:15:52<1:41:45, 169.60s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:17:01<1:21:17, 139.37s/it]Percentage of tasks completed::  57%|█████▊    | 46/80 [1:17:38<1:01:33, 108.63s/it]Percentage of tasks completed::  59%|█████▉    | 47/80 [1:18:36<51:23, 93.44s/it]   Percentage of tasks completed::  60%|██████    | 48/80 [1:19:24<42:39, 79.99s/it]Percentage of tasks completed::  61%|██████▏   | 49/80 [1:22:03<53:31, 103.58s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:26:34<1:16:52, 153.75s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:28:14<1:06:35, 137.76s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:28:54<50:33, 108.34s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [1:29:32<39:16, 87.28s/it] Percentage of tasks completed::  68%|██████▊   | 54/80 [1:30:16<32:15, 74.44s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [1:44:37<2:09:19, 310.38s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:46:00<1:36:53, 242.22s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:48:45<1:23:55, 218.94s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [1:49:56<1:03:59, 174.51s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 109.9min remaining: 41.7min
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:07:47<2:35:14, 443.54s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:08:34<1:48:10, 324.50s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:31:17<3:21:25, 636.09s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:31:28<2:14:36, 448.68s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:31:41<1:30:04, 317.88s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:31:46<59:42, 223.91s/it]  Percentage of tasks completed::  81%|████████▏ | 65/80 [2:32:08<40:50, 163.36s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [2:32:57<30:05, 128.97s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:33:21<21:08, 97.58s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:33:42<14:55, 74.63s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:38:09<24:16, 132.41s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:39:36<19:45, 118.60s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:46:08<30:06, 200.73s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:47:02<20:52, 156.58s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:50:37<20:18, 174.09s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:54:17<18:47, 187.95s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:01:38<21:59, 263.85s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:02:24<13:13, 198.49s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:09:26<13:17, 265.69s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:10:14<06:40, 200.37s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:19:01<04:58, 298.21s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:20:09<00:00, 229.21s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 200.2min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:20:09<00:00, 150.12s/it]
+[main 309876fda] Simulations SPD block 14
+ 7 files changed, 38 insertions(+), 2 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp140_N500_df5_block_14_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp88_N500_df5_block_9_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   01698a78f..309876fda  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14050656)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14050656
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-21:53:36
+CPU Efficiency: 65.36% of 4-10:56:32 core-walltime
+Job Wall-clock time: 03:20:31
+Memory Utilized: 14.18 GB
+Memory Efficiency: 88.64% of 16.00 GB
+
+*****************************************************************************
+
