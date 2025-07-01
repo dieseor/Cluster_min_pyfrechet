@@ -67,3 +67,51 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  85%|████████▌ | 68/80 [2:28:35<13:27, 67.26s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:33:54<26:10, 142.78s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:34:15<17:42, 106.21s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:40:48<28:51, 192.41s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:41:26<19:27, 145.90s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:45:46<21:01, 180.25s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:46:32<14:00, 140.03s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [2:57:18<24:18, 291.79s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [2:58:43<15:18, 229.62s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:04:35<13:19, 266.57s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:06:31<07:22, 221.40s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:14:06<04:51, 291.45s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:14:53<00:00, 218.17s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 194.9min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:14:53<00:00, 146.17s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 342cab61a] Simulations SPD block 59
+ 34 files changed, 258 insertions(+), 6 deletions(-)
+ create mode 100644 14050715-SPD-block73.out
+ create mode 100644 14050716-SPD-block74.out
+ create mode 100644 simulations_SPD/results/SPD_samp590_N500_df15_block_59_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp590_N500_df5_block_59_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp599_N500_df5_block_60_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp609_N500_df15_block_61_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp618_N500_df15_block_62_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp618_N500_df5_block_62_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp637_N500_df15_block_64_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp637_N500_df5_block_64_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp650_N100_df15_block_65_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp650_N100_df5_block_65_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp660_N50_df5_block_66_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp667_N200_df15_block_67_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp667_N200_df5_block_67_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp670_N100_df15_block_67_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp670_N50_df15_block_67_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp670_N50_df5_block_67_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp676_N200_df15_block_68_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp679_N100_df15_block_68_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp679_N100_df5_block_68_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   7d388d009..342cab61a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14050701)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14050701
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-20:02:39
+CPU Efficiency: 64.79% of 4-09:01:20 core-walltime
+Job Wall-clock time: 03:16:55
+Memory Utilized: 14.07 GB
+Memory Efficiency: 87.94% of 16.00 GB
+
+*****************************************************************************
+
