@@ -99,3 +99,35 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  91%|█████████▏| 73/80 [2:48:40<21:00, 180.07s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:48:55<13:02, 130.36s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [2:58:49<22:28, 269.68s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [2:59:47<13:44, 206.13s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:06:50<13:33, 271.01s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:08:07<07:05, 212.95s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:16:19<04:56, 296.49s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:16:57<00:00, 218.94s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 197.0min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:16:57<00:00, 147.71s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d7eeb5b10] Simulations SPD block 41
+ 10 files changed, 92 insertions(+), 3 deletions(-)
+ create mode 100644 14050699-SPD-block57.out
+ create mode 100644 simulations_SPD/results/SPD_samp410_N500_df15_block_41_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp410_N500_df5_block_41_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp510_N100_df5_block_51_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp529_N50_df15_block_53_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   7c17f5bca..d7eeb5b10  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14050683)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14050683
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-21:02:30
+CPU Efficiency: 65.66% of 4-09:09:20 core-walltime
+Job Wall-clock time: 03:17:10
+Memory Utilized: 14.12 GB
+Memory Efficiency: 88.27% of 16.00 GB
+
+*****************************************************************************
+
