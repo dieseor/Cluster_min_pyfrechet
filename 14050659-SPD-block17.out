@@ -56,3 +56,36 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  90%|█████████ | 72/80 [2:50:29<26:38, 199.81s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:52:42<20:58, 179.73s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:54:20<15:31, 155.27s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:03:33<22:51, 274.34s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:05:15<14:51, 222.84s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:10:28<12:29, 249.97s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:10:50<06:02, 181.37s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:19:29<04:42, 282.72s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:21:07<00:00, 227.35s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 201.1min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:21:07<00:00, 150.85s/it]
+[main 050fddfe7] Simulations SPD block 17
+ 13 files changed, 735 insertions(+), 4 deletions(-)
+ create mode 100644 14050675-SPD-block33.out
+ create mode 100644 simulations_SPD/results/SPD_samp170_N500_df5_block_17_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp218_N200_df5_block_22_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp228_N200_df15_block_23_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp290_N100_df5_block_29_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp300_N100_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp300_N100_df5_block_30_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp310_N100_df15_block_31_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   65f031d73..050fddfe7  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14050659)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14050659
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-22:31:13
+CPU Efficiency: 65.68% of 4-11:22:08 core-walltime
+Job Wall-clock time: 03:21:19
+Memory Utilized: 14.71 GB
+Memory Efficiency: 91.97% of 16.00 GB
+
+*****************************************************************************
+
