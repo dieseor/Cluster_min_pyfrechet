@@ -48,4 +48,11 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Percentage of tasks completed::   0%|          | 0/80 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::   1%|▏         | 1/80 [09:02<11:54:44, 542.85s/it]
+Percentage of tasks completed::   1%|▏         | 1/80 [09:02<11:54:44, 542.85s/it]Percentage of tasks completed::   2%|▎         | 2/80 [09:41<5:19:52, 246.05s/it] Percentage of tasks completed::   4%|▍         | 3/80 [09:41<2:52:01, 134.05s/it]Percentage of tasks completed::   5%|▌         | 4/80 [09:53<1:48:20, 85.53s/it] Percentage of tasks completed::   6%|▋         | 5/80 [09:54<1:08:48, 55.05s/it]Percentage of tasks completed::   8%|▊         | 6/80 [09:59<47:02, 38.15s/it]  WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::   9%|▉         | 7/80 [10:21<39:54, 32.80s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  10%|█         | 8/80 [10:25<28:20, 23.62s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
