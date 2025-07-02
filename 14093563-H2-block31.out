@@ -53,3 +53,82 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   warnings.warn(
 Percentage of tasks completed::  82%|████████▏ | 164/200 [1:10:51<16:25, 27.38s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:11:09<14:13, 24.38s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:11:14<10:34, 18.67s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:11:19<08:00, 14.57s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:11:23<05:59, 11.24s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:11:23<04:08,  8.02s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:12:25<12:02, 24.09s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:13:39<18:51, 39.02s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:13:54<14:57, 32.04s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:13:56<10:21, 23.02s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:14:04<08:01, 18.53s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:15:40<17:25, 41.82s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:15:57<13:39, 34.13s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:16:05<10:03, 26.26s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:16:34<09:59, 27.27s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:17:07<10:07, 28.92s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:19:01<18:08, 54.44s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:19:35<15:20, 48.44s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:20:01<12:28, 41.61s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:20:20<09:51, 34.78s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:20:57<09:29, 35.59s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:22:35<13:31, 54.09s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:24:02<14:57, 64.11s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:24:03<09:47, 45.22s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:24:50<09:09, 45.78s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:27:52<15:51, 86.47s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:28:16<11:18, 67.81s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:33:22<20:52, 139.21s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:33:31<13:22, 100.32s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:35:09<11:35, 99.40s/it] Percentage of tasks completed::  97%|█████████▋| 194/200 [1:36:34<09:30, 95.12s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:38:03<07:47, 93.43s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:38:39<05:05, 76.26s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:41:28<05:12, 104.04s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:42:15<02:53, 86.96s/it] Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:44:56<01:49, 109.00s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:45:00<00:00, 77.45s/it] [Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 105.0min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:45:00<00:00, 31.50s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main bdab270d4b] Simulations Hyperboloid block 31
+ 65 files changed, 180 insertions(+), 11 deletions(-)
+ create mode 100644 simulations_H2/results/H2_samp1000_N100_kappa50_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp1000_N50_kappa200_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp1000_N50_kappa50_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp649_N500_kappa200_block_26_results.npy
+ create mode 100644 simulations_H2/results/H2_samp650_N500_kappa200_block_26_results.npy
+ create mode 100644 simulations_H2/results/H2_samp650_N500_kappa50_block_26_results.npy
+ create mode 100644 simulations_H2/results/H2_samp673_N500_kappa50_block_27_results.npy
+ create mode 100644 simulations_H2/results/H2_samp674_N500_kappa200_block_27_results.npy
+ create mode 100644 simulations_H2/results/H2_samp674_N500_kappa50_block_27_results.npy
+ create mode 100644 simulations_H2/results/H2_samp749_N500_kappa200_block_30_results.npy
+ create mode 100644 simulations_H2/results/H2_samp749_N500_kappa50_block_30_results.npy
+ create mode 100644 simulations_H2/results/H2_samp750_N500_kappa200_block_30_results.npy
+ create mode 100644 simulations_H2/results/H2_samp750_N500_kappa50_block_30_results.npy
+ create mode 100644 simulations_H2/results/H2_samp775_N500_kappa200_block_31_results.npy
+ create mode 100644 simulations_H2/results/H2_samp775_N500_kappa50_block_31_results.npy
+ create mode 100644 simulations_H2/results/H2_samp799_N500_kappa200_block_32_results.npy
+ create mode 100644 simulations_H2/results/H2_samp799_N500_kappa50_block_32_results.npy
+ create mode 100644 simulations_H2/results/H2_samp822_N500_kappa200_block_33_results.npy
+ create mode 100644 simulations_H2/results/H2_samp822_N500_kappa50_block_33_results.npy
+ create mode 100644 simulations_H2/results/H2_samp871_N500_kappa50_block_35_results.npy
+ create mode 100644 simulations_H2/results/H2_samp897_N500_kappa200_block_36_results.npy
+ create mode 100644 simulations_H2/results/H2_samp897_N500_kappa50_block_36_results.npy
+ create mode 100644 simulations_H2/results/H2_samp901_N200_kappa50_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp902_N200_kappa50_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp903_N200_kappa50_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp904_N200_kappa50_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp906_N100_kappa200_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp906_N100_kappa50_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp907_N100_kappa200_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp907_N100_kappa50_block_37_results.npy
+ create mode 100644 simulations_H2/results/H2_samp926_N200_kappa200_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp926_N200_kappa50_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp927_N200_kappa200_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp927_N200_kappa50_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp928_N200_kappa200_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp928_N200_kappa50_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp929_N200_kappa200_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp929_N200_kappa50_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp931_N100_kappa200_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp931_N100_kappa50_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp932_N100_kappa200_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp932_N100_kappa50_block_38_results.npy
+ create mode 100644 simulations_H2/results/H2_samp955_N100_kappa200_block_39_results.npy
+ create mode 100644 simulations_H2/results/H2_samp955_N100_kappa50_block_39_results.npy
+ create mode 100644 simulations_H2/results/H2_samp956_N50_kappa200_block_39_results.npy
+ create mode 100644 simulations_H2/results/H2_samp956_N50_kappa50_block_39_results.npy
+ create mode 100644 simulations_H2/results/H2_samp976_N50_kappa200_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp976_N50_kappa50_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp977_N50_kappa200_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp977_N50_kappa50_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp978_N50_kappa200_block_40_results.npy
+ create mode 100644 simulations_H2/results/H2_samp978_N50_kappa50_block_40_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   b8f50abc3f..bdab270d4b  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14093563)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14093563
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-17:27:14
+CPU Efficiency: 72.79% of 2-08:57:04 core-walltime
+Job Wall-clock time: 01:46:47
+Memory Utilized: 15.38 GB
+Memory Efficiency: 85.42% of 18.00 GB
+
+*****************************************************************************
+

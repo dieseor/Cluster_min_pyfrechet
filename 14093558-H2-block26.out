@@ -68,3 +68,112 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   14093556-H2-block24.out
+	modified:   14093558-H2-block26.out
+	modified:   14093559-H2-block27.out
+	modified:   14093562-H2-block30.out
+	modified:   14093563-H2-block31.out
+	modified:   14093564-H2-block32.out
+	modified:   14093565-H2-block33.out
+	modified:   14093567-H2-block35.out
+	modified:   14093568-H2-block36.out
+	modified:   14093569-H2-block37.out
+	modified:   14093570-H2-block38.out
+	modified:   14093571-H2-block39.out
+	modified:   14093572-H2-block40.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	simulations_H2/results/H2_samp1000_N100_kappa200_block_40_results.npy
+	simulations_H2/results/H2_samp1000_N100_kappa50_block_40_results.npy
+	simulations_H2/results/H2_samp1000_N50_kappa200_block_40_results.npy
+	simulations_H2/results/H2_samp1000_N50_kappa50_block_40_results.npy
+	simulations_H2/results/H2_samp649_N500_kappa200_block_26_results.npy
+	simulations_H2/results/H2_samp650_N500_kappa200_block_26_results.npy
+	simulations_H2/results/H2_samp650_N500_kappa50_block_26_results.npy
+	simulations_H2/results/H2_samp673_N500_kappa50_block_27_results.npy
+	simulations_H2/results/H2_samp674_N500_kappa200_block_27_results.npy
+	simulations_H2/results/H2_samp674_N500_kappa50_block_27_results.npy
+	simulations_H2/results/H2_samp749_N500_kappa200_block_30_results.npy
+	simulations_H2/results/H2_samp749_N500_kappa50_block_30_results.npy
+	simulations_H2/results/H2_samp750_N500_kappa200_block_30_results.npy
+	simulations_H2/results/H2_samp750_N500_kappa50_block_30_results.npy
+	simulations_H2/results/H2_samp775_N500_kappa200_block_31_results.npy
+	simulations_H2/results/H2_samp775_N500_kappa50_block_31_results.npy
+	simulations_H2/results/H2_samp799_N500_kappa200_block_32_results.npy
+	simulations_H2/results/H2_samp799_N500_kappa50_block_32_results.npy
+	simulations_H2/results/H2_samp822_N500_kappa200_block_33_results.npy
+	simulations_H2/results/H2_samp822_N500_kappa50_block_33_results.npy
+	simulations_H2/results/H2_samp846_N500_kappa50_block_34_results.npy
+	simulations_H2/results/H2_samp871_N500_kappa50_block_35_results.npy
+	simulations_H2/results/H2_samp897_N500_kappa200_block_36_results.npy
+	simulations_H2/results/H2_samp897_N500_kappa50_block_36_results.npy
+	simulations_H2/results/H2_samp901_N200_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp901_N200_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp902_N200_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp902_N200_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp903_N200_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp903_N200_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp904_N200_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp904_N200_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp906_N100_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp906_N100_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp907_N100_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp907_N100_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp926_N200_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp926_N200_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp927_N200_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp927_N200_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp928_N200_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp928_N200_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp929_N200_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp929_N200_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp931_N100_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp931_N100_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp932_N100_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp932_N100_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp932_N50_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp955_N100_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp955_N100_kappa50_block_39_results.npy
+	simulations_H2/results/H2_samp956_N100_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp956_N50_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp956_N50_kappa50_block_39_results.npy
+	simulations_H2/results/H2_samp976_N100_kappa50_block_40_results.npy
+	simulations_H2/results/H2_samp976_N50_kappa200_block_40_results.npy
+	simulations_H2/results/H2_samp976_N50_kappa50_block_40_results.npy
+	simulations_H2/results/H2_samp977_N50_kappa200_block_40_results.npy
+	simulations_H2/results/H2_samp977_N50_kappa50_block_40_results.npy
+	simulations_H2/results/H2_samp978_N100_kappa200_block_40_results.npy
+	simulations_H2/results/H2_samp978_N100_kappa50_block_40_results.npy
+	simulations_H2/results/H2_samp978_N50_kappa200_block_40_results.npy
+	simulations_H2/results/H2_samp978_N50_kappa50_block_40_results.npy
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14093558)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14093558
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-17:54:39
+CPU Efficiency: 72.80% of 2-09:34:24 core-walltime
+Job Wall-clock time: 01:47:57
+Memory Utilized: 14.64 GB
+Memory Efficiency: 81.35% of 18.00 GB
+
+*****************************************************************************
+
