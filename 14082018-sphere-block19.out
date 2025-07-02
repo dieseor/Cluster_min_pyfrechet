@@ -59,3 +59,35 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   warnings.warn(
 Percentage of tasks completed::  84%|████████▍ | 168/200 [1:21:52<13:12, 24.78s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:22:22<13:43, 26.56s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:22:32<10:46, 21.56s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:23:13<13:14, 27.40s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:23:22<10:12, 21.88s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:23:36<08:46, 19.52s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:23:40<06:24, 14.80s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:24:08<07:47, 18.69s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:24:20<06:39, 16.64s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:24:34<06:09, 16.08s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:24:43<05:05, 13.90s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:25:10<06:14, 17.85s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:27:32<18:22, 55.13s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:27:45<13:24, 42.33s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:27:54<09:42, 32.38s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:28:11<07:54, 27.91s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:30:44<17:26, 65.39s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:31:29<14:47, 59.20s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:31:46<10:49, 46.42s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:32:12<08:43, 40.26s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:33:43<11:07, 55.65s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:33:51<07:35, 41.43s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:36:11<11:47, 70.78s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:39:46<17:08, 114.28s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:40:11<11:39, 87.48s/it] Percentage of tasks completed::  96%|█████████▋| 193/200 [1:41:28<09:49, 84.19s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:42:55<08:30, 85.06s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:43:48<06:16, 75.36s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:45:01<04:59, 74.82s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:46:06<03:35, 71.82s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:47:28<02:29, 74.70s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:48:43<01:14, 74.91s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:49:13<00:00, 61.40s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 109.2min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:49:13<00:00, 32.77s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 7c0ea94a7] Simulations Sphere block 19
+ 10 files changed, 90 insertions(+), 4 deletions(-)
+ create mode 100644 simulations_sphere/results/sphere_samp475_N500_kappa200_block_19_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp574_N500_kappa200_block_23_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp675_N500_kappa200_block_27_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp700_N500_kappa50_block_28_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp831_N100_kappa50_block_34_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   30640a1e4..7c0ea94a7  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14082018)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14082018
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-20:44:14
+CPU Efficiency: 76.43% of 2-10:32:00 core-walltime
+Job Wall-clock time: 01:49:45
+Memory Utilized: 15.12 GB
+Memory Efficiency: 94.48% of 16.00 GB
+
+*****************************************************************************
+
