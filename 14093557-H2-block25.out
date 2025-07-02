@@ -70,3 +70,80 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   14093557-H2-block25.out
+	modified:   14093560-H2-block28.out
+	modified:   14093561-H2-block29.out
+	modified:   14093564-H2-block32.out
+	modified:   14093565-H2-block33.out
+	modified:   14093567-H2-block35.out
+	modified:   14093568-H2-block36.out
+	modified:   14093569-H2-block37.out
+	modified:   14093570-H2-block38.out
+	modified:   14093571-H2-block39.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	14093572-H2-block40.out
+	simulations_H2/results/H2_samp624_N500_kappa200_block_25_results.npy
+	simulations_H2/results/H2_samp625_N500_kappa200_block_25_results.npy
+	simulations_H2/results/H2_samp625_N500_kappa50_block_25_results.npy
+	simulations_H2/results/H2_samp673_N500_kappa200_block_27_results.npy
+	simulations_H2/results/H2_samp725_N500_kappa200_block_29_results.npy
+	simulations_H2/results/H2_samp725_N500_kappa50_block_29_results.npy
+	simulations_H2/results/H2_samp774_N500_kappa50_block_31_results.npy
+	simulations_H2/results/H2_samp798_N500_kappa200_block_32_results.npy
+	simulations_H2/results/H2_samp798_N500_kappa50_block_32_results.npy
+	simulations_H2/results/H2_samp821_N500_kappa200_block_33_results.npy
+	simulations_H2/results/H2_samp821_N500_kappa50_block_33_results.npy
+	simulations_H2/results/H2_samp845_N500_kappa50_block_34_results.npy
+	simulations_H2/results/H2_samp870_N500_kappa200_block_35_results.npy
+	simulations_H2/results/H2_samp870_N500_kappa50_block_35_results.npy
+	simulations_H2/results/H2_samp896_N500_kappa50_block_36_results.npy
+	simulations_H2/results/H2_samp905_N100_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp905_N100_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp906_N50_kappa200_block_37_results.npy
+	simulations_H2/results/H2_samp906_N50_kappa50_block_37_results.npy
+	simulations_H2/results/H2_samp930_N100_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp930_N100_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp931_N50_kappa200_block_38_results.npy
+	simulations_H2/results/H2_samp931_N50_kappa50_block_38_results.npy
+	simulations_H2/results/H2_samp951_N100_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp951_N100_kappa50_block_39_results.npy
+	simulations_H2/results/H2_samp952_N100_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp952_N100_kappa50_block_39_results.npy
+	simulations_H2/results/H2_samp953_N100_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp953_N100_kappa50_block_39_results.npy
+	simulations_H2/results/H2_samp954_N100_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp954_N100_kappa50_block_39_results.npy
+	simulations_H2/results/H2_samp955_N50_kappa200_block_39_results.npy
+	simulations_H2/results/H2_samp955_N50_kappa50_block_39_results.npy
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14093557)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14093557
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-16:35:10
+CPU Efficiency: 73.43% of 2-07:16:16 core-walltime
+Job Wall-clock time: 01:43:38
+Memory Utilized: 15.02 GB
+Memory Efficiency: 83.42% of 18.00 GB
+
+*****************************************************************************
+
