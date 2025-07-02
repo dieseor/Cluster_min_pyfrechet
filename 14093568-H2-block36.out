@@ -65,3 +65,32 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  84%|████████▎ | 167/200 [1:12:15<14:41, 26.72s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:12:20<10:41, 20.04s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:12:52<12:15, 23.71s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:12:54<08:35, 17.19s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:14:36<20:36, 42.65s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:14:38<14:14, 30.51s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:14:38<09:37, 21.39s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:14:39<06:33, 15.14s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:15:17<09:09, 21.97s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:15:21<06:39, 16.65s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:15:40<06:36, 17.23s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:15:55<06:07, 16.71s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:18:39<21:18, 60.88s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:19:03<16:35, 49.76s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:19:18<12:26, 39.30s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:19:47<10:52, 36.25s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:22:44<22:13, 78.42s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:23:03<16:08, 60.53s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:23:07<10:53, 43.57s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:23:38<09:19, 39.94s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:25:14<12:17, 56.72s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:26:17<11:43, 58.59s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:29:04<16:42, 91.10s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:29:09<10:54, 65.47s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:32:37<16:12, 108.08s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:33:37<12:29, 93.65s/it] Percentage of tasks completed::  96%|█████████▋| 193/200 [1:35:26<11:27, 98.18s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:35:33<07:05, 70.95s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:38:41<08:50, 106.02s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:38:52<05:10, 77.55s/it] Percentage of tasks completed::  98%|█████████▊| 197/200 [1:41:12<04:48, 96.14s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:41:27<02:24, 72.05s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:43:26<01:25, 85.87s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:43:38<00:00, 63.84s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 103.6min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:43:38<00:00, 31.09s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14093568)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14093568
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-16:18:14
+CPU Efficiency: 71.75% of 2-08:10:08 core-walltime
+Job Wall-clock time: 01:45:19
+Memory Utilized: 15.34 GB
+Memory Efficiency: 85.21% of 18.00 GB
+
+*****************************************************************************
+
