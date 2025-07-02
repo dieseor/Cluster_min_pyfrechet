@@ -3141,3 +3141,26 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_H2/results/H2_samp500_N200_kappa50_block_20_results.npy
  create mode 100644 simulations_H2/results/H2_samp500_N50_kappa200_block_20_results.npy
  create mode 100644 simulations_H2/results/H2_samp500_N50_kappa50_block_20_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   31f8484152..25638d7388  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14093538)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14093538
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-15:31:42
+CPU Efficiency: 66.29% of 2-11:37:36 core-walltime
+Job Wall-clock time: 01:51:48
+Memory Utilized: 14.95 GB
+Memory Efficiency: 83.04% of 18.00 GB
+
+*****************************************************************************
+
