@@ -67,4 +67,53 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  80%|███████▉  | 159/200 [1:13:51<21:08, 30.94s/it]Percentage of tasks completed::  80%|████████  | 160/200 [1:14:09<18:08, 27.20s/it]Percentage of tasks completed::  80%|████████  | 161/200 [1:14:14<13:13, 20.35s/it]Percentage of tasks completed::  81%|████████  | 162/200 [1:16:02<29:38, 46.80s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
   warnings.warn(
-Percentage of tasks completed::  82%|████████▏ | 163/200 [1:16:07<21:01, 34.10s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:16:09<14:43, 24.54s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:16:28<13:20, 22.88s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:16:39<10:54, 19.24s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:16:53<09:49, 17.87s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:17:42<14:29, 27.18s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:17:52<11:19, 21.93s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:18:41<15:05, 30.19s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:19:22<16:03, 33.22s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:19:27<11:36, 24.89s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:19:31<08:22, 18.62s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:19:54<08:35, 19.83s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:20:10<07:51, 18.86s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:21:22<13:54, 34.78s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:21:43<11:45, 30.67s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:21:57<09:20, 25.48s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:22:16<08:13, 23.51s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:22:45<08:27, 25.40s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:25:02<18:37, 58.80s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:25:14<13:24, 44.68s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:26:08<13:28, 47.55s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:28:05<18:12, 68.26s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:28:14<12:37, 50.47s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:29:18<12:44, 54.63s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:29:35<09:21, 43.22s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:30:23<08:57, 44.79s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:32:53<14:00, 76.43s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:33:23<10:24, 62.46s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:35:33<12:22, 82.52s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:35:47<08:17, 62.24s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:39:25<12:42, 108.91s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:39:50<08:21, 83.65s/it] Percentage of tasks completed::  98%|█████████▊| 195/200 [1:40:07<05:18, 63.69s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:40:58<03:59, 59.98s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:41:56<02:57, 59.22s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:43:14<02:09, 64.80s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:43:47<00:55, 55.22s/it]
+Percentage of tasks completed::  82%|████████▏ | 163/200 [1:16:07<21:01, 34.10s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:16:09<14:43, 24.54s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:16:28<13:20, 22.88s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:16:39<10:54, 19.24s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:16:53<09:49, 17.87s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:17:42<14:29, 27.18s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:17:52<11:19, 21.93s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:18:41<15:05, 30.19s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:19:22<16:03, 33.22s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:19:27<11:36, 24.89s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:19:31<08:22, 18.62s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:19:54<08:35, 19.83s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:20:10<07:51, 18.86s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:21:22<13:54, 34.78s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:21:43<11:45, 30.67s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:21:57<09:20, 25.48s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:22:16<08:13, 23.51s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:22:45<08:27, 25.40s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:25:02<18:37, 58.80s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:25:14<13:24, 44.68s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:26:08<13:28, 47.55s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:28:05<18:12, 68.26s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:28:14<12:37, 50.47s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:29:18<12:44, 54.63s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:29:35<09:21, 43.22s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:30:23<08:57, 44.79s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:32:53<14:00, 76.43s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:33:23<10:24, 62.46s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:35:33<12:22, 82.52s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:35:47<08:17, 62.24s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:39:25<12:42, 108.91s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:39:50<08:21, 83.65s/it] Percentage of tasks completed::  98%|█████████▊| 195/200 [1:40:07<05:18, 63.69s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:40:58<03:59, 59.98s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:41:56<02:57, 59.22s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:43:14<02:09, 64.80s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:43:47<00:55, 55.22s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:45:31<00:00, 69.96s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 105.5min finished
+Percentage of tasks completed:: 100%|██████████| 200/200 [1:45:31<00:00, 31.66s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   14082024-sphere-block25.out
+	modified:   14082029-sphere-block30.out
+	modified:   14082030-sphere-block31.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	14082034-sphere-block35.out
+	simulations_sphere/results/sphere_samp573_N500_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp599_N500_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp623_N500_kappa200_block_25_results.npy
+	simulations_sphere/results/sphere_samp775_N500_kappa200_block_31_results.npy
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14082030)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14082030
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-18:43:49
+CPU Efficiency: 75.69% of 2-08:27:12 core-walltime
+Job Wall-clock time: 01:45:51
+Memory Utilized: 14.60 GB
+Memory Efficiency: 91.25% of 16.00 GB
+
+*****************************************************************************
+
