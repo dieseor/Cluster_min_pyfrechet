@@ -62,3 +62,47 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  81%|████████  | 162/200 [1:19:16<32:34, 51.43s/it]Percentage of tasks completed::  82%|████████▏ | 163/200 [1:19:27<24:11, 39.22s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:19:39<18:36, 31.02s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:19:41<13:02, 22.36s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:19:54<11:02, 19.50s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:20:23<12:22, 22.49s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:20:44<11:44, 22.03s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:21:12<12:17, 23.78s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:22:31<20:09, 40.32s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:22:56<17:17, 35.78s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:23:10<13:34, 29.09s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:23:20<10:35, 23.53s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:23:29<08:16, 19.10s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:24:49<15:30, 37.23s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:25:06<12:31, 31.33s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:25:10<08:50, 23.08s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:25:17<06:38, 18.13s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:25:28<05:39, 16.16s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:28:13<20:13, 60.66s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:28:46<16:34, 52.36s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:28:55<11:50, 39.45s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:28:56<07:52, 27.77s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:31:05<15:30, 58.14s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:31:47<13:23, 53.56s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:32:29<11:40, 50.03s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:32:51<08:59, 41.47s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:33:56<09:44, 48.67s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:35:03<09:56, 54.25s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:36:50<11:40, 70.00s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:38:29<11:48, 78.73s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:40:04<11:07, 83.45s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:40:43<08:10, 70.14s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:42:13<07:36, 76.01s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:42:55<05:29, 65.81s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:44:44<05:15, 78.76s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:45:04<03:03, 61.29s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:46:33<02:19, 69.57s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:47:04<00:57, 57.93s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:48:35<00:00, 67.90s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 108.6min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:48:35<00:00, 32.58s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 916dd7b3c] Simulations Sphere block 32
+ 27 files changed, 127 insertions(+), 8 deletions(-)
+ create mode 100644 14082037-sphere-block38.out
+ create mode 100644 simulations_sphere/results/sphere_samp550_N500_kappa200_block_22_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp574_N500_kappa50_block_23_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp600_N500_kappa50_block_24_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp625_N500_kappa50_block_25_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp649_N500_kappa200_block_26_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp675_N500_kappa50_block_27_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp699_N500_kappa200_block_28_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp800_N500_kappa200_block_32_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp851_N50_kappa200_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp851_N50_kappa50_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp852_N50_kappa200_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp852_N50_kappa50_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp853_N50_kappa200_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp853_N50_kappa50_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp854_N50_kappa200_block_35_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp854_N50_kappa50_block_35_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   2e82d902a..916dd7b3c  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14082031)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14082031
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-19:50:27
+CPU Efficiency: 75.36% of 2-10:10:40 core-walltime
+Job Wall-clock time: 01:49:05
+Memory Utilized: 14.44 GB
+Memory Efficiency: 90.28% of 16.00 GB
+
+*****************************************************************************
+
