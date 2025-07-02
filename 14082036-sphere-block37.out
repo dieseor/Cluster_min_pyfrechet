@@ -66,3 +66,38 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  84%|████████▍ | 168/200 [1:21:50<13:03, 24.48s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:21:56<09:53, 19.13s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:22:27<11:21, 22.72s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:23:40<18:10, 37.61s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:23:57<14:44, 31.57s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:24:01<10:25, 23.15s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:24:35<11:32, 26.64s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:26:09<19:31, 46.86s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:26:25<14:59, 37.50s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:26:27<10:19, 26.93s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:26:31<07:20, 20.04s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:27:00<07:52, 22.51s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:29:03<17:33, 52.67s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:29:43<15:32, 49.10s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:29:45<10:28, 34.92s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:30:37<11:17, 39.85s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:31:59<14:01, 52.57s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:33:10<14:31, 58.12s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:33:43<11:49, 50.66s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:34:04<09:01, 41.66s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:35:24<10:37, 53.09s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:37:24<13:27, 73.39s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:37:53<09:58, 59.89s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:39:36<10:54, 72.77s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:40:45<09:33, 71.74s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:41:35<07:37, 65.39s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:43:11<07:27, 74.52s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:44:22<06:06, 73.37s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:45:49<05:10, 77.52s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:46:29<03:18, 66.33s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:47:41<02:16, 68.03s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:48:24<01:00, 60.26s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:49:36<00:00, 63.99s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 109.6min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:49:36<00:00, 32.88s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 3924634f2] Simulations Sphere block 37
+ 11 files changed, 40 insertions(+), 2 deletions(-)
+ create mode 100644 simulations_sphere/results/sphere_samp923_N500_kappa200_block_37_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp924_N500_kappa200_block_37_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp924_N500_kappa50_block_37_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp925_N500_kappa200_block_37_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp925_N500_kappa50_block_37_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp948_N500_kappa200_block_38_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp948_N500_kappa50_block_38_results.npy
+ create mode 100644 simulations_sphere/results/sphere_samp949_N500_kappa50_block_38_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   e9816c379..3924634f2  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14082036)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14082036
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-20:35:10
+CPU Efficiency: 76.09% of 2-10:35:44 core-walltime
+Job Wall-clock time: 01:49:52
+Memory Utilized: 14.76 GB
+Memory Efficiency: 92.27% of 16.00 GB
+
+*****************************************************************************
+
