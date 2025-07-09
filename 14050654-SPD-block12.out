@@ -1,110 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/14050654. Previous errors about TMPDIR can be discarded
-cesga/2020 unloaded
-        Preparing the environment for use of the CESGA 2020 software stack.
-        Please rebuild modules cache: module --ignore-cache avail
-     
-cesga/2020 loaded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2800.000
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-Percentage of tasks completed::   0%|          | 0/80 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   1%|▏         | 1/80 [10:01<13:11:42, 601.30s/it]Percentage of tasks completed::   2%|▎         | 2/80 [10:05<5:25:11, 250.14s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   4%|▍         | 3/80 [10:20<3:03:01, 142.62s/it]Percentage of tasks completed::   5%|▌         | 4/80 [10:25<1:52:06, 88.50s/it] Percentage of tasks completed::   6%|▋         | 5/80 [10:32<1:13:38, 58.92s/it]Percentage of tasks completed::   8%|▊         | 6/80 [10:33<48:22, 39.23s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [10:35<33:04, 27.19s/it]Percentage of tasks completed::  10%|█         | 8/80 [10:49<27:29, 22.91s/it]Percentage of tasks completed::  11%|█▏        | 9/80 [10:51<19:27, 16.44s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  12%|█▎        | 10/80 [19:48<3:26:26, 176.96s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [20:16<2:31:06, 131.40s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  15%|█▌        | 12/80 [24:12<3:05:10, 163.39s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [24:14<2:07:47, 114.44s/it]Percentage of tasks completed::  18%|█▊        | 14/80 [24:19<1:29:33, 81.42s/it] Percentage of tasks completed::  19%|█▉        | 15/80 [24:25<1:03:25, 58.55s/it]Percentage of tasks completed::  20%|██        | 16/80 [24:38<48:05, 45.08s/it]  Percentage of tasks completed::  21%|██▏       | 17/80 [24:44<34:52, 33.22s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [25:07<31:05, 30.08s/it]Percentage of tasks completed::  24%|██▍       | 19/80 [25:12<22:53, 22.52s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  25%|██▌       | 20/80 [30:00<1:42:22, 102.37s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [30:38<1:21:38, 83.02s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  28%|██▊       | 22/80 [34:22<2:01:00, 125.17s/it]Percentage of tasks completed::  29%|██▉       | 23/80 [34:53<1:32:09, 97.02s/it] Percentage of tasks completed::  30%|███       | 24/80 [35:05<1:06:38, 71.41s/it]Percentage of tasks completed::  31%|███▏      | 25/80 [35:28<52:06, 56.84s/it]  Percentage of tasks completed::  32%|███▎      | 26/80 [47:25<3:49:35, 255.11s/it]Percentage of tasks completed::  34%|███▍      | 27/80 [48:07<2:48:44, 191.03s/it]Percentage of tasks completed::  35%|███▌      | 28/80 [52:55<3:10:43, 220.06s/it]Percentage of tasks completed::  36%|███▋      | 29/80 [53:36<2:21:33, 166.55s/it]Percentage of tasks completed::  38%|███▊      | 30/80 [53:43<1:38:53, 118.67s/it]Percentage of tasks completed::  39%|███▉      | 31/80 [53:53<1:10:15, 86.04s/it] Percentage of tasks completed::  40%|████      | 32/80 [54:00<49:56, 62.42s/it]  Percentage of tasks completed::  41%|████▏     | 33/80 [54:13<37:18, 47.63s/it]Percentage of tasks completed::  42%|████▎     | 34/80 [54:57<35:35, 46.42s/it]Percentage of tasks completed::  44%|████▍     | 35/80 [55:06<26:19, 35.11s/it]Percentage of tasks completed::  45%|████▌     | 36/80 [55:26<22:32, 30.73s/it]Percentage of tasks completed::  46%|████▋     | 37/80 [55:28<15:48, 22.06s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [56:36<25:04, 35.83s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  49%|████▉     | 39/80 [1:03:20<1:39:50, 146.11s/it]Percentage of tasks completed::  50%|█████     | 40/80 [1:04:29<1:22:01, 123.03s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  51%|█████▏    | 41/80 [1:06:02<1:14:06, 114.01s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  52%|█████▎    | 42/80 [1:11:31<1:53:03, 178.50s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:14:26<1:49:26, 177.46s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:15:08<1:22:12, 137.02s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:15:51<1:03:28, 108.83s/it]Percentage of tasks completed::  57%|█████▊    | 46/80 [1:16:57<54:20, 95.88s/it]   Percentage of tasks completed::  59%|█████▉    | 47/80 [1:18:26<51:30, 93.66s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:18:53<39:17, 73.68s/it]Percentage of tasks completed::  61%|██████▏   | 49/80 [1:19:21<31:01, 60.06s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:24:53<1:10:54, 141.82s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:27:46<1:13:03, 151.17s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:28:34<55:58, 119.96s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [1:35:28<1:33:44, 208.32s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:36:36<1:11:59, 166.12s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [1:46:46<2:04:44, 299.39s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:47:12<1:26:55, 217.33s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:47:17<58:50, 153.50s/it]  Percentage of tasks completed::  72%|███████▎  | 58/80 [1:49:26<53:41, 146.41s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 109.4min remaining: 41.5min
-Percentage of tasks completed::  74%|███████▍  | 59/80 [2:05:16<2:15:34, 387.36s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:06:48<1:39:33, 298.65s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:30:53<3:23:30, 642.68s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:31:09<2:16:21, 454.54s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:31:09<1:30:10, 318.26s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:31:25<1:00:39, 227.47s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:31:29<40:08, 160.56s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:31:32<26:24, 113.16s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:32:51<22:18, 102.93s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [2:37:06<29:43, 148.59s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:38:30<23:40, 129.18s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:39:00<16:34, 99.41s/it] Percentage of tasks completed::  89%|████████▉ | 71/80 [2:45:30<28:00, 186.73s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:45:55<18:26, 138.32s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:50:28<20:50, 178.70s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:51:28<14:18, 143.03s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:02:04<24:14, 290.87s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:03:23<15:09, 227.33s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:04:10<08:39, 173.32s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:09:22<07:09, 214.79s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:18:37<05:16, 316.95s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:19:52<00:00, 244.28s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 199.9min finished
-Percentage of tasks completed:: 100%|██████████| 80/80 [3:19:52<00:00, 149.90s/it]
-[main 01698a78f] Simulations SPD block 12
- 18 files changed, 146 insertions(+), 5 deletions(-)
- create mode 100644 14050667-SPD-block25.out
- create mode 100644 14050668-SPD-block26.out
- create mode 100644 simulations_SPD/results/SPD_samp120_N500_df15_block_12_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp120_N500_df5_block_12_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp140_N500_df15_block_14_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp160_N500_df15_block_16_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp200_N100_df15_block_20_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp57_N500_df5_block_6_results.npy
-To github.com:Diegol314/Cluster_min_pyfrechet.git
-   02bb8a868..01698a78f  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 14050654)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 14050654
-Cluster: finisterrae3
-User/Group: otestdso/otras
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 32
-CPU Utilized: 2-21:38:41
-CPU Efficiency: 65.25% of 4-10:44:16 core-walltime
-Job Wall-clock time: 03:20:08
-Memory Utilized: 14.14 GB
-Memory Efficiency: 88.38% of 16.00 GB
-
-*****************************************************************************
-

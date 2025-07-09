@@ -45,7 +45,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_SPD', 'data')))
 current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1, seed=5)
 
 @contextlib.contextmanager
 def tqdm_joblib(tqdm_object):
@@ -99,6 +99,7 @@ def task(file) -> None:
     X=np.c_[sample['t']]
     sample_Y = np.array(sample['y'])
     df = int(file.split('_')[3][2:])
+    N = int(file.split('_')[2][1:])
 
     for dist in ['AI', 'LC', 'LE']:
         if dist == 'LC':
@@ -122,35 +123,32 @@ def task(file) -> None:
     forest_le = tune_forest(X, y_le, base_forest, param_grid)
     le_oob_quantile = np.percentile(forest_le.oob_errors(), (1 - np.array([0.01, 0.05, 0.1])) * 100, method='inverted_cdf')
 
-    ############################################################################################################
-    # TYPE I COVERAGE RESULTS
-    n_estimations = 500
-    ai_i_cov = np.zeros(shape = (n_estimations, 3))
-    lc_i_cov = np.zeros(shape = (n_estimations, 3))
-    le_i_cov = np.zeros(shape = (n_estimations, 3))
-    for estimation in range(n_estimations):
-        # Generate a new observation
-        new_t = 2*np.sqrt(5)*(np.random.beta(2, 2, 1) - 1/2)
-        new_y = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
-                                         t = new_t,  
-                                         df = df)['y']
-        # Create MetricData objects
-        new_y_logchol = np.c_[[spd_to_log_chol(A) for A in new_y]]
-        new_y_lc = MetricData(M_lc, new_y_logchol)
-        new_y_ai = MetricData(M_ai, vectorize(np.array(new_y)))
-        new_y_le = MetricData(M_le, vectorize(np.array(new_y)))
-        # Predict the new observation
-        ai_new_pred = forest_ai.predict(new_t.reshape(-1,1))
-        lc_new_pred = forest_lc.predict(new_t.reshape(-1,1))
-        le_new_pred = forest_le.predict(new_t.reshape(-1,1))
 
-        ai_i_cov[estimation, :] = (M_ai.d(ai_new_pred, new_y_ai) <= ai_oob_quantile)
-        lc_i_cov[estimation, :] = (M_lc.d(lc_new_pred, new_y_lc) <= lc_oob_quantile)
-        le_i_cov[estimation, :] = (M_le.d(le_new_pred, new_y_le) <= le_oob_quantile)
+    ###########################################################################################################
+    # TYPE I COVERAGE RESULTS
+    MC = 1000
+    type_i_filename = f'SPD_type_i_N{N}_df{df}.pkl'
+    with open(os.path.join(os.getcwd(), 'simulations_SPD', 'type_i_data', type_i_filename), 'rb') as f:
+        type_i_sample = pickle.load(f)
+
+        ts = type_i_sample['t'].reshape(-1, 1)
+        new_ys = type_i_sample['y']
+        # Predict the new observations for AI distance
+        ai_new_pred = forest_ai.predict(ts)
+        ai_i_cov = np.repeat(M_ai.d(ai_new_pred, MetricData(M_ai, vectorize(np.array(new_ys))))[:, np.newaxis], 3, axis=1) <= np.tile(ai_oob_quantile, (MC, 1))
+
+        # Predict the new observations for LC distance
+        new_ys_logchol = np.c_[[spd_to_log_chol(A) for A in new_ys]]
+        lc_new_pred = forest_lc.predict(ts)
+        lc_i_cov = np.repeat(M_lc.d(lc_new_pred, MetricData(M_lc, new_ys_logchol))[:, np.newaxis], 3, axis=1) <= np.tile(lc_oob_quantile, (MC, 1))
+
+        # Predict the new observations for LE distance
+        le_new_pred = forest_le.predict(ts)
+        le_i_cov = np.repeat(M_le.d(le_new_pred, MetricData(M_le, vectorize(np.array(new_ys))))[:, np.newaxis], 3, axis=1) <= np.tile(le_oob_quantile, (MC, 1))
+
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
-    MC = 1000
     #Generate observations to estimate the probability
     new_ts = 2*np.sqrt(5)*(np.random.beta(2, 2, MC) - 1/2)
     new_ys = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
@@ -172,34 +170,28 @@ def task(file) -> None:
 
 ############################################################################################################
     # TYPE III COVERAGE RESULTS
-    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
-    
-    ai_iii_cov = np.zeros(shape = (n_estimations, 3))
-    lc_iii_cov = np.zeros(shape = (n_estimations, 3))
-    le_iii_cov = np.zeros(shape = (n_estimations, 3))
-    for estimation in range(n_estimations):
-        # Generate a new observation
-        new_t = np.array([q_25])
-        new_y = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
-                                         t = new_t,  
-                                         df = df)['y']
-        # Create MetricData objects
-        new_y_logchol = np.c_[[spd_to_log_chol(A) for A in new_y]]
-        new_y_lc = MetricData(M_lc, new_y_logchol)
-        new_y_ai = MetricData(M_ai, vectorize(np.array(new_y)))
-        new_y_le = MetricData(M_le, vectorize(np.array(new_y)))
-        # Predict the new observation
-        ai_new_pred = forest_ai.predict(new_t.reshape(-1,1))
-        lc_new_pred = forest_lc.predict(new_t.reshape(-1,1))
-        le_new_pred = forest_le.predict(new_t.reshape(-1,1))
+    type_iii_filename = f'SPD_type_iii_N{N}_df{df}.pkl'
+    with open(os.path.join(os.getcwd(), 'simulations_SPD', 'type_iii_data', type_iii_filename), 'rb') as f:
+        type_iii_sample = pickle.load(f)
 
-        ai_iii_cov[estimation, :] = (M_ai.d(ai_new_pred, new_y_ai) <= ai_oob_quantile)
-        lc_iii_cov[estimation, :] = (M_lc.d(lc_new_pred, new_y_lc) <= lc_oob_quantile)
-        le_iii_cov[estimation, :] = (M_le.d(le_new_pred, new_y_le) <= le_oob_quantile)
+    # Use the pre-generated data
+    ts = type_iii_sample['t'].reshape(-1, 1)
+    new_ys = np.array(type_iii_sample['y'])
+    new_ys_logchol = np.c_[[spd_to_log_chol(A) for A in new_ys]]
+
+    # Predict the new observations
+    ai_new_pred = forest_ai.predict(ts[0].reshape(-1,1)) 
+    lc_new_pred = forest_lc.predict(ts[0].reshape(-1,1))
+    le_new_pred = forest_le.predict(ts[0].reshape(-1,1))
+
+    ai_iii_cov = np.repeat(M_ai.d(ai_new_pred, MetricData(M_ai, vectorize(new_ys)))[:, np.newaxis], 3, axis=1) <= np.tile(ai_oob_quantile, (MC, 1))
+    lc_iii_cov = np.repeat(M_lc.d(lc_new_pred, MetricData(M_lc, new_ys_logchol))[:, np.newaxis], 3, axis=1) <= np.tile(lc_oob_quantile, (MC, 1))  
+    le_iii_cov = np.repeat(M_le.d(le_new_pred, MetricData(M_le, vectorize(new_ys)))[:, np.newaxis], 3, axis=1) <= np.tile(le_oob_quantile, (MC, 1))
 
 ############################################################################################################            
     # TYPE IV COVERAGE RESULTS
     #Generate observations to estimate the probability
+    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     new_ts = np.repeat(q_25, MC)
     new_ys = sim_regression_matrices(Sigmas = (Sigma_1, Sigma_2, Sigma_3), 
                                     t = new_ts,  

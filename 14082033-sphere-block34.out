@@ -1,1178 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/14082033. Previous errors about TMPDIR can be discarded
-cesga/2020 unloaded
-        Preparing the environment for use of the CESGA 2020 software stack.
-        Please rebuild modules cache: module --ignore-cache avail
-     
-cesga/2020 loaded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2799.997
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-Percentage of tasks completed::   0%|          | 0/200 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-Percentage of tasks completed::   0%|          | 1/200 [02:47<9:16:51, 167.90s/it]Percentage of tasks completed::   1%|          | 2/200 [02:49<3:52:09, 70.35s/it] Percentage of tasks completed::   2%|▏         | 3/200 [02:50<2:05:40, 38.28s/it]Percentage of tasks completed::   2%|▏         | 4/200 [02:53<1:19:49, 24.44s/it]Percentage of tasks completed::   2%|▎         | 5/200 [02:57<55:23, 17.04s/it]  Percentage of tasks completed::   3%|▎         | 6/200 [02:59<38:25, 11.89s/it]Percentage of tasks completed::   4%|▎         | 7/200 [03:02<28:48,  8.95s/it]Percentage of tasks completed::   4%|▍         | 8/200 [03:02<20:29,  6.40s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::   4%|▍         | 9/200 [05:53<3:04:05, 57.83s/it]Percentage of tasks completed::   5%|▌         | 10/200 [05:56<2:09:33, 40.91s/it]Percentage of tasks completed::   6%|▌         | 11/200 [06:00<1:32:28, 29.36s/it]Percentage of tasks completed::   6%|▌         | 12/200 [06:05<1:09:26, 22.16s/it]Percentage of tasks completed::   6%|▋         | 13/200 [06:09<51:40, 16.58s/it]  Percentage of tasks completed::   7%|▋         | 14/200 [06:10<37:16, 12.02s/it]Percentage of tasks completed::   8%|▊         | 15/200 [06:20<34:30, 11.19s/it]Percentage of tasks completed::   8%|▊         | 16/200 [06:22<26:22,  8.60s/it]Percentage of tasks completed::   8%|▊         | 17/200 [06:24<19:26,  6.37s/it]Percentage of tasks completed::   9%|▉         | 18/200 [06:26<16:08,  5.32s/it]Percentage of tasks completed::  10%|▉         | 19/200 [08:58<2:28:42, 49.29s/it]Percentage of tasks completed::  10%|█         | 20/200 [09:06<1:50:49, 36.94s/it]Percentage of tasks completed::  10%|█         | 21/200 [09:09<1:19:10, 26.54s/it]Percentage of tasks completed::  11%|█         | 22/200 [09:10<56:37, 19.09s/it]  Percentage of tasks completed::  12%|█▏        | 23/200 [11:47<2:58:25, 60.48s/it]Percentage of tasks completed::  12%|█▏        | 24/200 [12:03<2:17:45, 46.96s/it]Percentage of tasks completed::  12%|█▎        | 25/200 [12:38<2:06:54, 43.51s/it]Percentage of tasks completed::  13%|█▎        | 26/200 [12:47<1:36:12, 33.18s/it]Percentage of tasks completed::  14%|█▎        | 27/200 [13:47<1:58:27, 41.08s/it]Percentage of tasks completed::  14%|█▍        | 28/200 [13:57<1:31:28, 31.91s/it]Percentage of tasks completed::  15%|█▌        | 30/200 [13:58<49:25, 17.44s/it]  Percentage of tasks completed::  16%|█▌        | 31/200 [14:04<40:53, 14.52s/it]Percentage of tasks completed::  16%|█▌        | 32/200 [14:06<31:18, 11.18s/it]Percentage of tasks completed::  16%|█▋        | 33/200 [14:09<25:03,  9.00s/it]Percentage of tasks completed::  17%|█▋        | 34/200 [14:10<18:59,  6.87s/it]Percentage of tasks completed::  18%|█▊        | 35/200 [14:48<43:18, 15.75s/it]Percentage of tasks completed::  18%|█▊        | 36/200 [14:52<33:46, 12.36s/it]Percentage of tasks completed::  18%|█▊        | 37/200 [16:46<1:53:46, 41.88s/it]Percentage of tasks completed::  19%|█▉        | 38/200 [16:47<1:20:45, 29.91s/it]Percentage of tasks completed::  20%|█▉        | 39/200 [16:59<1:05:47, 24.52s/it]Percentage of tasks completed::  20%|██        | 40/200 [17:00<47:05, 17.66s/it]  Percentage of tasks completed::  20%|██        | 41/200 [18:56<2:04:15, 46.89s/it]Percentage of tasks completed::  21%|██        | 42/200 [19:05<1:34:05, 35.73s/it]Percentage of tasks completed::  22%|██▏       | 43/200 [19:34<1:27:51, 33.57s/it]Percentage of tasks completed::  22%|██▏       | 44/200 [19:49<1:13:23, 28.22s/it]Percentage of tasks completed::  22%|██▎       | 45/200 [19:51<52:13, 20.21s/it]  Percentage of tasks completed::  23%|██▎       | 46/200 [19:54<38:20, 14.94s/it]Percentage of tasks completed::  24%|██▎       | 47/200 [19:56<28:53, 11.33s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  24%|██▍       | 48/200 [20:12<31:45, 12.54s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  24%|██▍       | 49/200 [22:37<2:11:58, 52.44s/it]Percentage of tasks completed::  25%|██▌       | 50/200 [22:46<1:37:54, 39.16s/it]Percentage of tasks completed::  26%|██▌       | 51/200 [22:51<1:12:26, 29.17s/it]Percentage of tasks completed::  26%|██▌       | 52/200 [23:09<1:03:15, 25.65s/it]Percentage of tasks completed::  26%|██▋       | 53/200 [24:50<1:58:18, 48.29s/it]Percentage of tasks completed::  27%|██▋       | 54/200 [24:59<1:29:03, 36.60s/it]Percentage of tasks completed::  28%|██▊       | 55/200 [27:17<2:42:03, 67.06s/it]Percentage of tasks completed::  28%|██▊       | 56/200 [27:24<1:57:39, 49.03s/it]Percentage of tasks completed::  28%|██▊       | 57/200 [28:22<2:02:50, 51.54s/it]Percentage of tasks completed::  29%|██▉       | 58/200 [28:28<1:29:37, 37.87s/it]Percentage of tasks completed::  30%|██▉       | 59/200 [28:28<1:02:31, 26.61s/it]Percentage of tasks completed::  30%|███       | 60/200 [28:42<52:59, 22.71s/it]  Percentage of tasks completed::  30%|███       | 61/200 [29:55<1:27:24, 37.73s/it]Percentage of tasks completed::  31%|███       | 62/200 [29:56<1:02:04, 26.99s/it]Percentage of tasks completed::  32%|███▏      | 63/200 [32:12<2:16:00, 59.57s/it]Percentage of tasks completed::  32%|███▏      | 64/200 [32:49<1:59:46, 52.84s/it]Percentage of tasks completed::  32%|███▎      | 65/200 [34:13<2:20:04, 62.26s/it]Percentage of tasks completed::  33%|███▎      | 66/200 [34:21<1:42:23, 45.85s/it]Percentage of tasks completed::  34%|███▎      | 67/200 [34:39<1:23:14, 37.55s/it]Percentage of tasks completed::  34%|███▍      | 68/200 [34:45<1:01:53, 28.13s/it]Percentage of tasks completed::  34%|███▍      | 69/200 [34:59<52:16, 23.94s/it]  Percentage of tasks completed::  35%|███▌      | 70/200 [35:03<38:33, 17.79s/it]Percentage of tasks completed::  36%|███▌      | 71/200 [35:44<53:29, 24.88s/it]Percentage of tasks completed::  36%|███▌      | 72/200 [35:46<38:24, 18.01s/it]Percentage of tasks completed::  36%|███▋      | 73/200 [36:33<56:18, 26.60s/it]Percentage of tasks completed::  37%|███▋      | 74/200 [36:39<42:53, 20.42s/it]Percentage of tasks completed::  38%|███▊      | 75/200 [37:32<1:02:42, 30.10s/it]Percentage of tasks completed::  38%|███▊      | 76/200 [37:58<59:49, 28.95s/it]  Percentage of tasks completed::  38%|███▊      | 77/200 [38:10<48:52, 23.84s/it]Percentage of tasks completed::  39%|███▉      | 78/200 [38:14<36:11, 17.80s/it]Percentage of tasks completed::  40%|███▉      | 79/200 [38:38<39:53, 19.78s/it]Percentage of tasks completed::  40%|████      | 80/200 [38:40<29:08, 14.57s/it]Percentage of tasks completed::  40%|████      | 81/200 [38:44<22:36, 11.40s/it]Percentage of tasks completed::  41%|████      | 82/200 [39:32<43:54, 22.33s/it]Percentage of tasks completed::  42%|████▏     | 83/200 [40:19<57:35, 29.53s/it]Percentage of tasks completed::  42%|████▏     | 84/200 [40:40<52:26, 27.12s/it]Percentage of tasks completed::  42%|████▎     | 85/200 [41:25<1:01:59, 32.34s/it]Percentage of tasks completed::  43%|████▎     | 86/200 [41:26<43:38, 22.97s/it]  Percentage of tasks completed::  44%|████▎     | 87/200 [41:41<39:01, 20.72s/it]Percentage of tasks completed::  44%|████▍     | 88/200 [42:08<42:22, 22.70s/it]Percentage of tasks completed::  44%|████▍     | 89/200 [42:10<30:03, 16.25s/it]Percentage of tasks completed::  45%|████▌     | 90/200 [42:13<22:49, 12.45s/it]Percentage of tasks completed::  46%|████▌     | 91/200 [42:42<31:46, 17.49s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  46%|████▌     | 92/200 [43:58<1:02:47, 34.88s/it]Percentage of tasks completed::  46%|████▋     | 93/200 [44:08<49:06, 27.54s/it]  Percentage of tasks completed::  47%|████▋     | 94/200 [44:18<39:23, 22.30s/it]Percentage of tasks completed::  48%|████▊     | 95/200 [44:21<28:51, 16.49s/it]Percentage of tasks completed::  48%|████▊     | 96/200 [44:45<32:23, 18.69s/it]Percentage of tasks completed::  48%|████▊     | 97/200 [45:33<46:55, 27.34s/it]Percentage of tasks completed::  49%|████▉     | 98/200 [46:53<1:13:36, 43.30s/it][Parallel(n_jobs=-1)]: Done  98 tasks      | elapsed: 46.9min
-Percentage of tasks completed::  50%|████▉     | 99/200 [47:22<1:05:26, 38.88s/it]Percentage of tasks completed::  50%|█████     | 100/200 [47:34<51:31, 30.91s/it] Percentage of tasks completed::  50%|█████     | 101/200 [47:44<40:29, 24.54s/it]Percentage of tasks completed::  51%|█████     | 102/200 [48:01<36:42, 22.47s/it]Percentage of tasks completed::  52%|█████▏    | 103/200 [48:12<30:30, 18.87s/it]Percentage of tasks completed::  52%|█████▏    | 104/200 [48:24<26:57, 16.85s/it]Percentage of tasks completed::  52%|█████▎    | 105/200 [48:43<27:43, 17.51s/it]Percentage of tasks completed::  53%|█████▎    | 106/200 [50:19<1:04:22, 41.10s/it]Percentage of tasks completed::  54%|█████▎    | 107/200 [51:10<1:08:15, 44.04s/it]Percentage of tasks completed::  54%|█████▍    | 108/200 [51:23<53:03, 34.60s/it]  Percentage of tasks completed::  55%|█████▍    | 109/200 [51:25<37:40, 24.84s/it]Percentage of tasks completed::  55%|█████▌    | 110/200 [51:49<37:04, 24.71s/it]Percentage of tasks completed::  56%|█████▌    | 111/200 [52:08<34:12, 23.06s/it]Percentage of tasks completed::  56%|█████▌    | 112/200 [53:07<49:15, 33.58s/it]Percentage of tasks completed::  56%|█████▋    | 113/200 [53:51<53:15, 36.73s/it]Percentage of tasks completed::  57%|█████▋    | 114/200 [54:16<47:45, 33.32s/it]Percentage of tasks completed::  57%|█████▊    | 115/200 [54:38<42:22, 29.91s/it]Percentage of tasks completed::  58%|█████▊    | 116/200 [54:38<29:32, 21.10s/it]Percentage of tasks completed::  58%|█████▊    | 117/200 [55:01<29:39, 21.43s/it]Percentage of tasks completed::  59%|█████▉    | 118/200 [55:08<23:36, 17.27s/it]Percentage of tasks completed::  60%|█████▉    | 119/200 [55:13<18:11, 13.48s/it]Percentage of tasks completed::  60%|██████    | 120/200 [56:00<31:16, 23.46s/it]Percentage of tasks completed::  60%|██████    | 121/200 [56:44<39:00, 29.63s/it]Percentage of tasks completed::  61%|██████    | 122/200 [56:49<29:06, 22.39s/it]Percentage of tasks completed::  62%|██████▏   | 123/200 [58:00<47:32, 37.05s/it]Percentage of tasks completed::  62%|██████▏   | 124/200 [58:10<36:19, 28.67s/it]Percentage of tasks completed::  62%|██████▎   | 125/200 [58:38<35:45, 28.60s/it]Percentage of tasks completed::  63%|██████▎   | 126/200 [58:52<29:44, 24.11s/it]Percentage of tasks completed::  64%|██████▎   | 127/200 [1:00:03<46:27, 38.18s/it]Percentage of tasks completed::  64%|██████▍   | 128/200 [1:00:12<35:28, 29.56s/it]Percentage of tasks completed::  64%|██████▍   | 129/200 [1:00:14<25:01, 21.15s/it]Percentage of tasks completed::  65%|██████▌   | 130/200 [1:01:33<44:59, 38.56s/it]Percentage of tasks completed::  66%|██████▌   | 131/200 [1:01:35<31:44, 27.60s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  66%|██████▌   | 132/200 [1:02:10<33:45, 29.79s/it]Percentage of tasks completed::  66%|██████▋   | 133/200 [1:02:38<32:54, 29.47s/it]Percentage of tasks completed::  67%|██████▋   | 134/200 [1:02:45<24:59, 22.72s/it]Percentage of tasks completed::  68%|██████▊   | 135/200 [1:02:51<19:13, 17.75s/it]Percentage of tasks completed::  68%|██████▊   | 136/200 [1:02:52<13:21, 12.52s/it]Percentage of tasks completed::  68%|██████▊   | 137/200 [1:04:52<47:06, 44.86s/it]Percentage of tasks completed::  69%|██████▉   | 138/200 [1:04:57<33:53, 32.80s/it]Percentage of tasks completed::  70%|██████▉   | 139/200 [1:05:40<36:37, 36.02s/it]Percentage of tasks completed::  70%|███████   | 140/200 [1:05:43<26:06, 26.10s/it]Percentage of tasks completed::  70%|███████   | 141/200 [1:06:03<23:51, 24.27s/it]Percentage of tasks completed::  71%|███████   | 142/200 [1:06:24<22:17, 23.06s/it]Percentage of tasks completed::  72%|███████▏  | 143/200 [1:07:28<33:42, 35.48s/it]Percentage of tasks completed::  72%|███████▏  | 144/200 [1:07:52<30:00, 32.15s/it]Percentage of tasks completed::  72%|███████▎  | 145/200 [1:07:57<22:01, 24.03s/it]Percentage of tasks completed::  73%|███████▎  | 146/200 [1:09:01<32:20, 35.94s/it]Percentage of tasks completed::  74%|███████▎  | 147/200 [1:09:41<32:44, 37.06s/it]Percentage of tasks completed::  74%|███████▍  | 148/200 [1:10:07<29:19, 33.84s/it]Percentage of tasks completed::  74%|███████▍  | 149/200 [1:10:32<26:34, 31.26s/it]Percentage of tasks completed::  75%|███████▌  | 150/200 [1:10:36<19:11, 23.02s/it]Percentage of tasks completed::  76%|███████▌  | 151/200 [1:11:02<19:22, 23.72s/it]Percentage of tasks completed::  76%|███████▌  | 152/200 [1:11:06<14:25, 18.04s/it]Percentage of tasks completed::  76%|███████▋  | 153/200 [1:11:26<14:27, 18.47s/it]Percentage of tasks completed::  77%|███████▋  | 154/200 [1:13:20<36:04, 47.05s/it]Percentage of tasks completed::  78%|███████▊  | 155/200 [1:13:26<26:10, 34.89s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
-  warnings.warn(
-Percentage of tasks completed::  78%|███████▊  | 156/200 [1:13:46<22:21, 30.50s/it]Percentage of tasks completed::  78%|███████▊  | 157/200 [1:13:47<15:21, 21.44s/it]Percentage of tasks completed::  79%|███████▉  | 158/200 [1:13:57<12:40, 18.10s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  80%|███████▉  | 159/200 [1:14:54<20:23, 29.83s/it]Percentage of tasks completed::  80%|████████  | 160/200 [1:14:56<14:17, 21.43s/it]Percentage of tasks completed::  80%|████████  | 161/200 [1:15:21<14:33, 22.39s/it]Percentage of tasks completed::  81%|████████  | 162/200 [1:15:23<10:20, 16.33s/it]Percentage of tasks completed::  82%|████████▏ | 163/200 [1:16:53<23:44, 38.50s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:17:20<21:02, 35.07s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:17:30<16:04, 27.56s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:17:40<12:34, 22.20s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:18:53<20:38, 37.54s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:19:07<16:10, 30.32s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:19:10<11:27, 22.18s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:19:33<11:12, 22.40s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:19:51<10:16, 21.26s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  86%|████████▌ | 172/200 [1:21:22<19:36, 42.02s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:21:23<13:20, 29.65s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:21:34<10:27, 24.14s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:21:38<07:35, 18.23s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:21:40<05:19, 13.31s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:21:51<04:51, 12.67s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:22:49<09:34, 26.09s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:23:06<08:13, 23.48s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:23:49<09:46, 29.31s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:24:51<12:21, 39.05s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:26:20<16:11, 53.98s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:26:56<13:50, 48.84s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:26:58<09:13, 34.61s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:28:02<10:51, 43.43s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:30:04<15:38, 67.03s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:30:23<11:22, 52.51s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:30:30<07:48, 39.03s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:32:16<10:49, 59.07s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:33:59<12:03, 72.32s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:35:32<11:45, 78.39s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:37:33<12:08, 91.10s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:38:12<08:48, 75.53s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:40:21<09:10, 91.77s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:40:49<06:01, 72.40s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:42:03<04:51, 72.92s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:42:44<03:10, 63.46s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:43:57<02:12, 66.34s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:44:42<00:59, 59.80s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:45:59<00:00, 65.12s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 106.0min finished
-Percentage of tasks completed:: 100%|██████████| 200/200 [1:45:59<00:00, 31.80s/it]
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main 532d847f8] Simulations Sphere block 34
- 1092 files changed, 157 insertions(+), 4 deletions(-)
- create mode 100644 simulations_sphere/results/sphere_samp801_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp801_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp801_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp801_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp802_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp802_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp802_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp802_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp803_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp803_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp803_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp803_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp804_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp804_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp804_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp804_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp805_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp805_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp805_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp805_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp806_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp806_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp806_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp806_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp807_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp807_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp807_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp807_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp807_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp807_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp808_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp809_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp810_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp811_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp812_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp813_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp814_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp815_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp816_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp817_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp818_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp819_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp820_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp821_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp822_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N500_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp823_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N500_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp824_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp825_N100_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp825_N100_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp825_N200_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp825_N200_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp825_N50_kappa200_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp825_N50_kappa50_block_33_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp826_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp826_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp826_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp826_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp827_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp827_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp827_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp827_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp828_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp828_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp828_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp828_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp829_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp829_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp829_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp829_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp830_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp830_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp830_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp830_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp831_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp831_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp831_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp831_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp832_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp832_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp832_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp832_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp832_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp832_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp833_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp834_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp835_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp836_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp837_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp838_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp839_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp840_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp841_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp842_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp843_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp844_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp845_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp846_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp847_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp848_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp849_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N100_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N100_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N200_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N200_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N500_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N500_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N50_kappa200_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp850_N50_kappa50_block_34_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp851_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp851_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp851_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp851_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp851_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp851_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp852_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp852_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp852_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp852_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp852_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp852_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp853_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp853_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp853_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp853_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp853_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp853_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp854_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp854_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp854_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp854_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp854_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp854_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp855_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp856_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp857_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp858_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp859_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp860_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp861_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp862_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp863_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp864_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp865_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp866_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp867_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp868_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp869_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp870_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp871_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N500_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp872_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N500_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp873_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp874_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp874_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp874_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp874_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp874_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp874_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp875_N100_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp875_N100_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp875_N200_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp875_N200_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp875_N50_kappa200_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp875_N50_kappa50_block_35_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp876_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp876_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp876_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp876_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp876_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp876_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp877_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp877_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp877_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp877_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp877_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp877_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp878_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp878_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp878_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp878_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp878_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp878_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp879_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp879_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp879_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp879_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp879_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp879_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp880_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp881_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp882_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp883_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp884_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp885_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp886_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp887_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp888_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp889_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp890_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp891_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp892_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp893_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp894_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp895_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N500_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N500_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp896_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp897_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp897_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp897_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp897_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp897_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp897_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp898_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp898_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp898_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp898_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp898_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp898_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp899_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp899_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp899_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp899_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp899_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp899_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp900_N100_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp900_N100_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp900_N200_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp900_N200_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp900_N50_kappa200_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp900_N50_kappa50_block_36_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp901_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp901_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp901_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp901_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp901_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp901_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp902_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp902_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp902_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp902_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp902_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp902_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp903_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp903_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp903_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp903_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp903_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp903_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp904_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp904_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp904_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp904_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp904_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp904_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp905_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp906_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp907_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp908_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp909_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp910_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp911_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp912_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp913_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp914_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp915_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp916_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp917_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp918_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N500_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N500_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp919_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp920_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp920_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp920_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp920_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp920_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp920_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp921_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp921_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp921_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp921_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp921_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp921_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp922_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp922_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp922_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp922_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp922_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp922_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp923_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp923_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp923_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp923_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp923_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp923_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp924_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp924_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp924_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp924_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp924_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp924_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp925_N100_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp925_N100_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp925_N200_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp925_N200_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp925_N50_kappa200_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp925_N50_kappa50_block_37_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp926_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp927_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp928_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp929_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp930_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp931_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp932_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp933_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp934_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp935_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp936_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp937_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp938_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp939_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp940_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp941_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp942_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp943_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N500_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N500_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp944_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp945_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp945_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp945_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp945_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp945_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp945_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp946_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp946_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp946_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp946_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp946_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp946_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp947_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp947_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp947_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp947_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp947_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp947_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp948_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp948_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp948_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp948_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp948_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp948_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp949_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp949_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp949_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp949_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp949_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp949_N50_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp950_N100_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp950_N100_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp950_N200_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp950_N200_kappa50_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp950_N50_kappa200_block_38_results.npy
- create mode 100644 simulations_sphere/results/sphere_samp950_N50_kappa50_block_38_results.npy
-To github.com:Diegol314/Cluster_min_pyfrechet.git
-   53bde782f..532d847f8  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 14082033)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 14082033
-Cluster: finisterrae3
-User/Group: otestdso/otras
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 32
-CPU Utilized: 1-19:12:43
-CPU Efficiency: 75.92% of 2-08:54:56 core-walltime
-Job Wall-clock time: 01:46:43
-Memory Utilized: 14.66 GB
-Memory Efficiency: 91.62% of 16.00 GB
-
-*****************************************************************************
-

@@ -139,12 +139,12 @@ def task(file) -> None:
     with open(os.path.join(os.getcwd(), 'simulations_sphere', 'type_i_data', type_i_filename), 'rb') as f:
         type_i_sample = pickle.load(f)
     
-        # Randomly select rows from the dataframe
-        thetas = type_i_sample['theta'].reshape(-1, 1)
-        new_ys = type_i_sample['Y']
-        # Predict the new observations
-        pb_new_pred = forest.predict(thetas)
-        pb_i_cov = (M.d(pb_new_pred, MetricData(M, new_ys)) <= oob_quantile)
+    # Randomly select rows from the dataframe
+    thetas = type_i_sample['theta'].reshape(-1, 1)
+    new_ys = type_i_sample['Y']
+    # Predict the new observations
+    pb_new_pred = forest.predict(thetas)
+    pb_i_cov = (M.d(pb_new_pred, MetricData(M, new_ys)) <= oob_quantile)
 
 
 ############################################################################################################            

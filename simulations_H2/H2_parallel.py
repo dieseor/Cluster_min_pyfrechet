@@ -31,7 +31,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_H2/' 'data')))
 current_block=int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1, seed = 5)
 
 M = H2(2)
 
@@ -78,23 +78,23 @@ def task(file) -> None:
     
     ############################################################################################################
     # TYPE I COVERAGE RESULTS
-    n_estimations = 500
-    pb_i_cov = np.zeros(shape = (n_estimations, 3))
-    for estimation in range(n_estimations):
-        filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIdata', f'estimation_{estimation+1}_N{N}_kappa{kappa}.csv')
-        hyp_data = pd.read_csv(filename)
-        hyp_data.drop(columns = ['Unnamed: 0'], inplace = True)
-        hyp_data.columns = ['t', 'V1', 'V2', 'V3']
-        hyp_data = hyp_data.iloc[int(file.split('_')[1][4:]) - 1]
-        theta = hyp_data['t']
-        new_y = hyp_data[['V1', 'V2', 'V3']]
-        # Predict the new observation
-        pb_new_pred = forest.predict(theta.reshape(-1,1))
-        pb_i_cov[estimation, :] = (M.d(pb_new_pred, new_y) <= oob_quantile)
+    MC = 1000
+    type_i_filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIdata', f'H2_type_i_N{N}_kappa{kappa}.csv')
+    
+    hyp_data = pd.read_csv(type_i_filename)
+
+    hyp_data.columns = ['t', 'V1', 'V2', 'V3']
+
+    # Randomly select rows from the dataframe
+    thetas = hyp_data['t'].values.reshape(-1, 1)
+    new_ys = hyp_data[['V1', 'V2', 'V3']].values
+
+    pb_new_pred = forest.predict(thetas)
+    pb_i_cov = np.repeat(M.d(pb_new_pred, MetricData(M, new_ys.squeeze()))[:, np.newaxis], 3, axis=1) <= np.tile(oob_quantile, (MC, 1))
+
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
-    MC = 1000
     filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIIdata', f'samp_{samp}_N_{N}_kappa{kappa}.csv')
     hyp_data = pd.read_csv(filename)
     hyp_data.drop(columns = ['Unnamed: 0'], inplace = True)
@@ -108,20 +108,18 @@ def task(file) -> None:
     
 ############################################################################################################
     # TYPE III COVERAGE RESULTS
-    pb_iii_cov = np.zeros(shape = (n_estimations, 3))
+    type_iii_filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIIIdata', f'H2_type_iii_N{N}_kappa{kappa}.csv')
+    
+    hyp_data = pd.read_csv(type_iii_filename)
+    hyp_data.columns = ['t', 'V1', 'V2', 'V3']
 
-    for estimation in range(n_estimations):
-        filename = os.path.join(os.getcwd(), 'simulations_H2/TypeIIIdata', f'estimation_{estimation+1}_N{N}_kappa{kappa}.csv')
-        hyp_data = pd.read_csv(filename)
-        hyp_data.drop(columns = ['Unnamed: 0'], inplace = True)
-        hyp_data.columns = ['t', 'V1', 'V2', 'V3']
-        hyp_data = hyp_data.iloc[int(file.split('_')[1][4:]) - 1]
-        theta = hyp_data['t']
-        new_y = hyp_data[['V1', 'V2', 'V3']]
+    # Randomly select rows from the dataframe
+    thetas = hyp_data['t'].values.reshape(-1, 1)
+    new_ys = hyp_data[['V1', 'V2', 'V3']].values
 
-        # Predict the new observation
-        pb_new_pred = forest.predict(theta.reshape(-1,1))
-        pb_iii_cov[estimation, :] = (M.d(pb_new_pred, new_y) <= oob_quantile)
+    pb_new_pred = forest.predict(thetas[0].reshape(-1,1))
+
+    pb_iii_cov = np.repeat(M.d(pb_new_pred, MetricData(M, new_ys.squeeze()))[:, np.newaxis], 3, axis=1) <= np.tile(oob_quantile, (MC, 1))
 
 ############################################################################################################
     # TYPE IV COVERAGE RESULTS
@@ -152,4 +150,4 @@ file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.csv')
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=10, verbose=2)(delayed(task)(file) for file in file_list)

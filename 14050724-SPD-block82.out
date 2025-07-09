@@ -1,707 +1,0 @@
-slurmstepd: info: Setting TMPDIR to /scratch/14050724. Previous errors about TMPDIR can be discarded
-cesga/2020 unloaded
-        Preparing the environment for use of the CESGA 2020 software stack.
-        Please rebuild modules cache: module --ignore-cache avail
-     
-cesga/2020 loaded
-python/3.9.9 loaded
-jupyter-server/1.13.5-python-3.9.9 loaded
-jupyterlab/3.2.4-python-3.9.9 loaded
-Architecture:                    x86_64
-CPU op-mode(s):                  32-bit, 64-bit
-Byte Order:                      Little Endian
-Address sizes:                   46 bits physical, 57 bits virtual
-CPU(s):                          64
-On-line CPU(s) list:             0-63
-Thread(s) per core:              1
-Core(s) per socket:              32
-Socket(s):                       2
-NUMA node(s):                    4
-Vendor ID:                       GenuineIntel
-CPU family:                      6
-Model:                           106
-Model name:                      Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
-Stepping:                        6
-CPU MHz:                         2800.000
-CPU max MHz:                     3400.0000
-CPU min MHz:                     800.0000
-BogoMIPS:                        4400.00
-Virtualization:                  VT-x
-L1d cache:                       3 MiB
-L1i cache:                       2 MiB
-L2 cache:                        80 MiB
-L3 cache:                        96 MiB
-NUMA node0 CPU(s):               0-15
-NUMA node1 CPU(s):               16-31
-NUMA node2 CPU(s):               32-47
-NUMA node3 CPU(s):               48-63
-Vulnerability Itlb multihit:     Not affected
-Vulnerability L1tf:              Not affected
-Vulnerability Mds:               Not affected
-Vulnerability Meltdown:          Not affected
-Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
-Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling
-Vulnerability Srbds:             Not affected
-Vulnerability Tsx async abort:   Not affected
-Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities
-Percentage of tasks completed::   0%|          | 0/80 [00:00<?, ?it/s][Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
-/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   1%|▏         | 1/80 [09:29<12:30:02, 569.65s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   2%|▎         | 2/80 [09:55<5:24:51, 249.89s/it] Percentage of tasks completed::   4%|▍         | 3/80 [10:06<3:00:20, 140.53s/it]Percentage of tasks completed::   5%|▌         | 4/80 [10:07<1:48:40, 85.79s/it] Percentage of tasks completed::   6%|▋         | 5/80 [10:13<1:10:57, 56.77s/it]Percentage of tasks completed::   8%|▊         | 6/80 [10:28<52:28, 42.54s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [10:30<35:43, 29.36s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  10%|█         | 8/80 [10:51<32:10, 26.82s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  11%|█▏        | 9/80 [20:10<3:48:37, 193.21s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  12%|█▎        | 10/80 [21:06<2:55:45, 150.65s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [22:58<2:39:35, 138.78s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [23:17<1:56:00, 102.36s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [23:29<1:23:59, 75.21s/it] Percentage of tasks completed::  18%|█▊        | 14/80 [23:35<59:42, 54.28s/it]  Percentage of tasks completed::  19%|█▉        | 15/80 [24:01<49:18, 45.51s/it]Percentage of tasks completed::  20%|██        | 16/80 [24:01<34:00, 31.88s/it]Percentage of tasks completed::  21%|██▏       | 17/80 [24:01<23:27, 22.34s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [24:09<18:47, 18.18s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  24%|██▍       | 19/80 [32:24<2:43:49, 161.14s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [32:48<2:00:02, 120.05s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  26%|██▋       | 21/80 [33:57<1:42:55, 104.67s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [34:07<1:13:52, 76.42s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  29%|██▉       | 23/80 [43:44<3:35:16, 226.61s/it]Percentage of tasks completed::  30%|███       | 24/80 [44:19<2:37:49, 169.10s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  31%|███▏      | 25/80 [45:51<2:13:55, 146.10s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  32%|███▎      | 26/80 [46:26<1:41:14, 112.49s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  34%|███▍      | 27/80 [51:27<2:29:27, 169.20s/it]Percentage of tasks completed::  35%|███▌      | 28/80 [52:25<1:57:45, 135.87s/it]Percentage of tasks completed::  36%|███▋      | 29/80 [53:05<1:30:56, 107.00s/it]Percentage of tasks completed::  38%|███▊      | 30/80 [53:12<1:04:09, 76.99s/it] Percentage of tasks completed::  39%|███▉      | 31/80 [53:23<46:41, 57.18s/it]  Percentage of tasks completed::  40%|████      | 32/80 [53:30<33:47, 42.24s/it]Percentage of tasks completed::  41%|████▏     | 33/80 [53:54<28:47, 36.76s/it]Percentage of tasks completed::  42%|████▎     | 34/80 [54:04<22:03, 28.78s/it]Percentage of tasks completed::  44%|████▍     | 35/80 [54:06<15:33, 20.74s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
-  return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  45%|████▌     | 36/80 [54:20<13:41, 18.66s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  46%|████▋     | 37/80 [1:02:23<1:53:18, 158.09s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [1:03:29<1:31:09, 130.23s/it]Percentage of tasks completed::  49%|████▉     | 39/80 [1:03:31<1:02:44, 91.83s/it] Percentage of tasks completed::  50%|█████     | 40/80 [1:04:15<51:35, 77.40s/it]  Percentage of tasks completed::  51%|█████▏    | 41/80 [1:08:40<1:26:58, 133.81s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:10:10<1:16:28, 120.74s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:13:23<1:27:48, 142.38s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  55%|█████▌    | 44/80 [1:14:30<1:11:52, 119.80s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:14:50<52:24, 89.83s/it]   Percentage of tasks completed::  57%|█████▊    | 46/80 [1:15:45<45:00, 79.42s/it]Percentage of tasks completed::  59%|█████▉    | 47/80 [1:17:02<43:17, 78.72s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  60%|██████    | 48/80 [1:17:13<31:06, 58.33s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  61%|██████▏   | 49/80 [1:22:52<1:13:41, 142.62s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:24:46<1:06:52, 133.76s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:26:50<1:03:13, 130.82s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:27:13<45:56, 98.46s/it]   Percentage of tasks completed::  66%|██████▋   | 53/80 [1:31:45<1:07:47, 150.64s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:33:32<59:34, 137.47s/it]  Percentage of tasks completed::  69%|██████▉   | 55/80 [1:44:16<2:00:37, 289.50s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:44:46<1:24:41, 211.75s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:45:51<1:04:15, 167.63s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [1:47:29<53:50, 146.82s/it]  [Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 107.5min remaining: 40.8min
-Percentage of tasks completed::  74%|███████▍  | 59/80 [2:02:31<2:10:37, 373.20s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:05:05<1:42:32, 307.61s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:28:58<3:24:20, 645.30s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:29:27<2:18:07, 460.41s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:29:28<1:31:23, 322.54s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:29:43<1:01:25, 230.35s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:29:48<40:40, 162.70s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:29:58<27:14, 116.73s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:29:59<17:46, 82.00s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:31:42<17:40, 88.41s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:35:27<23:42, 129.36s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:37:10<20:14, 121.45s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:43:45<30:30, 203.42s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:44:20<20:23, 152.98s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:47:53<19:56, 170.97s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:50:18<16:18, 163.12s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:00:13<24:24, 292.90s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:00:27<13:56, 209.23s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:05:53<12:12, 244.05s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:07:49<06:51, 205.64s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:15:48<04:47, 287.73s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:17:40<00:00, 234.95s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 197.7min finished
-Percentage of tasks completed:: 100%|██████████| 80/80 [3:17:40<00:00, 148.25s/it]
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main d655e0ee1] Simulations SPD block 82
- 591 files changed, 381 insertions(+), 6 deletions(-)
- create mode 100644 14050737-SPD-block95.out
- create mode 100644 14050738-SPD-block96.out
- create mode 100644 simulations_SPD/results/SPD_samp801_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp801_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp802_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp802_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp803_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp803_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp804_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp804_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp805_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp805_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp806_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp806_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp807_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp807_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp808_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp808_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp809_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp809_N500_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp810_N200_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp810_N200_df5_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp810_N500_df15_block_81_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp811_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp811_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp812_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp812_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp813_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp813_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp814_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp814_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp815_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp815_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp816_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp816_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp817_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp817_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp818_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp818_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp819_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp819_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp820_N200_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp820_N200_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp820_N500_df15_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp820_N500_df5_block_82_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp821_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp821_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp822_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp822_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp823_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp823_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp824_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp824_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp825_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp825_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp826_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp826_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp827_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp827_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp828_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp828_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp829_N500_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp829_N500_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp830_N200_df15_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp830_N200_df5_block_83_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp831_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp831_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp832_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp832_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp833_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp833_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp834_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp834_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp835_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp835_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp836_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp836_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp837_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp837_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp838_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp838_N500_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp839_N200_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp839_N500_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp840_N200_df15_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp840_N200_df5_block_84_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp841_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp841_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp842_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp842_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp843_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp843_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp844_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp844_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp845_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp845_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp846_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp846_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp847_N500_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp847_N500_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp848_N200_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp848_N200_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp849_N200_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp849_N200_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp850_N200_df15_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp850_N200_df5_block_85_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp851_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp851_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp852_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp852_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp853_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp853_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp854_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp854_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp855_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp855_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp856_N100_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp856_N100_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp856_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp856_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp857_N100_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp857_N100_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp857_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp857_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp857_N50_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp857_N50_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp858_N100_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp858_N100_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp858_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp858_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp858_N50_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp858_N50_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp859_N100_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp859_N100_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp859_N200_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp859_N200_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp859_N50_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp859_N50_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp860_N100_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp860_N100_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp860_N50_df15_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp860_N50_df5_block_86_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp861_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp861_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp862_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp862_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp863_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp863_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp864_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp864_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp865_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp865_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp866_N100_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp866_N100_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp866_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp866_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp867_N100_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp867_N100_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp867_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp867_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp867_N50_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp867_N50_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp868_N100_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp868_N100_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp868_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp868_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp868_N50_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp868_N50_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp869_N100_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp869_N100_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp869_N200_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp869_N200_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp869_N50_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp869_N50_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp870_N100_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp870_N100_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp870_N50_df15_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp870_N50_df5_block_87_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp871_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp871_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp872_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp872_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp873_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp873_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp874_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp874_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp875_N100_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp875_N100_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp875_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp875_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp876_N100_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp876_N100_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp876_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp876_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp876_N50_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp876_N50_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp877_N100_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp877_N100_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp877_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp877_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp877_N50_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp877_N50_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp878_N100_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp878_N100_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp878_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp878_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp878_N50_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp878_N50_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp879_N100_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp879_N100_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp879_N200_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp879_N200_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp879_N50_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp879_N50_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp880_N100_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp880_N100_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp880_N50_df15_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp880_N50_df5_block_88_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp881_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp881_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp882_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp882_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp883_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp883_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp884_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp884_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp885_N100_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp885_N100_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp885_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp885_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp886_N100_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp886_N100_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp886_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp886_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp886_N50_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp886_N50_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp887_N100_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp887_N100_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp887_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp887_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp887_N50_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp887_N50_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp888_N100_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp888_N100_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp888_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp888_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp888_N50_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp888_N50_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp889_N100_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp889_N100_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp889_N200_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp889_N200_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp889_N50_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp889_N50_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp890_N100_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp890_N100_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp890_N50_df15_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp890_N50_df5_block_89_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp891_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp891_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp892_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp892_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp893_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp893_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp894_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp894_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp895_N100_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp895_N100_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp895_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp895_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp896_N100_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp896_N100_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp896_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp896_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp896_N50_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp896_N50_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp897_N100_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp897_N100_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp897_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp897_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp897_N50_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp897_N50_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp898_N100_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp898_N100_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp898_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp898_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp898_N50_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp898_N50_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp899_N100_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp899_N100_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp899_N200_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp899_N200_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp899_N50_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp899_N50_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp900_N100_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp900_N100_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp900_N50_df15_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp900_N50_df5_block_90_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp901_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp901_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp901_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp901_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp902_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp902_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp902_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp902_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp903_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp903_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp903_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp903_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp904_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp904_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp904_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp904_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp905_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp905_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp905_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp905_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp905_N50_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp905_N50_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp906_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp906_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp906_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp906_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp906_N50_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp906_N50_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp907_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp907_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp907_N200_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp907_N200_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp907_N50_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp907_N50_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp908_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp908_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp908_N50_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp908_N50_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp909_N100_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp909_N100_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp909_N50_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp909_N50_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp910_N50_df15_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp910_N50_df5_block_91_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp911_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp911_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp911_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp911_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp912_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp912_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp912_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp912_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp913_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp913_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp913_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp913_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp914_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp914_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp914_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp914_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp915_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp915_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp915_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp915_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp915_N50_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp915_N50_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp916_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp916_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp916_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp916_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp916_N50_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp916_N50_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp917_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp917_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp917_N200_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp917_N200_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp917_N50_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp917_N50_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp918_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp918_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp918_N50_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp918_N50_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp919_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp919_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp919_N50_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp919_N50_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp920_N100_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp920_N100_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp920_N50_df15_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp920_N50_df5_block_92_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp921_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp921_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp921_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp921_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp922_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp922_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp922_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp922_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp923_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp923_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp923_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp923_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp924_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp924_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp924_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp924_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp925_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp925_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp925_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp925_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp925_N50_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp925_N50_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp926_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp926_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp926_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp926_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp926_N50_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp926_N50_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp927_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp927_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp927_N200_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp927_N200_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp927_N50_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp927_N50_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp928_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp928_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp928_N50_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp928_N50_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp929_N100_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp929_N100_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp929_N50_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp929_N50_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp930_N50_df15_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp930_N50_df5_block_93_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp931_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp931_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp931_N200_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp931_N200_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp931_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp931_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp932_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp932_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp932_N200_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp932_N200_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp932_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp932_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp933_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp933_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp933_N200_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp933_N200_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp933_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp933_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp934_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp934_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp934_N200_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp934_N200_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp934_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp934_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp935_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp935_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp935_N200_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp935_N200_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp935_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp935_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp936_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp936_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp936_N200_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp936_N200_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp936_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp936_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp937_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp937_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp937_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp937_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp938_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp938_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp938_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp938_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp939_N100_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp939_N100_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp939_N50_df15_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp939_N50_df5_block_94_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp941_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp941_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp941_N200_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp941_N200_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp941_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp941_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp942_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp942_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp942_N200_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp942_N200_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp942_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp942_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp943_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp943_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp943_N200_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp943_N200_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp943_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp943_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp944_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp944_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp944_N200_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp944_N200_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp944_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp944_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp945_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp945_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp945_N200_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp945_N200_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp945_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp945_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp946_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp946_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp946_N200_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp946_N200_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp946_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp946_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp947_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp947_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp947_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp947_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp948_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp948_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp948_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp948_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp949_N100_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp949_N100_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp949_N50_df15_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp949_N50_df5_block_95_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp951_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp951_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp951_N200_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp951_N200_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp951_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp951_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp952_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp952_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp952_N200_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp952_N200_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp952_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp952_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp953_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp953_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp953_N200_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp953_N200_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp953_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp953_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp954_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp954_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp954_N200_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp954_N200_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp954_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp954_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp955_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp955_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp955_N200_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp955_N200_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp955_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp955_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp956_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp956_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp956_N200_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp956_N200_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp956_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp956_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp957_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp957_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp957_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp957_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp958_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp958_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp958_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp958_N50_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp959_N100_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp959_N100_df5_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp959_N50_df15_block_96_results.npy
- create mode 100644 simulations_SPD/results/SPD_samp959_N50_df5_block_96_results.npy
-To github.com:Diegol314/Cluster_min_pyfrechet.git
-   9bab61298..d655e0ee1  main -> main
-
-*****************************************************************************
-*                                                                           *
-*                    JOB EFFICIENCY REPORT (seff 14050724)                   *
-*                                                                           *
-*****************************************************************************
-
-Job ID: 14050724
-Cluster: finisterrae3
-User/Group: otestdso/otras
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 32
-CPU Utilized: 2-21:09:17
-CPU Efficiency: 65.33% of 4-09:50:56 core-walltime
-Job Wall-clock time: 03:18:28
-Memory Utilized: 14.50 GB
-Memory Efficiency: 90.60% of 16.00 GB
-
-*****************************************************************************
-
