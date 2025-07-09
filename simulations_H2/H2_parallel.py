@@ -150,4 +150,4 @@ file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.csv')
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=10, verbose=2)(delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
