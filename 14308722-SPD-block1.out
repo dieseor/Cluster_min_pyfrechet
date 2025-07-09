@@ -87,3 +87,56 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  89%|████████▉ | 71/80 [2:55:38<32:05, 213.90s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:56:06<21:06, 158.34s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:00:41<22:33, 193.33s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:01:06<14:17, 142.92s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:12:29<25:23, 304.76s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:14:18<16:24, 246.08s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:20:27<14:08, 282.81s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:22:40<07:55, 237.91s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:33:27<06:00, 360.86s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:35:09<00:00, 282.97s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 215.2min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:35:09<00:00, 161.36s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 8f59756caf] Simulations SPD block 1
+ 28 files changed, 48 insertions(+)
+ create mode 100644 simulations_SPD/results/SPD_samp10_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp10_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp1_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp1_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp2_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp2_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp3_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp3_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp4_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp4_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp5_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp5_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp6_N200_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp6_N200_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp6_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp6_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp7_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp7_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp8_N200_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp8_N200_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp8_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp8_N500_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N200_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N200_df5_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N500_df15_block_1_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp9_N500_df5_block_1_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   73261430f8..8f59756caf  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14308722)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14308722
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-01:19:32
+CPU Efficiency: 63.68% of 4-19:08:48 core-walltime
+Job Wall-clock time: 03:35:54
+Memory Utilized: 14.37 GB
+Memory Efficiency: 89.82% of 16.00 GB
+
+*****************************************************************************
+
