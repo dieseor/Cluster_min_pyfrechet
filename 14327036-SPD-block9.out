@@ -72,4 +72,4 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  30%|███       | 24/80 [46:00<2:56:58, 189.62s/it]
+Percentage of tasks completed::  30%|███       | 24/80 [46:00<2:56:58, 189.62s/it]Percentage of tasks completed::  31%|███▏      | 25/80 [49:25<2:58:10, 194.37s/it]Percentage of tasks completed::  32%|███▎      | 26/80 [51:38<2:38:22, 175.97s/it]Percentage of tasks completed::  34%|███▍      | 27/80 [52:30<2:02:35, 138.78s/it]
