@@ -62,4 +62,41 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   warnings.warn(
 /home/otras/est/dso/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  84%|████████▎ | 167/200 [1:17:15<16:53, 30.71s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:17:34<14:31, 27.24s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:17:38<10:26, 20.21s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:17:50<08:50, 17.68s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:19:31<20:38, 42.70s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:19:58<17:47, 38.11s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:20:00<12:13, 27.15s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:20:02<08:29, 19.60s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:20:24<08:24, 20.17s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:20:33<06:46, 16.94s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:20:48<06:16, 16.38s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:21:09<06:28, 17.67s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:23:34<19:38, 56.11s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:24:06<16:15, 48.78s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:24:07<10:52, 34.32s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:24:12<07:42, 25.67s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:27:18<20:53, 73.71s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:27:21<13:59, 52.47s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:28:46<15:34, 62.31s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:29:27<13:00, 55.74s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:31:40<17:05, 78.88s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:31:48<11:32, 57.71s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:34:45<17:09, 93.64s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:35:14<12:20, 74.02s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:37:51<14:50, 98.93s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:38:40<11:13, 84.15s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:42:04<13:59, 119.88s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:42:18<08:49, 88.24s/it] 
+Percentage of tasks completed::  84%|████████▎ | 167/200 [1:17:15<16:53, 30.71s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:17:34<14:31, 27.24s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:17:38<10:26, 20.21s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:17:50<08:50, 17.68s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:19:31<20:38, 42.70s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:19:58<17:47, 38.11s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:20:00<12:13, 27.15s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:20:02<08:29, 19.60s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:20:24<08:24, 20.17s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:20:33<06:46, 16.94s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:20:48<06:16, 16.38s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:21:09<06:28, 17.67s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:23:34<19:38, 56.11s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:24:06<16:15, 48.78s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:24:07<10:52, 34.32s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:24:12<07:42, 25.67s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:27:18<20:53, 73.71s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:27:21<13:59, 52.47s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:28:46<15:34, 62.31s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:29:27<13:00, 55.74s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:31:40<17:05, 78.88s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:31:48<11:32, 57.71s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:34:45<17:09, 93.64s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:35:14<12:20, 74.02s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:37:51<14:50, 98.93s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:38:40<11:13, 84.15s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:42:04<13:59, 119.88s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:42:18<08:49, 88.24s/it] Percentage of tasks completed::  98%|█████████▊| 195/200 [1:45:32<09:59, 119.95s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:45:43<05:49, 87.41s/it] Percentage of tasks completed::  98%|█████████▊| 197/200 [1:47:51<04:58, 99.44s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:47:55<02:21, 70.74s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:50:03<01:27, 87.96s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:50:48<00:00, 75.03s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 110.8min finished
+Percentage of tasks completed:: 100%|██████████| 200/200 [1:50:48<00:00, 33.24s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14326340)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14326340
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-20:51:35
+CPU Efficiency: 75.67% of 2-11:16:48 core-walltime
+Job Wall-clock time: 01:51:09
+Memory Utilized: 15.73 GB
+Memory Efficiency: 87.37% of 18.00 GB
+
+*****************************************************************************
+
