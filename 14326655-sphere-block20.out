@@ -70,3 +70,185 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   14326650-sphere-block15.out
+	modified:   14326652-sphere-block17.out
+	modified:   14326653-sphere-block18.out
+	modified:   14326654-sphere-block19.out
+	modified:   14326655-sphere-block20.out
+	modified:   14326656-sphere-block21.out
+	modified:   14326657-sphere-block22.out
+	modified:   14326658-sphere-block23.out
+	modified:   14326659-sphere-block24.out
+	modified:   14326660-sphere-block25.out
+	modified:   14326661-sphere-block26.out
+	modified:   14326662-sphere-block27.out
+	modified:   14326663-sphere-block28.out
+	modified:   14326664-sphere-block29.out
+	modified:   14326665-sphere-block30.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	simulations_sphere/results/sphere_samp420_N500_kappa200_block_17_results.npy
+	simulations_sphere/results/sphere_samp420_N500_kappa50_block_17_results.npy
+	simulations_sphere/results/sphere_samp421_N500_kappa50_block_17_results.npy
+	simulations_sphere/results/sphere_samp447_N500_kappa200_block_18_results.npy
+	simulations_sphere/results/sphere_samp447_N500_kappa50_block_18_results.npy
+	simulations_sphere/results/sphere_samp448_N500_kappa200_block_18_results.npy
+	simulations_sphere/results/sphere_samp448_N500_kappa50_block_18_results.npy
+	simulations_sphere/results/sphere_samp449_N500_kappa200_block_18_results.npy
+	simulations_sphere/results/sphere_samp449_N500_kappa50_block_18_results.npy
+	simulations_sphere/results/sphere_samp472_N500_kappa200_block_19_results.npy
+	simulations_sphere/results/sphere_samp473_N500_kappa200_block_19_results.npy
+	simulations_sphere/results/sphere_samp473_N500_kappa50_block_19_results.npy
+	simulations_sphere/results/sphere_samp474_N500_kappa200_block_19_results.npy
+	simulations_sphere/results/sphere_samp474_N500_kappa50_block_19_results.npy
+	simulations_sphere/results/sphere_samp475_N500_kappa200_block_19_results.npy
+	simulations_sphere/results/sphere_samp475_N500_kappa50_block_19_results.npy
+	simulations_sphere/results/sphere_samp498_N500_kappa200_block_20_results.npy
+	simulations_sphere/results/sphere_samp498_N500_kappa50_block_20_results.npy
+	simulations_sphere/results/sphere_samp499_N500_kappa200_block_20_results.npy
+	simulations_sphere/results/sphere_samp499_N500_kappa50_block_20_results.npy
+	simulations_sphere/results/sphere_samp500_N500_kappa200_block_20_results.npy
+	simulations_sphere/results/sphere_samp500_N500_kappa50_block_20_results.npy
+	simulations_sphere/results/sphere_samp519_N500_kappa200_block_21_results.npy
+	simulations_sphere/results/sphere_samp520_N500_kappa200_block_21_results.npy
+	simulations_sphere/results/sphere_samp520_N500_kappa50_block_21_results.npy
+	simulations_sphere/results/sphere_samp521_N500_kappa50_block_21_results.npy
+	simulations_sphere/results/sphere_samp525_N200_kappa200_block_21_results.npy
+	simulations_sphere/results/sphere_samp525_N200_kappa50_block_21_results.npy
+	simulations_sphere/results/sphere_samp543_N500_kappa200_block_22_results.npy
+	simulations_sphere/results/sphere_samp544_N500_kappa200_block_22_results.npy
+	simulations_sphere/results/sphere_samp544_N500_kappa50_block_22_results.npy
+	simulations_sphere/results/sphere_samp545_N500_kappa50_block_22_results.npy
+	simulations_sphere/results/sphere_samp550_N200_kappa200_block_22_results.npy
+	simulations_sphere/results/sphere_samp550_N200_kappa50_block_22_results.npy
+	simulations_sphere/results/sphere_samp564_N500_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp565_N500_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp565_N500_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp566_N500_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp572_N200_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp572_N200_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp574_N100_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp574_N100_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp574_N50_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp574_N50_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp575_N100_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp575_N50_kappa200_block_23_results.npy
+	simulations_sphere/results/sphere_samp575_N50_kappa50_block_23_results.npy
+	simulations_sphere/results/sphere_samp587_N500_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp587_N500_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp593_N200_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp593_N200_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp594_N200_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp594_N200_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp595_N100_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp596_N100_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp596_N100_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp596_N50_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp596_N50_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp597_N100_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp597_N50_kappa200_block_24_results.npy
+	simulations_sphere/results/sphere_samp597_N50_kappa50_block_24_results.npy
+	simulations_sphere/results/sphere_samp609_N200_kappa50_block_25_results.npy
+	simulations_sphere/results/sphere_samp610_N200_kappa200_block_25_results.npy
+	simulations_sphere/results/sphere_samp610_N200_kappa50_block_25_results.npy
+	simulations_sphere/results/sphere_samp611_N100_kappa200_block_25_results.npy
+	simulations_sphere/results/sphere_samp611_N100_kappa50_block_25_results.npy
+	simulations_sphere/results/sphere_samp611_N50_kappa200_block_25_results.npy
+	simulations_sphere/results/sphere_samp611_N50_kappa50_block_25_results.npy
+	simulations_sphere/results/sphere_samp612_N100_kappa200_block_25_results.npy
+	simulations_sphere/results/sphere_samp612_N100_kappa50_block_25_results.npy
+	simulations_sphere/results/sphere_samp633_N200_kappa200_block_26_results.npy
+	simulations_sphere/results/sphere_samp633_N200_kappa50_block_26_results.npy
+	simulations_sphere/results/sphere_samp634_N200_kappa200_block_26_results.npy
+	simulations_sphere/results/sphere_samp634_N200_kappa50_block_26_results.npy
+	simulations_sphere/results/sphere_samp635_N100_kappa50_block_26_results.npy
+	simulations_sphere/results/sphere_samp635_N200_kappa200_block_26_results.npy
+	simulations_sphere/results/sphere_samp636_N100_kappa200_block_26_results.npy
+	simulations_sphere/results/sphere_samp636_N100_kappa50_block_26_results.npy
+	simulations_sphere/results/sphere_samp636_N50_kappa200_block_26_results.npy
+	simulations_sphere/results/sphere_samp636_N50_kappa50_block_26_results.npy
+	simulations_sphere/results/sphere_samp656_N200_kappa200_block_27_results.npy
+	simulations_sphere/results/sphere_samp656_N200_kappa50_block_27_results.npy
+	simulations_sphere/results/sphere_samp657_N200_kappa200_block_27_results.npy
+	simulations_sphere/results/sphere_samp657_N200_kappa50_block_27_results.npy
+	simulations_sphere/results/sphere_samp659_N100_kappa200_block_27_results.npy
+	simulations_sphere/results/sphere_samp659_N100_kappa50_block_27_results.npy
+	simulations_sphere/results/sphere_samp659_N50_kappa200_block_27_results.npy
+	simulations_sphere/results/sphere_samp659_N50_kappa50_block_27_results.npy
+	simulations_sphere/results/sphere_samp660_N100_kappa200_block_27_results.npy
+	simulations_sphere/results/sphere_samp660_N100_kappa50_block_27_results.npy
+	simulations_sphere/results/sphere_samp660_N50_kappa200_block_27_results.npy
+	simulations_sphere/results/sphere_samp660_N50_kappa50_block_27_results.npy
+	simulations_sphere/results/sphere_samp682_N200_kappa200_block_28_results.npy
+	simulations_sphere/results/sphere_samp682_N200_kappa50_block_28_results.npy
+	simulations_sphere/results/sphere_samp683_N200_kappa200_block_28_results.npy
+	simulations_sphere/results/sphere_samp684_N100_kappa50_block_28_results.npy
+	simulations_sphere/results/sphere_samp685_N100_kappa200_block_28_results.npy
+	simulations_sphere/results/sphere_samp685_N100_kappa50_block_28_results.npy
+	simulations_sphere/results/sphere_samp685_N50_kappa200_block_28_results.npy
+	simulations_sphere/results/sphere_samp685_N50_kappa50_block_28_results.npy
+	simulations_sphere/results/sphere_samp706_N200_kappa200_block_29_results.npy
+	simulations_sphere/results/sphere_samp706_N200_kappa50_block_29_results.npy
+	simulations_sphere/results/sphere_samp707_N200_kappa200_block_29_results.npy
+	simulations_sphere/results/sphere_samp707_N200_kappa50_block_29_results.npy
+	simulations_sphere/results/sphere_samp708_N100_kappa200_block_29_results.npy
+	simulations_sphere/results/sphere_samp708_N100_kappa50_block_29_results.npy
+	simulations_sphere/results/sphere_samp709_N100_kappa200_block_29_results.npy
+	simulations_sphere/results/sphere_samp709_N100_kappa50_block_29_results.npy
+	simulations_sphere/results/sphere_samp709_N50_kappa200_block_29_results.npy
+	simulations_sphere/results/sphere_samp709_N50_kappa50_block_29_results.npy
+	simulations_sphere/results/sphere_samp710_N50_kappa200_block_29_results.npy
+	simulations_sphere/results/sphere_samp710_N50_kappa50_block_29_results.npy
+	simulations_sphere/results/sphere_samp726_N200_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp726_N200_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp727_N200_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp727_N200_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp728_N200_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp728_N200_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp729_N200_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp729_N200_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp730_N200_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp730_N200_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp731_N100_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp731_N100_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp732_N100_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp732_N100_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp732_N50_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp732_N50_kappa50_block_30_results.npy
+	simulations_sphere/results/sphere_samp733_N50_kappa200_block_30_results.npy
+	simulations_sphere/results/sphere_samp733_N50_kappa50_block_30_results.npy
+
+
+It took 2.96 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14326655)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14326655
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-17:28:15
+CPU Efficiency: 75.30% of 2-07:04:32 core-walltime
+Job Wall-clock time: 01:43:16
+Memory Utilized: 14.70 GB
+Memory Efficiency: 91.87% of 16.00 GB
+
+*****************************************************************************
+
