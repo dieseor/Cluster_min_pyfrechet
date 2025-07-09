@@ -2389,3 +2389,6 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_H2/results/H2_samp895_N100_kappa50_block_36_results.npy
  create mode 100644 simulations_H2/results/H2_samp895_N50_kappa200_block_36_results.npy
  create mode 100644 simulations_H2/results/H2_samp895_N50_kappa50_block_36_results.npy
+Connection to github.com closed by remote host.
+fatal: the remote end hung up unexpectedly
+slurmstepd: error: *** JOB 14326339 ON ilk-231 CANCELLED AT 2025-07-09T19:25:59 DUE TO TIME LIMIT ***
