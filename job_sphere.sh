@@ -13,4 +13,4 @@ git push
 #   sbatch --time=02:10:00 -n 1 --cpus-per-task=32 --mem=16GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="%j-sphere-block$b.out" job_sphere.sh
 # done
 
-# sbatch --time=02:10:00 -n 1 --cpus-per-task=32 --mem=16GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="%j-sphere-block1.out" job_sphere.sh
+# sbatch --time=02:40:00 -n 1 --cpus-per-task=32 --mem=16GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="%j-sphere-block1.out" job_sphere.sh

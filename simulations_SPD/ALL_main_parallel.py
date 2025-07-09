@@ -131,20 +131,20 @@ def task(file) -> None:
     with open(os.path.join(os.getcwd(), 'simulations_SPD', 'type_i_data', type_i_filename), 'rb') as f:
         type_i_sample = pickle.load(f)
 
-        ts = type_i_sample['t'].reshape(-1, 1)
-        new_ys = type_i_sample['y']
-        # Predict the new observations for AI distance
-        ai_new_pred = forest_ai.predict(ts)
-        ai_i_cov = np.repeat(M_ai.d(ai_new_pred, MetricData(M_ai, vectorize(np.array(new_ys))))[:, np.newaxis], 3, axis=1) <= np.tile(ai_oob_quantile, (MC, 1))
+    ts = type_i_sample['t'].reshape(-1, 1)
+    new_ys = type_i_sample['y']
+    # Predict the new observations for AI distance
+    ai_new_pred = forest_ai.predict(ts)
+    ai_i_cov = np.repeat(M_ai.d(ai_new_pred, MetricData(M_ai, vectorize(np.array(new_ys))))[:, np.newaxis], 3, axis=1) <= np.tile(ai_oob_quantile, (MC, 1))
 
-        # Predict the new observations for LC distance
-        new_ys_logchol = np.c_[[spd_to_log_chol(A) for A in new_ys]]
-        lc_new_pred = forest_lc.predict(ts)
-        lc_i_cov = np.repeat(M_lc.d(lc_new_pred, MetricData(M_lc, new_ys_logchol))[:, np.newaxis], 3, axis=1) <= np.tile(lc_oob_quantile, (MC, 1))
+    # Predict the new observations for LC distance
+    new_ys_logchol = np.c_[[spd_to_log_chol(A) for A in new_ys]]
+    lc_new_pred = forest_lc.predict(ts)
+    lc_i_cov = np.repeat(M_lc.d(lc_new_pred, MetricData(M_lc, new_ys_logchol))[:, np.newaxis], 3, axis=1) <= np.tile(lc_oob_quantile, (MC, 1))
 
-        # Predict the new observations for LE distance
-        le_new_pred = forest_le.predict(ts)
-        le_i_cov = np.repeat(M_le.d(le_new_pred, MetricData(M_le, vectorize(np.array(new_ys))))[:, np.newaxis], 3, axis=1) <= np.tile(le_oob_quantile, (MC, 1))
+    # Predict the new observations for LE distance
+    le_new_pred = forest_le.predict(ts)
+    le_i_cov = np.repeat(M_le.d(le_new_pred, MetricData(M_le, vectorize(np.array(new_ys))))[:, np.newaxis], 3, axis=1) <= np.tile(le_oob_quantile, (MC, 1))
 
 
 ############################################################################################################            

@@ -11,4 +11,4 @@ git push
 #   sbatch --time=01:35:00 -n 1 --cpus-per-task=32 --mem=18GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="%j-H2-block$b.out" job_H2.sh
 # done
 
-# sbatch --time=01:35:00 -n 1 --cpus-per-task=32 --mem=18GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="%j-H2-block1.out" job_H2.sh
+# sbatch --time=01:55:00 -n 1 --cpus-per-task=32 --mem=18GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=1 --output="%j-H2-block1.out" job_H2.sh
