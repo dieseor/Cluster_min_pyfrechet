@@ -36,7 +36,7 @@ n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_sphere/' 'data')
 current_block = int(sys.argv[1])
 
 base = Tree(split_type='2means', mtry=None, impurity_method='cart')
-base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1, seed = 5)
+base_forest = BaggedRegressor(estimator=base, n_estimators=200, bootstrap_fraction=1, bootstrap_replace=True, n_jobs=-1, seed=5)
 
 M = Sphere(2)
 
@@ -125,18 +125,27 @@ def task(file) -> None:
     forest = tune_forest(X, y, base_forest, param_grid)
     oob_quantile = np.percentile(forest.oob_errors(), (1 - np.array([0.01, 0.05, 0.1])) * 100, method='inverted_cdf')
 
-    ############################################################################################################
-    # TYPE I COVERAGE RESULTS
-    n_estimations = 500
-    pb_i_cov = np.zeros(shape = (n_estimations, 3))
-    for estimation in range(n_estimations):
-        # Randomly select rows from the dataframe
-        theta = vonmises_line(kappa = 1).rvs(1)
-        theta, new_y = simulate_data(m_0 = m_0, kappa = kappa, mu = mu, theta_samples = theta)
+    samp = int(file.split('_')[1][4:])
+    N = int(file.split('_')[2][1:])  # Extract N from filename
+    kappa = int(file.split('_')[3][5:])  # Extract kappa from filename
 
-        # Predict the new observation
-        pb_new_pred = forest.predict(theta.reshape(-1,1))
-        pb_i_cov[estimation, :] = (M.d(pb_new_pred, new_y[0]) <= oob_quantile)
+
+    seed = hash((samp, N, kappa)) % (2**32)
+    np.random.seed(seed)  # Set seed based on the sample index
+
+    ###########################################################################################################
+    # TYPE I COVERAGE RESULTS
+    type_i_filename = f'sphere_type_i_N{N}_kappa{kappa}.pkl'
+    with open(os.path.join(os.getcwd(), 'simulations_sphere', 'type_i_data', type_i_filename), 'rb') as f:
+        type_i_sample = pickle.load(f)
+    
+        # Randomly select rows from the dataframe
+        thetas = type_i_sample['theta'].reshape(-1, 1)
+        new_ys = type_i_sample['Y']
+        # Predict the new observations
+        pb_new_pred = forest.predict(thetas)
+        pb_i_cov = (M.d(pb_new_pred, MetricData(M, new_ys)) <= oob_quantile)
+
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
@@ -149,19 +158,21 @@ def task(file) -> None:
     
 ############################################################################################################
     # TYPE III COVERAGE RESULTS
-    pb_iii_cov = np.zeros(shape = (n_estimations, 3))
+    type_iii_filename = f'sphere_type_iii_N{N}_kappa{kappa}.pkl'
+    with open(os.path.join(os.getcwd(), 'simulations_sphere', 'type_iii_data', type_iii_filename), 'rb') as f:
+        type_iii_sample = pickle.load(f)
 
-    for estimation in range(n_estimations):
-        # Randomly select rows from the dataframe
-        theta = np.array([vonmises_line.ppf(q=0.25, kappa = 1)])
-        # Add a column of ones for the intercept (beta_0)
-        theta, new_y = simulate_data(m_0 = m_0, kappa = kappa, mu = mu, theta_samples = theta)
+    # Use the pre-generated data
+    thetas = type_iii_sample['theta'].reshape(-1, 1)
+    new_ys = type_iii_sample['Y']
 
-        # Predict the new observation
-        pb_new_pred = forest.predict(theta.reshape(-1,1))
-        pb_iii_cov[estimation, :] = (M.d(pb_new_pred, new_y[0]) <= oob_quantile)
+    # Predict the new observations
+    pb_new_pred = forest.predict(thetas[0].reshape(-1,1))
+    #pb_new_pred = np.tile(pb_new_pred, (MC, 1))  # Repeat the prediction for MC samples
+    pb_iii_cov = np.repeat(M.d(pb_new_pred, MetricData(M, new_ys.squeeze()))[:, np.newaxis], 3, axis=1) <= np.tile(oob_quantile, (MC, 1))
 
-############################################################################################################
+
+###########################################################################################################
     # TYPE IV COVERAGE RESULTS
     theta = np.repeat(vonmises_line.ppf(q=0.25, kappa = 1), MC)
     theta, new_y = simulate_data(m_0 = m_0, kappa = kappa, theta_samples = theta, mu = mu)
