@@ -415,3 +415,26 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_sphere/results/sphere_samp332_N100_kappa200_block_14_results.npy
  create mode 100644 simulations_sphere/results/sphere_samp332_N100_kappa50_block_14_results.npy
  create mode 100644 simulations_sphere/results/sphere_samp332_N50_kappa200_block_14_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   899c6b2417..e2a8ba2672  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14326345)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14326345
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-19:22:22
+CPU Efficiency: 73.05% of 2-11:22:40 core-walltime
+Job Wall-clock time: 01:51:20
+Memory Utilized: 14.97 GB
+Memory Efficiency: 83.19% of 18.00 GB
+
+*****************************************************************************
+
