@@ -195,3 +195,6 @@ See "git help gc" for manual housekeeping.
  create mode 100644 simulations_H2/results/H2_samp504_N50_kappa200_block_21_results.npy
  create mode 100644 simulations_H2/results/H2_samp504_N50_kappa50_block_21_results.npy
  create mode 100644 simulations_H2/results/H2_samp514_N50_kappa200_block_21_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+ ! [remote rejected]       main -> main (cannot lock ref 'refs/heads/main': is at 9cd1195d3dd3c4301bc7d169aa961c5ee0c872e1 but expected 691fe94b9782e6eb7a1e76ea7f3d9632e268f8ad)
+error: failed to push some refs to 'github.com:Diegol314/Cluster_min_pyfrechet.git'

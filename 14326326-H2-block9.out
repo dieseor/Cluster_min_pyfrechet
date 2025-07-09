@@ -58,4 +58,49 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   warnings.warn(
 Percentage of tasks completed::  83%|████████▎ | 166/200 [1:20:31<14:36, 25.76s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:20:33<10:16, 18.69s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:21:12<13:10, 24.70s/it]/home/otras/est/dso/.local/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  84%|████████▍ | 169/200 [1:21:55<15:35, 30.19s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:22:18<14:01, 28.07s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:23:12<17:13, 35.62s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:23:24<13:25, 28.77s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:23:33<10:15, 22.79s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:23:58<10:11, 23.52s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:24:43<12:25, 29.82s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:24:47<08:49, 22.05s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:25:15<09:10, 23.95s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:25:36<08:26, 23.05s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:27:45<19:11, 54.84s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:28:00<14:15, 42.79s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:28:31<12:24, 39.18s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:28:38<08:51, 29.55s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:32:07<23:37, 83.40s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:32:34<17:47, 66.69s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:33:27<15:35, 62.34s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:33:49<11:47, 50.51s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:34:55<11:55, 55.05s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:35:08<08:29, 42.43s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:38:56<17:57, 97.92s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:40:14<15:21, 92.20s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:42:14<15:04, 100.52s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:42:47<10:41, 80.17s/it] Percentage of tasks completed::  96%|█████████▋| 193/200 [1:46:01<13:21, 114.43s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:46:35<09:01, 90.32s/it] Percentage of tasks completed::  98%|█████████▊| 195/200 [1:49:08<09:04, 108.97s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:49:33<05:35, 83.87s/it] Percentage of tasks completed::  98%|█████████▊| 197/200 [1:51:45<04:55, 98.37s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:52:04<02:28, 74.42s/it]
+Percentage of tasks completed::  84%|████████▍ | 169/200 [1:21:55<15:35, 30.19s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:22:18<14:01, 28.07s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:23:12<17:13, 35.62s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:23:24<13:25, 28.77s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:23:33<10:15, 22.79s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:23:58<10:11, 23.52s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:24:43<12:25, 29.82s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:24:47<08:49, 22.05s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:25:15<09:10, 23.95s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:25:36<08:26, 23.05s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:27:45<19:11, 54.84s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:28:00<14:15, 42.79s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:28:31<12:24, 39.18s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:28:38<08:51, 29.55s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:32:07<23:37, 83.40s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:32:34<17:47, 66.69s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:33:27<15:35, 62.34s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:33:49<11:47, 50.51s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:34:55<11:55, 55.05s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:35:08<08:29, 42.43s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:38:56<17:57, 97.92s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:40:14<15:21, 92.20s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:42:14<15:04, 100.52s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:42:47<10:41, 80.17s/it] Percentage of tasks completed::  96%|█████████▋| 193/200 [1:46:01<13:21, 114.43s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:46:35<09:01, 90.32s/it] Percentage of tasks completed::  98%|█████████▊| 195/200 [1:49:08<09:04, 108.97s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:49:33<05:35, 83.87s/it] Percentage of tasks completed::  98%|█████████▊| 197/200 [1:51:45<04:55, 98.37s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:52:04<02:28, 74.42s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:54:11<01:30, 90.06s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:54:43<00:00, 72.91s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 114.7min finished
+Percentage of tasks completed:: 100%|██████████| 200/200 [1:54:43<00:00, 34.42s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d229f0b413] Simulations Hyperboloid block 9
+ 17 files changed, 112 insertions(+), 6 deletions(-)
+ create mode 100644 14326339-H2-block22.out
+ create mode 100644 simulations_H2/results/H2_samp250_N500_kappa200_block_10_results.npy
+ create mode 100644 simulations_H2/results/H2_samp250_N500_kappa50_block_10_results.npy
+ create mode 100644 simulations_H2/results/H2_samp274_N500_kappa200_block_11_results.npy
+ create mode 100644 simulations_H2/results/H2_samp300_N500_kappa200_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp300_N500_kappa50_block_12_results.npy
+ create mode 100644 simulations_H2/results/H2_samp424_N500_kappa50_block_17_results.npy
+ create mode 100644 simulations_H2/results/H2_samp446_N500_kappa200_block_18_results.npy
+ create mode 100644 simulations_H2/results/H2_samp492_N500_kappa200_block_20_results.npy
+ create mode 100644 simulations_H2/results/H2_samp499_N200_kappa50_block_20_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   9cd1195d3d..d229f0b413  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14326326)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14326326
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-22:18:04
+CPU Efficiency: 75.05% of 2-13:41:52 core-walltime
+Job Wall-clock time: 01:55:41
+Memory Utilized: 15.63 GB
+Memory Efficiency: 86.84% of 18.00 GB
+
+*****************************************************************************
+
