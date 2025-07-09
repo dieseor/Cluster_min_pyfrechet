@@ -64,3 +64,25 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14326355)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14326355
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-20:04:49
+CPU Efficiency: 75.69% of 2-10:14:24 core-walltime
+Job Wall-clock time: 01:49:12
+Memory Utilized: 15.85 GB
+Memory Efficiency: 88.08% of 18.00 GB
+
+*****************************************************************************
+
