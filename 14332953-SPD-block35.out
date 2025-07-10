@@ -52,3 +52,6 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::   1%|▏         | 1/80 [10:57<14:25:07, 657.06s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:22<6:11:03, 285.43s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:25<3:20:36, 156.32s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:27<2:01:16, 95.74s/it] Percentage of tasks completed::   6%|▋         | 5/80 [11:29<1:17:22, 61.90s/it]Percentage of tasks completed::   8%|▊         | 6/80 [11:33<51:51, 42.05s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [11:37<36:16, 29.81s/it]Percentage of tasks completed::  10%|█         | 8/80 [11:45<27:05, 22.57s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
