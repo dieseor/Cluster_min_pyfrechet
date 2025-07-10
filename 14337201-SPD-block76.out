@@ -49,4 +49,34 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::   1%|▏         | 1/80 [10:59<14:28:11, 659.39s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:10<6:01:17, 277.91s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:12<3:14:50, 151.83s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:12<1:56:34, 92.03s/it] Percentage of tasks completed::   6%|▋         | 5/80 [11:25<1:19:22, 63.50s/it]Percentage of tasks completed::   8%|▊         | 6/80 [11:26<52:16, 42.39s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [11:27<35:00, 28.78s/it]Percentage of tasks completed::  10%|█         | 8/80 [11:37<27:16, 22.73s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  11%|█▏        | 9/80 [22:41<4:24:06, 223.20s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [22:58<3:06:14, 159.63s/it]
+Percentage of tasks completed::  11%|█▏        | 9/80 [22:41<4:24:06, 223.20s/it]Percentage of tasks completed::  12%|█▎        | 10/80 [22:58<3:06:14, 159.63s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [25:20<2:57:21, 154.22s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [25:21<2:01:52, 107.54s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [25:50<1:33:31, 83.75s/it] Percentage of tasks completed::  18%|█▊        | 14/80 [25:59<1:07:31, 61.38s/it]Percentage of tasks completed::  19%|█▉        | 15/80 [26:31<56:49, 52.45s/it]  Percentage of tasks completed::  20%|██        | 16/80 [26:43<42:56, 40.26s/it]Percentage of tasks completed::  21%|██▏       | 17/80 [26:48<31:02, 29.56s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  22%|██▎       | 18/80 [27:19<31:06, 30.11s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
