@@ -81,3 +81,43 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  76%|███████▋  | 61/80 [2:18:55<2:45:34, 522.87s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:19:05<1:50:40, 368.91s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:19:28<1:15:09, 265.28s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:21:16<58:06, 217.91s/it]  Percentage of tasks completed::  81%|████████▏ | 65/80 [2:21:21<38:33, 154.24s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [2:21:25<25:27, 109.08s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:22:39<21:22, 98.63s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:22:46<14:13, 71.16s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:29:34<31:32, 172.04s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:30:00<21:22, 128.26s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:36:22<30:40, 204.46s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:39:54<27:32, 206.59s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:43:51<25:11, 215.91s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:44:22<16:01, 160.31s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [2:57:05<28:26, 341.27s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [2:57:55<16:55, 253.93s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:03:51<14:12, 284.33s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:04:01<06:43, 201.98s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:16:09<05:59, 359.97s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:16:57<00:00, 266.37s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 197.0min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:16:57<00:00, 147.72s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 7393e33b7d] Simulations SPD block 73
+ 18 files changed, 129 insertions(+), 4 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp719_N500_df5_block_72_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp730_N500_df15_block_73_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp730_N500_df5_block_73_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp821_N100_df15_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp822_N100_df15_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp822_N100_df5_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp823_N100_df15_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp823_N100_df5_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp824_N100_df15_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp824_N100_df5_block_83_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp832_N100_df15_block_84_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp833_N100_df15_block_84_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp834_N100_df15_block_84_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   e7846c220e..7393e33b7d  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 14337198)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 14337198
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-20:20:19
+CPU Efficiency: 64.73% of 4-09:34:56 core-walltime
+Job Wall-clock time: 03:17:58
+Memory Utilized: 14.97 GB
+Memory Efficiency: 93.57% of 16.00 GB
+
+*****************************************************************************
+
