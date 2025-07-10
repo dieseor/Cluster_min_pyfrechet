@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/14327050. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/14327052. Previous errors about TMPDIR can be discarded
 cesga/2020 unloaded
         Preparing the environment for use of the CESGA 2020 software stack.
         Please rebuild modules cache: module --ignore-cache avail
@@ -52,30 +52,3 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::   1%|▏         | 1/80 [10:33<13:54:39, 633.92s/it]Percentage of tasks completed::   2%|▎         | 2/80 [11:01<6:00:25, 277.25s/it] Percentage of tasks completed::   4%|▍         | 3/80 [11:26<3:27:43, 161.87s/it]Percentage of tasks completed::   5%|▌         | 4/80 [11:31<2:06:43, 100.05s/it]Percentage of tasks completed::   6%|▋         | 5/80 [11:36<1:22:11, 65.75s/it] Percentage of tasks completed::   8%|▊         | 6/80 [11:36<53:36, 43.47s/it]  Percentage of tasks completed::   9%|▉         | 7/80 [11:39<36:57, 30.38s/it]Percentage of tasks completed::  10%|█         | 8/80 [11:41<25:30, 21.26s/it]Percentage of tasks completed::  11%|█▏        | 9/80 [11:52<21:26, 18.11s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
-Percentage of tasks completed::  12%|█▎        | 10/80 [21:35<3:44:32, 192.47s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [23:05<3:05:01, 160.90s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [26:11<3:11:05, 168.62s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [26:22<2:14:56, 120.85s/it]Percentage of tasks completed::  18%|█▊        | 14/80 [26:25<1:33:58, 85.43s/it] Percentage of tasks completed::  19%|█▉        | 15/80 [26:34<1:07:23, 62.21s/it]Percentage of tasks completed::  20%|██        | 16/80 [26:57<53:44, 50.38s/it]  Percentage of tasks completed::  21%|██▏       | 17/80 [27:05<39:29, 37.61s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [27:06<27:31, 26.64s/it]Percentage of tasks completed::  24%|██▍       | 19/80 [27:32<27:02, 26.59s/it]
