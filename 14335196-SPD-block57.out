@@ -63,4 +63,12 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  11%|█▏        | 9/80 [22:44<4:24:48, 223.78s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  12%|█▎        | 10/80 [23:15<3:11:32, 164.18s/it]
+Percentage of tasks completed::  12%|█▎        | 10/80 [23:15<3:11:32, 164.18s/it]Percentage of tasks completed::  14%|█▍        | 11/80 [25:31<2:58:51, 155.53s/it]Percentage of tasks completed::  15%|█▌        | 12/80 [26:06<2:14:56, 119.06s/it]Percentage of tasks completed::  16%|█▋        | 13/80 [26:09<1:33:30, 83.73s/it] Percentage of tasks completed::  18%|█▊        | 14/80 [26:52<1:18:30, 71.36s/it]Percentage of tasks completed::  19%|█▉        | 15/80 [26:58<56:08, 51.82s/it]  Percentage of tasks completed::  20%|██        | 16/80 [27:12<42:55, 40.25s/it]Percentage of tasks completed::  21%|██▏       | 17/80 [27:46<40:28, 38.55s/it]Percentage of tasks completed::  22%|██▎       | 18/80 [28:03<33:03, 31.99s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Percentage of tasks completed::  24%|██▍       | 19/80 [36:26<2:56:31, 173.62s/it]WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  25%|██▌       | 20/80 [37:12<2:15:12, 135.21s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [37:54<1:45:31, 107.32s/it]Percentage of tasks completed::  28%|██▊       | 22/80 [38:17<1:19:14, 81.98s/it] WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::  29%|██▉       | 23/80 [47:37<3:34:08, 225.42s/it]Percentage of tasks completed::  30%|███       | 24/80 [48:39<2:44:30, 176.25s/it]
