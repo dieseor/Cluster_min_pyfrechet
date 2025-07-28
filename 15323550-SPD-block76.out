@@ -98,3 +98,30 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  88%|████████▊ | 70/80 [2:47:58<18:58, 113.83s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:55:36<32:33, 217.09s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:57:24<24:34, 184.34s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:02:03<24:49, 212.75s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:02:34<15:49, 158.30s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:13:00<24:53, 298.61s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:13:19<14:19, 214.78s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:19:39<13:12, 264.31s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:23:45<08:37, 258.86s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:30:11<04:56, 296.85s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:30:56<00:00, 221.31s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 210.9min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:30:56<00:00, 158.21s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d3cf66c4f8] Simulations SPD block 76
+ 3 files changed, 32 insertions(+), 2 deletions(-)
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   b781ac307d..d3cf66c4f8  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15323550)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15323550
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-01:11:52
+CPU Efficiency: 64.97% of 4-16:40:00 core-walltime
+Job Wall-clock time: 03:31:15
+Memory Utilized: 14.78 GB
+Memory Efficiency: 92.38% of 16.00 GB
+
+*****************************************************************************
+
