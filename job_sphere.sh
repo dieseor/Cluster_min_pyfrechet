@@ -8,7 +8,7 @@ git add .
 git commit -m "Simulations Sphere block $block"
 git push
 
-# for b in {2..40}
+# for b in {5..11}
 # do
 #   sbatch --time=02:10:00 -n 1 --cpus-per-task=32 --mem=16GB --mail-type=BEGIN,END,FAIL --mail-user=dieserra@est-econ.uc3m.es --export=block=$b --output="%j-sphere-block$b.out" job_sphere.sh
 # done
