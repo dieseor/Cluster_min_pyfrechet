@@ -75,3 +75,35 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  66%|██████▋   | 53/80 [1:43:57<1:33:31, 207.83s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:45:49<1:17:31, 178.89s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [1:51:00<1:31:02, 218.50s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:54:03<1:23:09, 207.90s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:55:45<1:07:33, 176.25s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [1:57:38<57:39, 157.24s/it]  [Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 117.6min remaining: 44.6min
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:15:53<2:33:28, 438.48s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:18:07<1:55:44, 347.22s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:40:00<3:21:40, 636.88s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:41:26<2:21:29, 471.61s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:41:27<1:33:40, 330.62s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:41:31<1:02:01, 232.62s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:41:53<42:18, 169.26s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:42:02<28:19, 121.36s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:42:04<18:29, 85.34s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:42:24<13:08, 65.71s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:48:37<28:57, 157.98s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:48:52<19:12, 115.29s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:56:41<33:11, 221.29s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:57:42<23:04, 173.11s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:01:54<22:57, 196.80s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:03:20<16:21, 163.65s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:13:50<25:16, 303.38s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:14:06<14:29, 217.28s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:20:42<13:32, 270.88s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:22:00<07:05, 213.00s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:30:53<05:09, 309.12s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:32:27<00:00, 244.50s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 212.5min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:32:27<00:00, 159.34s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 003b236095] Simulations SPD block 86
+ 10 files changed, 690 insertions(+), 4 deletions(-)
+ create mode 100644 simulations_SPD/results/SPD_samp860_N500_df15_block_86_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp860_N500_df5_block_86_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp869_N500_df15_block_87_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp879_N500_df15_block_88_results.npy
+ create mode 100644 simulations_SPD/results/SPD_samp879_N500_df5_block_88_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   6acd6b88ed..003b236095  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15323590)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15323590
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-02:07:03
+CPU Efficiency: 65.26% of 4-17:34:24 core-walltime
+Job Wall-clock time: 03:32:57
+Memory Utilized: 14.60 GB
+Memory Efficiency: 91.27% of 16.00 GB
+
+*****************************************************************************
+
