@@ -82,3 +82,30 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  80%|████████  | 64/80 [2:46:12<1:03:22, 237.68s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:46:37<43:29, 173.95s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:46:46<29:00, 124.32s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:46:48<19:00, 87.71s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:48:13<17:21, 86.79s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:52:16<24:31, 133.78s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:54:41<22:50, 137.09s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:01:39<33:13, 221.48s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:02:04<21:38, 162.37s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:07:07<23:52, 204.66s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:08:24<16:38, 166.44s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:19:47<26:46, 321.24s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:20:10<15:27, 231.95s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:27:19<14:33, 291.04s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:29:47<08:16, 248.18s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:35:51<04:42, 282.92s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:37:05<00:00, 220.25s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 217.1min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:37:05<00:00, 162.82s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main f73a49be1c] Simulations SPD block 63
+ 2 files changed, 31 insertions(+), 1 deletion(-)
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   7c637a49cf..f73a49be1c  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15316403)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15316403
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-03:45:09
+CPU Efficiency: 65.35% of 4-19:54:40 core-walltime
+Job Wall-clock time: 03:37:20
+Memory Utilized: 14.75 GB
+Memory Efficiency: 92.20% of 16.00 GB
+
+*****************************************************************************
+
