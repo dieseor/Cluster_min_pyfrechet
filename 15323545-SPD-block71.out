@@ -63,3 +63,33 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Percentage of tasks completed::  61%|██████▏   | 49/80 [1:29:38<1:16:17, 147.68s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:31:06<1:04:46, 129.56s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:34:01<1:09:12, 143.19s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:36:23<1:06:39, 142.83s/it]Percentage of tasks completed::  66%|██████▋   | 53/80 [1:43:13<1:40:21, 223.01s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:44:17<1:16:02, 175.46s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [1:50:09<1:35:10, 228.42s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:55:25<1:41:52, 254.68s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:55:45<1:10:36, 184.19s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [1:56:42<53:33, 146.05s/it]  [Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 116.7min remaining: 44.3min
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:14:20<2:26:52, 419.62s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:15:05<1:42:22, 307.14s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:37:08<3:13:50, 612.16s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:37:29<2:10:22, 434.61s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:37:33<1:26:35, 305.63s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:37:49<58:18, 218.66s/it]  Percentage of tasks completed::  81%|████████▏ | 65/80 [2:38:15<40:11, 160.77s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [2:38:23<26:51, 115.13s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:38:33<18:04, 83.42s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:39:11<13:57, 69.81s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:44:46<27:23, 149.43s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:47:15<24:51, 149.14s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:54:13<34:29, 229.99s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:55:45<25:09, 188.67s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:01:42<27:54, 239.16s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:01:53<17:02, 170.49s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:13:07<26:47, 321.49s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:13:28<15:25, 231.40s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:19:10<13:14, 264.68s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:22:06<07:56, 238.20s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:30:33<05:18, 318.68s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:31:36<00:00, 242.01s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 211.6min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:31:36<00:00, 158.71s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 2bd126e03a] Simulations SPD block 71
+ 8 files changed, 178 insertions(+), 3 deletions(-)
+ create mode 100644 15323591-SPD-block87.out
+ create mode 100644 15323592-SPD-block88.out
+ create mode 100644 15323593-SPD-block89.out
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   d3cf66c4f8..2bd126e03a  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15323545)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15323545
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-01:03:02
+CPU Efficiency: 64.63% of 4-17:01:20 core-walltime
+Job Wall-clock time: 03:31:55
+Memory Utilized: 14.54 GB
+Memory Efficiency: 90.90% of 16.00 GB
+
+*****************************************************************************
+
