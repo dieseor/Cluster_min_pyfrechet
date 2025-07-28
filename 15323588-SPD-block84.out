@@ -106,4 +106,360 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  46%|████▋     | 37/80 [1:11:50<2:06:04, 175.91s/it]Percentage of tasks completed::  48%|████▊     | 38/80 [1:12:03<1:28:49, 126.89s/it]Percentage of tasks completed::  49%|████▉     | 39/80 [1:12:08<1:01:50, 90.49s/it] Percentage of tasks completed::  50%|█████     | 40/80 [1:12:48<50:07, 75.19s/it]  /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  51%|█████▏    | 41/80 [1:20:23<2:02:59, 189.23s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:21:37<1:38:00, 154.75s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:22:49<1:20:09, 129.99s/it]Percentage of tasks completed::  55%|█████▌    | 44/80 [1:23:09<58:04, 96.78s/it]   Percentage of tasks completed::  56%|█████▋    | 45/80 [1:23:53<47:17, 81.07s/it]Percentage of tasks completed::  57%|█████▊    | 46/80 [1:24:19<36:30, 64.41s/it]Percentage of tasks completed::  59%|█████▉    | 47/80 [1:26:31<46:41, 84.91s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:27:39<42:31, 79.72s/it]Percentage of tasks completed::  61%|██████▏   | 49/80 [1:38:09<2:06:26, 244.74s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:38:41<1:30:32, 181.10s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:39:31<1:08:31, 141.78s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:39:42<47:48, 102.44s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [1:46:55<1:30:41, 201.54s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:48:38<1:14:29, 171.92s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [1:56:22<1:48:11, 259.65s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:58:55<1:31:01, 227.58s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [2:02:21<1:24:45, 221.11s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [2:03:54<1:07:00, 182.74s/it][Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 123.9min remaining: 47.0min
-Percentage of tasks completed::  74%|███████▍  | 59/80 [2:20:28<2:29:11, 426.27s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:21:27<1:45:18, 315.90s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:44:14<3:19:53, 631.22s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:45:06<2:17:15, 457.55s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:45:56<1:34:58, 335.23s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:46:37<1:05:53, 247.07s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:47:33<47:26, 189.79s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:48:00<32:51, 140.82s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:49:04<25:30, 117.75s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [2:50:41<22:20, 111.69s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:53:50<24:40, 134.63s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:57:05<25:28, 152.88s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:02:12<29:51, 199.03s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:03:02<20:35, 154.43s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:08:27<23:59, 205.61s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:11:08<19:13, 192.30s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:20:20<25:00, 300.04s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:22:02<16:02, 240.58s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:27:44<13:32, 270.98s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:27:47<06:21, 190.74s/it]
+Percentage of tasks completed::  74%|███████▍  | 59/80 [2:20:28<2:29:11, 426.27s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:21:27<1:45:18, 315.90s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:44:14<3:19:53, 631.22s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:45:06<2:17:15, 457.55s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:45:56<1:34:58, 335.23s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:46:37<1:05:53, 247.07s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:47:33<47:26, 189.79s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:48:00<32:51, 140.82s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:49:04<25:30, 117.75s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [2:50:41<22:20, 111.69s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:53:50<24:40, 134.63s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:57:05<25:28, 152.88s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [3:02:12<29:51, 199.03s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [3:03:02<20:35, 154.43s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:08:27<23:59, 205.61s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:11:08<19:13, 192.30s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:20:20<25:00, 300.04s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:22:02<16:02, 240.58s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:27:44<13:32, 270.98s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:27:47<06:21, 190.74s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:37:23<05:06, 306.20s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:37:31<00:00, 216.73s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 217.5min finished
+Percentage of tasks completed:: 100%|██████████| 80/80 [3:37:31<00:00, 163.14s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   15323546-SPD-block72.out
+	modified:   15323588-SPD-block84.out
+	modified:   15323589-SPD-block85.out
+	modified:   15323590-SPD-block86.out
+	modified:   15323591-SPD-block87.out
+	modified:   15323592-SPD-block88.out
+	modified:   15323593-SPD-block89.out
+	modified:   simulations_SPD/results/SPD_samp831_N500_df5_block_84_results.npy
+	modified:   simulations_SPD/results/SPD_samp835_N200_df5_block_84_results.npy
+	modified:   simulations_SPD/results/SPD_samp836_N200_df5_block_84_results.npy
+	modified:   simulations_SPD/results/SPD_samp843_N200_df5_block_85_results.npy
+	modified:   simulations_SPD/results/SPD_samp843_N500_df15_block_85_results.npy
+	modified:   simulations_SPD/results/SPD_samp846_N500_df15_block_85_results.npy
+	modified:   simulations_SPD/results/SPD_samp846_N500_df5_block_85_results.npy
+	modified:   simulations_SPD/results/SPD_samp847_N200_df5_block_85_results.npy
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	simulations_SPD/results/SPD_samp851_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp851_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp851_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp851_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp851_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp851_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp852_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp852_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp852_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp852_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp852_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp852_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp853_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp853_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp853_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp853_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp853_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp853_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp854_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp854_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp854_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp854_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp854_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp854_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N50_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp855_N50_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N50_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp856_N50_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N50_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp857_N50_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N50_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp858_N50_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N500_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N500_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N50_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp859_N50_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp860_N100_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp860_N100_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp860_N200_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp860_N200_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp860_N50_df15_block_86_results.npy
+	simulations_SPD/results/SPD_samp860_N50_df5_block_86_results.npy
+	simulations_SPD/results/SPD_samp861_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp861_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp862_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp863_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp864_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp865_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp866_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp867_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N500_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N500_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp868_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp869_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp869_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp869_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp869_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp869_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp869_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp870_N100_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp870_N100_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp870_N200_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp870_N200_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp870_N50_df15_block_87_results.npy
+	simulations_SPD/results/SPD_samp870_N50_df5_block_87_results.npy
+	simulations_SPD/results/SPD_samp871_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp871_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp872_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp873_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp874_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp875_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp876_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp877_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N500_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N500_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp878_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp879_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp879_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp879_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp879_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp879_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp879_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp880_N100_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp880_N100_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp880_N200_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp880_N200_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp880_N50_df15_block_88_results.npy
+	simulations_SPD/results/SPD_samp880_N50_df5_block_88_results.npy
+	simulations_SPD/results/SPD_samp881_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp881_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp882_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp883_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp884_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp885_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp886_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp887_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp888_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N500_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N500_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp889_N50_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp890_N100_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp890_N100_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp890_N200_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp890_N200_df5_block_89_results.npy
+	simulations_SPD/results/SPD_samp890_N50_df15_block_89_results.npy
+	simulations_SPD/results/SPD_samp890_N50_df5_block_89_results.npy
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15323588)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15323588
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-04:43:00
+CPU Efficiency: 66.02% of 4-20:12:16 core-walltime
+Job Wall-clock time: 03:37:53
+Memory Utilized: 14.87 GB
+Memory Efficiency: 92.91% of 16.00 GB
+
+*****************************************************************************
+
