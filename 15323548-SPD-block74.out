@@ -82,3 +82,32 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  76%|███████▋  | 61/80 [2:32:12<3:14:34, 614.47s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:32:53<2:12:44, 442.46s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:33:04<1:28:41, 313.05s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:33:16<59:24, 222.77s/it]  Percentage of tasks completed::  81%|████████▏ | 65/80 [2:33:59<42:13, 168.93s/it]Percentage of tasks completed::  82%|████████▎ | 66/80 [2:34:51<31:14, 133.90s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:34:58<20:42, 95.61s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:35:31<15:22, 76.87s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:41:01<28:00, 152.81s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:41:07<18:08, 108.82s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:47:13<27:54, 186.10s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:49:17<22:19, 167.47s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:54:42<25:02, 214.59s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:54:47<15:09, 151.59s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:05:21<24:42, 296.44s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:07:19<16:11, 242.91s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:13:15<13:50, 276.81s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:15:50<08:00, 240.23s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:23:51<05:12, 312.52s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:24:19<00:00, 227.10s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 204.3min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:24:19<00:00, 153.24s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main ecaf47220f] Simulations SPD block 74
+ 19 files changed, 219 insertions(+), 15 deletions(-)
+ create mode 100644 15323588-SPD-block84.out
+ create mode 100644 simulations_SPD/results/SPD_samp998_N500_df5_block_100_results.npy
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   4cb9168662..ecaf47220f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15323548)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15323548
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-22:35:00
+CPU Efficiency: 64.67% of 4-13:08:16 core-walltime
+Job Wall-clock time: 03:24:38
+Memory Utilized: 14.73 GB
+Memory Efficiency: 92.06% of 16.00 GB
+
+*****************************************************************************
+
