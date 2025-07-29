@@ -71,4 +71,36 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  51%|█████▏    | 41/80 [1:18:13<1:58:29, 182.30s/it]Percentage of tasks completed::  52%|█████▎    | 42/80 [1:19:49<1:39:07, 156.51s/it]Percentage of tasks completed::  54%|█████▍    | 43/80 [1:21:34<1:27:03, 141.19s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  55%|█████▌    | 44/80 [1:21:51<1:02:16, 103.79s/it]Percentage of tasks completed::  56%|█████▋    | 45/80 [1:22:40<51:00, 87.44s/it]   Percentage of tasks completed::  57%|█████▊    | 46/80 [1:24:18<51:18, 90.55s/it]Percentage of tasks completed::  59%|█████▉    | 47/80 [1:24:24<35:46, 65.04s/it]Percentage of tasks completed::  60%|██████    | 48/80 [1:24:56<29:25, 55.16s/it]Percentage of tasks completed::  61%|██████▏   | 49/80 [1:33:11<1:36:47, 187.33s/it]Percentage of tasks completed::  62%|██████▎   | 50/80 [1:34:41<1:18:59, 157.99s/it]Percentage of tasks completed::  64%|██████▍   | 51/80 [1:35:42<1:02:21, 129.01s/it]Percentage of tasks completed::  65%|██████▌   | 52/80 [1:36:25<48:04, 103.01s/it]  Percentage of tasks completed::  66%|██████▋   | 53/80 [1:44:19<1:36:28, 214.38s/it]Percentage of tasks completed::  68%|██████▊   | 54/80 [1:46:44<1:23:51, 193.52s/it]Percentage of tasks completed::  69%|██████▉   | 55/80 [1:54:43<1:56:19, 279.19s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:56:28<1:30:46, 226.94s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:57:17<1:06:33, 173.64s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [1:58:37<53:19, 145.44s/it]  [Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 118.6min remaining: 45.0min
-Percentage of tasks completed::  74%|███████▍  | 59/80 [2:16:50<2:30:22, 429.64s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:18:45<1:51:49, 335.45s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:41:20<3:23:01, 641.14s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:42:23<2:20:20, 467.79s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:42:34<1:33:40, 330.64s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:42:37<1:02:01, 232.56s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:42:38<40:46, 163.12s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:42:57<27:57, 119.81s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:44:04<22:30, 103.85s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [2:44:19<15:26, 77.19s/it] Percentage of tasks completed::  86%|████████▋ | 69/80 [2:48:20<23:11, 126.51s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:49:06<17:01, 102.16s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:57:16<32:48, 218.72s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:59:09<24:56, 187.00s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:03:18<23:57, 205.40s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:03:32<14:47, 147.96s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:14:22<24:53, 298.64s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:14:41<14:19, 214.86s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:21:52<13:58, 279.59s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:23:10<07:18, 219.08s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:31:20<05:00, 300.34s/it]
+Percentage of tasks completed::  74%|███████▍  | 59/80 [2:16:50<2:30:22, 429.64s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:18:45<1:51:49, 335.45s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:41:20<3:23:01, 641.14s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:42:23<2:20:20, 467.79s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:42:34<1:33:40, 330.64s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:42:37<1:02:01, 232.56s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:42:38<40:46, 163.12s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:42:57<27:57, 119.81s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:44:04<22:30, 103.85s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [2:44:19<15:26, 77.19s/it] Percentage of tasks completed::  86%|████████▋ | 69/80 [2:48:20<23:11, 126.51s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:49:06<17:01, 102.16s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:57:16<32:48, 218.72s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:59:09<24:56, 187.00s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [3:03:18<23:57, 205.40s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:03:32<14:47, 147.96s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:14:22<24:53, 298.64s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:14:41<14:19, 214.86s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:21:52<13:58, 279.59s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:23:10<07:18, 219.08s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:31:20<05:00, 300.34s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:33:03<00:00, 241.29s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 213.1min finished
+Percentage of tasks completed:: 100%|██████████| 80/80 [3:33:03<00:00, 159.80s/it]
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+/var/spool/slurmd/job15337963/slurm_script: line 8: 1996948 Bus error               (core dumped) git commit -m "Simulations SPD block $block"
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   4e633d3ee2..cd223b21a9  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15337963)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15337963
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-02:27:33
+CPU Efficiency: 65.48% of 4-17:42:56 core-walltime
+Job Wall-clock time: 03:33:13
+Memory Utilized: 14.75 GB
+Memory Efficiency: 92.20% of 16.00 GB
+
+*****************************************************************************
+
