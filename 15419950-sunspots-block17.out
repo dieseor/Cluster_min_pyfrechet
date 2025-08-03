@@ -55,3 +55,33 @@ Best parameters:
 {'min_split_size': 1, 'mtry': 1, 'cv_error': 0.00573481973139132}
 Isotropic response and predictors, cycle 17 time: 31.0 minutes
 Sample saved to sunspots/results/new_results_cycle_17.npy
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main dcbbbc1b5f] Sunspots simulations block 17
+ 7 files changed, 45 insertions(+)
+ create mode 100644 sunspots/results/new_results_cycle_17.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   a5bc22dc47..dcbbbc1b5f  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15419950)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15419950
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 17:52:20
+CPU Efficiency: 96.43% of 18:32:00 core-walltime
+Job Wall-clock time: 00:34:45
+Memory Utilized: 14.08 GB
+Memory Efficiency: 88.02% of 16.00 GB
+
+*****************************************************************************
+

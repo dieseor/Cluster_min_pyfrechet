@@ -53,3 +53,4 @@ Params: min_split_size=10, mtry=1, CV error=0.0094
 
 Best parameters:
 {'min_split_size': 1, 'mtry': 1, 'cv_error': 0.005781842323085077}
+/var/spool/slurmd/job15419951/slurm_script: line 6: 3846848 Killed                  python sunspots/iso_sunspots_cycles.py $block
