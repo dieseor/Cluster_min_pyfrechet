@@ -53,3 +53,5 @@ Params: min_split_size=10, mtry=1, CV error=0.0095
 
 Best parameters:
 {'min_split_size': 1, 'mtry': 1, 'cv_error': 0.00537880438777622}
+Isotropic response and predictors, cycle 15 time: 24.9 minutes
+Sample saved to sunspots/results/new_results_cycle_15.npy
