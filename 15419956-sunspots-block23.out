@@ -54,3 +54,12 @@ Params: min_split_size=10, mtry=1, CV error=0.0104
 Best parameters:
 {'min_split_size': 1, 'mtry': 1, 'cv_error': 0.008165741518011527}
 /var/spool/slurmd/job15419956/slurm_script: line 6: 1748851 Killed                  python sunspots/iso_sunspots_cycles.py $block
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 343cacef80] Sunspots simulations block 23
+ 2 files changed, 16 insertions(+)
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   335aca82d0..343cacef80  main -> main
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=15419956.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

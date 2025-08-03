@@ -49,3 +49,8 @@ Processing cycle 21
 Processing sunspots_births_21_deaths.csv...
 Params: min_split_size=1, mtry=1, CV error=0.0080
 Params: min_split_size=5, mtry=1, CV error=0.0085
+Params: min_split_size=10, mtry=1, CV error=0.0097
+
+Best parameters:
+{'min_split_size': 1, 'mtry': 1, 'cv_error': 0.007985963730657603}
+/var/spool/slurmd/job15419954/slurm_script: line 6: 866901 Killed                  python sunspots/iso_sunspots_cycles.py $block
