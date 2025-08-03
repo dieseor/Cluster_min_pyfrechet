@@ -55,3 +55,39 @@ Best parameters:
 {'min_split_size': 1, 'mtry': 1, 'cv_error': 0.006223120874703424}
 Isotropic response and predictors, cycle 16 time: 21.9 minutes
 Sample saved to sunspots/results/new_results_cycle_16.npy
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main f1144636e8] Sunspots simulations block 16
+ 8 files changed, 66 insertions(+)
+ create mode 100644 sunspots/results/new_results_cycle_16.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   d7ba2de32a..f1144636e8  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15419949)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15419949
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 12:37:18
+CPU Efficiency: 96.07% of 13:08:16 core-walltime
+Job Wall-clock time: 00:24:38
+Memory Utilized: 9.80 GB
+Memory Efficiency: 61.23% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
