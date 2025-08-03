@@ -49,3 +49,7 @@ Processing cycle 15
 Processing sunspots_births_15_deaths.csv...
 Params: min_split_size=1, mtry=1, CV error=0.0054
 Params: min_split_size=5, mtry=1, CV error=0.0069
+Params: min_split_size=10, mtry=1, CV error=0.0095
+
+Best parameters:
+{'min_split_size': 1, 'mtry': 1, 'cv_error': 0.00537880438777622}
