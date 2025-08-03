@@ -1,4 +1,4 @@
-slurmstepd: info: Setting TMPDIR to /scratch/15419954. Previous errors about TMPDIR can be discarded
+slurmstepd: info: Setting TMPDIR to /scratch/15420785. Previous errors about TMPDIR can be discarded
 cesga/2020 unloaded
         Preparing the environment for use of the CESGA 2020 software stack.
         Please rebuild modules cache: module --ignore-cache avail
@@ -48,18 +48,3 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Processing cycle 21
 Processing sunspots_births_21_deaths.csv...
 Params: min_split_size=1, mtry=1, CV error=0.0080
-Params: min_split_size=5, mtry=1, CV error=0.0085
-Params: min_split_size=10, mtry=1, CV error=0.0097
-
-Best parameters:
-{'min_split_size': 1, 'mtry': 1, 'cv_error': 0.007985963730657603}
-/var/spool/slurmd/job15419954/slurm_script: line 6: 866901 Killed                  python sunspots/iso_sunspots_cycles.py $block
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[main 38547a158b] Sunspots simulations block 21
- 2 files changed, 16 insertions(+)
-remote: This repository moved. Please use the new location:        
-remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
-To github.com:Diegol314/Cluster_min_pyfrechet.git
-   343cacef80..38547a158b  main -> main
-slurmstepd: error: Detected 1 oom-kill event(s) in StepId=15419954.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
