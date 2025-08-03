@@ -55,3 +55,46 @@ Best parameters:
 {'min_split_size': 1, 'mtry': 1, 'cv_error': 0.005781842323085077}
 Isotropic response and predictors, cycle 18 time: 34.8 minutes
 Sample saved to sunspots/results/new_results_cycle_18.npy
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 3260891b84] Sunspots simulations block 18
+ 9 files changed, 372 insertions(+)
+ create mode 100644 15420677-sunspots-block17.out
+ create mode 100644 15420682-sunspots-block18.out
+ create mode 100644 15420752-sunspots-block19.out
+ create mode 100644 15420783-sunspots-block20.out
+ create mode 100644 15420785-sunspots-block21.out
+ create mode 100644 15420787-sunspots-block22.out
+ create mode 100644 15420788-sunspots-block23.out
+ create mode 100644 sunspots/results/new_results_cycle_18.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   38547a158b..3260891b84  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 15420682)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 15420682
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 20:04:07
+CPU Efficiency: 97.27% of 20:37:52 core-walltime
+Job Wall-clock time: 00:38:41
+Memory Utilized: 16.11 GB
+Memory Efficiency: 61.97% of 26.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

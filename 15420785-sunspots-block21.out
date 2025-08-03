@@ -48,3 +48,4 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
 Processing cycle 21
 Processing sunspots_births_21_deaths.csv...
 Params: min_split_size=1, mtry=1, CV error=0.0080
+Params: min_split_size=5, mtry=1, CV error=0.0085

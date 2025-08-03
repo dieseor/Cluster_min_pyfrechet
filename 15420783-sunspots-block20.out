@@ -49,3 +49,9 @@ Processing cycle 20
 Processing sunspots_births_20_deaths.csv...
 Params: min_split_size=1, mtry=1, CV error=0.0058
 Params: min_split_size=5, mtry=1, CV error=0.0071
+Params: min_split_size=10, mtry=1, CV error=0.0091
+
+Best parameters:
+{'min_split_size': 1, 'mtry': 1, 'cv_error': 0.005834507566169945}
+Isotropic response and predictors, cycle 20 time: 37.2 minutes
+Sample saved to sunspots/results/new_results_cycle_20.npy
