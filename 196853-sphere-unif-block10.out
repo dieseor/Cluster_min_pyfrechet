@@ -69,3 +69,35 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  68%|██████▊   | 137/200 [1:01:54<31:21, 29.87s/it]Percentage of tasks completed::  69%|██████▉   | 138/200 [1:02:02<23:49, 23.06s/it]Percentage of tasks completed::  70%|██████▉   | 139/200 [1:03:23<41:23, 40.72s/it]Percentage of tasks completed::  70%|███████   | 140/200 [1:03:27<29:36, 29.60s/it]Percentage of tasks completed::  70%|███████   | 141/200 [1:03:54<28:10, 28.65s/it]Percentage of tasks completed::  71%|███████   | 142/200 [1:04:27<29:01, 30.02s/it]Percentage of tasks completed::  72%|███████▏  | 143/200 [1:04:47<25:48, 27.18s/it]Percentage of tasks completed::  72%|███████▏  | 144/200 [1:04:57<20:32, 22.02s/it]Percentage of tasks completed::  73%|███████▎  | 146/200 [1:05:10<13:15, 14.73s/it]Percentage of tasks completed::  74%|███████▎  | 147/200 [1:07:43<43:17, 49.01s/it]Percentage of tasks completed::  74%|███████▍  | 148/200 [1:07:47<32:18, 37.28s/it]Percentage of tasks completed::  74%|███████▍  | 149/200 [1:07:57<25:17, 29.76s/it]Percentage of tasks completed::  75%|███████▌  | 150/200 [1:07:57<17:58, 21.57s/it]Percentage of tasks completed::  76%|███████▌  | 151/200 [1:08:16<17:01, 20.84s/it]Percentage of tasks completed::  76%|███████▌  | 152/200 [1:08:20<12:49, 16.02s/it]Percentage of tasks completed::  76%|███████▋  | 153/200 [1:10:54<44:04, 56.26s/it]Percentage of tasks completed::  77%|███████▋  | 154/200 [1:10:55<30:45, 40.12s/it]Percentage of tasks completed::  78%|███████▊  | 155/200 [1:11:03<22:47, 30.39s/it]Percentage of tasks completed::  78%|███████▊  | 156/200 [1:11:12<17:40, 24.09s/it]Percentage of tasks completed::  78%|███████▊  | 157/200 [1:11:13<12:26, 17.36s/it]Percentage of tasks completed::  79%|███████▉  | 158/200 [1:11:33<12:43, 18.19s/it]Percentage of tasks completed::  80%|███████▉  | 159/200 [1:12:31<20:33, 30.10s/it]Percentage of tasks completed::  80%|████████  | 160/200 [1:12:35<14:45, 22.13s/it]Percentage of tasks completed::  80%|████████  | 161/200 [1:12:36<10:14, 15.75s/it]Percentage of tasks completed::  81%|████████  | 162/200 [1:13:12<13:47, 21.78s/it]Percentage of tasks completed::  82%|████████▏ | 163/200 [1:15:12<31:42, 51.41s/it]Percentage of tasks completed::  82%|████████▏ | 164/200 [1:15:27<24:15, 40.43s/it]Percentage of tasks completed::  82%|████████▎ | 165/200 [1:15:37<18:13, 31.25s/it]Percentage of tasks completed::  83%|████████▎ | 166/200 [1:15:39<12:50, 22.66s/it]Percentage of tasks completed::  84%|████████▎ | 167/200 [1:15:55<11:18, 20.57s/it]Percentage of tasks completed::  84%|████████▍ | 168/200 [1:16:25<12:23, 23.22s/it]Percentage of tasks completed::  84%|████████▍ | 169/200 [1:16:30<09:12, 17.82s/it]Percentage of tasks completed::  85%|████████▌ | 170/200 [1:17:13<12:39, 25.32s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:18:42<21:34, 44.64s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:18:44<14:47, 31.68s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:18:54<11:21, 25.23s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:18:57<08:01, 18.52s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:19:28<09:16, 22.25s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:19:56<09:38, 24.11s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:20:06<07:38, 19.95s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:20:07<05:11, 14.15s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:22:38<19:21, 55.32s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:23:05<15:32, 46.64s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:23:10<10:51, 34.29s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:23:34<09:21, 31.17s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:25:26<15:41, 55.37s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:25:29<10:35, 39.73s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:27:10<14:32, 58.14s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:27:15<09:49, 42.13s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:28:25<10:56, 50.48s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:28:32<07:29, 37.42s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:31:01<12:59, 70.84s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:31:17<09:03, 54.36s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:33:16<11:04, 73.78s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:33:25<07:14, 54.29s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:35:26<08:40, 74.42s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:35:57<06:07, 61.24s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:37:44<06:15, 75.14s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:37:46<03:33, 53.29s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:39:33<03:27, 69.15s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:39:39<01:40, 50.45s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:41:41<01:11, 71.74s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:41:50<00:00, 52.83s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 101.8min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:41:50<00:00, 30.55s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main be6b473aab] Simulations Sphere block 10
+ 7 files changed, 91 insertions(+), 3 deletions(-)
+ create mode 100644 196874-sphere-unif-block31.out
+ create mode 100644 simulations_sphere/results_unif/sphere_samp250_N500_kappa200_block_10_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp250_N500_kappa50_block_10_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   80ad06a937..be6b473aab  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 196853)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 196853
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-17:33:19
+CPU Efficiency: 76.26% of 2-06:29:20 core-walltime
+Job Wall-clock time: 01:42:10
+Memory Utilized: 14.83 GB
+Memory Efficiency: 92.69% of 16.00 GB
+
+*****************************************************************************
+
