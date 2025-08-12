@@ -1,0 +1,7 @@
+slurmstepd: info: Setting TMPDIR to /scratch/196876. Previous errors about TMPDIR can be discarded
+cesga/2020 unloaded
+        Preparing the environment for use of the CESGA 2020 software stack.
+        Please rebuild modules cache: module --ignore-cache avail
+     
+cesga/2020 loaded
+python/3.9.9 loaded

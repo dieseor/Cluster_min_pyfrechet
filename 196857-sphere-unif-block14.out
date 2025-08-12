@@ -65,3 +65,34 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  85%|████████▌ | 170/200 [1:17:00<07:00, 14.01s/it]Percentage of tasks completed::  86%|████████▌ | 171/200 [1:18:59<21:59, 45.49s/it]Percentage of tasks completed::  86%|████████▌ | 172/200 [1:19:25<18:27, 39.56s/it]Percentage of tasks completed::  86%|████████▋ | 173/200 [1:19:25<12:31, 27.85s/it]Percentage of tasks completed::  87%|████████▋ | 174/200 [1:19:36<09:48, 22.65s/it]Percentage of tasks completed::  88%|████████▊ | 175/200 [1:20:09<10:48, 25.95s/it]Percentage of tasks completed::  88%|████████▊ | 176/200 [1:20:19<08:25, 21.05s/it]Percentage of tasks completed::  88%|████████▊ | 177/200 [1:20:21<05:50, 15.26s/it]Percentage of tasks completed::  89%|████████▉ | 178/200 [1:20:21<03:55, 10.73s/it]Percentage of tasks completed::  90%|████████▉ | 179/200 [1:23:25<21:56, 62.71s/it]Percentage of tasks completed::  90%|█████████ | 180/200 [1:23:37<15:51, 47.56s/it]Percentage of tasks completed::  90%|█████████ | 181/200 [1:23:47<11:30, 36.35s/it]Percentage of tasks completed::  91%|█████████ | 182/200 [1:23:54<08:14, 27.48s/it]Percentage of tasks completed::  92%|█████████▏| 183/200 [1:26:26<18:22, 64.86s/it]Percentage of tasks completed::  92%|█████████▏| 184/200 [1:26:27<12:10, 45.65s/it]Percentage of tasks completed::  92%|█████████▎| 185/200 [1:27:59<14:52, 59.48s/it]Percentage of tasks completed::  93%|█████████▎| 186/200 [1:28:04<10:05, 43.28s/it]Percentage of tasks completed::  94%|█████████▎| 187/200 [1:28:43<09:06, 42.06s/it]Percentage of tasks completed::  94%|█████████▍| 188/200 [1:29:18<07:59, 39.93s/it]Percentage of tasks completed::  94%|█████████▍| 189/200 [1:31:24<12:01, 65.63s/it]Percentage of tasks completed::  95%|█████████▌| 190/200 [1:31:49<08:53, 53.37s/it]Percentage of tasks completed::  96%|█████████▌| 191/200 [1:34:04<11:41, 77.95s/it]Percentage of tasks completed::  96%|█████████▌| 192/200 [1:34:17<07:46, 58.35s/it]Percentage of tasks completed::  96%|█████████▋| 193/200 [1:35:53<08:07, 69.70s/it]Percentage of tasks completed::  97%|█████████▋| 194/200 [1:35:54<04:55, 49.23s/it]Percentage of tasks completed::  98%|█████████▊| 195/200 [1:38:02<06:03, 72.66s/it]Percentage of tasks completed::  98%|█████████▊| 196/200 [1:38:12<03:35, 53.87s/it]Percentage of tasks completed::  98%|█████████▊| 197/200 [1:39:52<03:23, 67.71s/it]Percentage of tasks completed::  99%|█████████▉| 198/200 [1:40:01<01:40, 50.30s/it]Percentage of tasks completed:: 100%|█████████▉| 199/200 [1:42:01<01:11, 71.21s/it]Percentage of tasks completed:: 100%|██████████| 200/200 [1:42:03<00:00, 50.47s/it][Parallel(n_jobs=-1)]: Done 200 out of 200 | elapsed: 102.1min finished
 Percentage of tasks completed:: 100%|██████████| 200/200 [1:42:03<00:00, 30.62s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main d1f5d68246] Simulations Sphere block 14
+ 4 files changed, 36 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_sphere/results_unif/sphere_samp350_N500_kappa200_block_14_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp350_N500_kappa50_block_14_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   be6b473aab..d1f5d68246  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 196857)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 196857
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 1-17:43:09
+CPU Efficiency: 76.46% of 2-06:33:36 core-walltime
+Job Wall-clock time: 01:42:18
+Memory Utilized: 14.69 GB
+Memory Efficiency: 91.84% of 16.00 GB
+
+*****************************************************************************
+
