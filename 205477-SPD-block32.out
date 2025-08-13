@@ -90,3 +90,32 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 4bbff7eeb6d294ebe8724e0253bdbbf4c8bb17dd but expected 7c10861796dcb927ef7190e48c6b70df1ce8a675
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205477)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205477
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 03:57:53
+CPU Efficiency: 78.39% of 05:03:28 core-walltime
+Job Wall-clock time: 00:09:29
+Memory Utilized: 5.22 GB
+Memory Efficiency: 32.62% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
