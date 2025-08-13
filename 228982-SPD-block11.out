@@ -78,3 +78,59 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  90%|█████████ | 72/80 [2:45:06<23:48, 178.57s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:49:44<24:17, 208.28s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:51:40<18:03, 180.64s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:00:22<23:36, 283.20s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:00:44<13:39, 204.85s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:05:28<11:25, 228.44s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:08:04<06:53, 206.78s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:15:13<04:33, 273.40s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:19:01<00:00, 259.89s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 199.0min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:19:01<00:00, 149.27s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 1549e3f495] Simulations SPD block 11
+ 36 files changed, 143 insertions(+), 6 deletions(-)
+ create mode 100644 228993-SPD-block22.out
+ create mode 100644 228994-SPD-block23.out
+ create mode 100644 simulations_SPD/results_unif/SPD_samp110_N500_df5_block_11_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp118_N500_df5_block_12_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp129_N500_df15_block_13_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp135_N500_df15_block_14_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp153_N500_df5_block_16_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp161_N500_df15_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp161_N500_df5_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp162_N500_df15_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp162_N500_df5_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp163_N500_df15_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp163_N500_df5_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp164_N500_df5_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp181_N50_df5_block_19_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp182_N50_df5_block_19_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp183_N50_df15_block_19_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp183_N50_df5_block_19_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp184_N50_df15_block_19_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp191_N50_df15_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp191_N50_df5_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp192_N50_df15_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp192_N50_df5_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp193_N50_df15_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp193_N50_df5_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp194_N50_df15_block_20_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp194_N50_df5_block_20_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   cd464c35d0..1549e3f495  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 228982)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 228982
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-20:26:52
+CPU Efficiency: 64.42% of 4-10:15:28 core-walltime
+Job Wall-clock time: 03:19:14
+Memory Utilized: 14.62 GB
+Memory Efficiency: 91.35% of 16.00 GB
+
+*****************************************************************************
+
