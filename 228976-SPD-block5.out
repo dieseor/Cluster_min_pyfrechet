@@ -78,3 +78,74 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  86%|████████▋ | 69/80 [2:42:54<27:57, 152.47s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:44:20<22:05, 132.54s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:49:33<27:59, 186.62s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:52:29<24:29, 183.66s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:56:24<23:13, 199.10s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:56:26<13:58, 139.77s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:06:57<23:55, 287.10s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:08:11<14:53, 223.36s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:13:28<12:34, 251.40s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:15:57<07:21, 220.81s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:22:53<04:39, 279.22s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:24:05<00:00, 216.96s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 204.1min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:24:05<00:00, 153.07s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 9fd30b59e2] Simulations SPD block 5
+ 55 files changed, 1236 insertions(+), 12 deletions(-)
+ create mode 100644 228989-SPD-block18.out
+ create mode 100644 simulations_SPD/results_unif/SPD_samp107_N500_df5_block_11_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp108_N500_df15_block_11_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp108_N500_df5_block_11_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp115_N500_df15_block_12_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp115_N500_df5_block_12_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp116_N500_df15_block_12_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp116_N500_df5_block_12_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp126_N500_df15_block_13_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp126_N500_df5_block_13_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp127_N500_df15_block_13_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp127_N500_df5_block_13_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp170_N200_df5_block_17_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp171_N50_df15_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp171_N50_df5_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp172_N50_df15_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp172_N50_df5_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp173_N50_df15_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp173_N50_df5_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp174_N50_df15_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp174_N50_df5_block_18_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp29_N500_df15_block_3_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp29_N500_df5_block_3_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp39_N500_df15_block_4_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp39_N500_df5_block_4_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp49_N500_df15_block_5_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp49_N500_df5_block_5_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp50_N500_df15_block_5_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp50_N500_df5_block_5_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp58_N500_df5_block_6_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp59_N500_df15_block_6_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp59_N500_df5_block_6_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp68_N500_df15_block_7_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp68_N500_df5_block_7_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp69_N500_df15_block_7_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp69_N500_df5_block_7_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp78_N500_df15_block_8_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp78_N500_df5_block_8_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp88_N500_df15_block_9_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp88_N500_df5_block_9_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp96_N500_df15_block_10_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp96_N500_df5_block_10_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   ce4105bc92..9fd30b59e2  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 228976)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 228976
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-23:23:49
+CPU Efficiency: 65.52% of 4-12:58:40 core-walltime
+Job Wall-clock time: 03:24:20
+Memory Utilized: 14.54 GB
+Memory Efficiency: 90.88% of 16.00 GB
+
+*****************************************************************************
+
