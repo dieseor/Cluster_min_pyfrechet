@@ -54,8 +54,8 @@ def save_simulated_samples(n_samples, sample_sizes, n_predictors):
                 
                 X, Y = simulate_data(X_design=X_design, dim = dim)
                 
-                # Define the filename for saving
-                filename = os.path.join(save_folder, f'euc_samp{k}_dim_{dim}_N{sample_size}.pkl')
+                # Define the filename for saving with block system (25 samples per block)
+                filename = os.path.join(save_folder, f'euc_samp{k}_dim_{dim}_N{sample_size}_block_{(k-1) // 125 + 1}.pkl')
                 
                 # Save the sample using pickle
                 with open(filename, 'wb') as f:
@@ -66,10 +66,10 @@ dims = [1, 5, 10]  # Different dimensions for the response vector
 # Set parameters for the regression scenario
 n_predictors = 3  # Number of predictors
 
-sample_sizes = [100]  # Different sample sizes
+sample_sizes = [50, 100, 200, 500]  # Different sample sizes
 
 # --- Saving the simulated regression samples ---
-n_samples = 500  # Number of samples to simulate and save
+n_samples = 1000  # Number of samples to simulate and save
 
 # Save the simulated data to files
 save_simulated_samples(n_samples, sample_sizes, n_predictors)

@@ -59,6 +59,12 @@ def tqdm_joblib(tqdm_object):
 # Main task
 def task(file) -> None:
     """Processes a single file for hyperboloid data regression."""
+    # Check if results file already exists
+    results_filename = os.path.join(os.getcwd(), 'simulations_H2', 'results', f'{file[:-4]}' + '_results.npy')
+    if os.path.exists(results_filename):
+        print(f"Results file already exists for {file}, skipping...")
+        return
+    
     with open(os.path.join(os.getcwd(), 'simulations_H2', 'data', file), 'rb') as f:
         sample = pd.read_csv(f)
         

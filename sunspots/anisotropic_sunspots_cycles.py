@@ -415,7 +415,6 @@ def task(cyc):
     results['area_iso_euc'] = [area_pred_ball(M, r, 100000) for r in euc_oob_quantile]
 
 
-
     # Save
     output_path = f'sunspots/results/results_cycle_{cyc}.npy'
     np.save(output_path, results)

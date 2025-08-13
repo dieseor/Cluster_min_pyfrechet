@@ -117,28 +117,24 @@ def task(file):
 
 ############################################################################################################
     # TYPE I COVERAGE RESULTS
-    n_estimations = 500
-    pb_i_cov = np.zeros(shape = (n_estimations, 3))
-    conf_i_cov = np.zeros(shape = (n_estimations, 3))
+    MC = 1000
+    type_i_filename = f'euc_type_i_N{N}_sigma{np.round(true_sigma, 1)}.pkl'
+    with open(os.path.join(os.getcwd(), 'simulations_euc', 'type_i_data', type_i_filename), 'rb') as f:
+        type_i_sample = pickle.load(f)
 
-    for estimation in range(n_estimations):
-        # Randomly select rows from the dataframe
-        new_X = 2*np.sqrt(5)*(np.random.beta(2, 2, (1, n_predictors)) - 1/2)
-        # Add a column of ones for the intercept (beta_0)
-        new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas=betas)
-        new_X = new_X.reshape(1, n_predictors)
+    # Use the pre-generated data
+    Xs = type_i_sample['X'].reshape(-1, 3)
+    new_ys = type_i_sample['Y']
 
-        # Predict the new observation
-        pb_new_pred = pb_forest.predict(new_X)
-        conf_new_pred = conf_forest.predict(new_X)
-
-        pb_i_cov[estimation, :] = (np.abs(pb_new_pred - new_y) <= oob_quantile)
-        conf_i_cov[estimation, :] = (np.abs(conf_new_pred - new_y) <= quantile)
-            
+    # Predict the new observations
+    conf_new_pred = conf_forest.predict(Xs.reshape(-1,3))
+    pb_new_pred = pb_forest.predict(Xs.reshape(-1,3))
+    #pb_new_pred = np.tile(pb_new_pred, (MC, 1))  # Repeat the prediction for MC samples
+    pb_i_cov = np.repeat(np.abs(pb_new_pred - new_ys.squeeze())[:, np.newaxis], 3, axis=1) <= np.tile(oob_quantile, (MC, 1))
+    conf_i_cov = np.repeat(np.abs(conf_new_pred - new_ys.squeeze())[:, np.newaxis], 3, axis=1) <= np.tile(quantile, (MC, 1))
 
 ############################################################################################################            
     # TYPE II COVERAGE RESULTS
-    MC = 1000
     #Generate observations to estimate the probability
     new_X = 2*np.sqrt(5)*(np.random.beta(2, 2, (MC, n_predictors)) - 1/2)
     new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas = betas)
@@ -151,26 +147,27 @@ def task(file):
 
 ############################################################################################################
     # TYPE III COVERAGE RESULTS
-    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
-    pb_iii_cov = np.zeros(shape = (n_estimations, 3))
-    conf_iii_cov = np.zeros(shape = (n_estimations, 3))
+    type_iii_filename = f'euc_type_iii_N{N}_sigma{np.round(true_sigma, 1)}.pkl'
+    with open(os.path.join(os.getcwd(), 'simulations_euc', 'type_iii_data', type_iii_filename), 'rb') as f:
+        type_iii_sample = pickle.load(f)
 
-    for estimation in range(n_estimations):
-        # Randomly select rows from the dataframe
-        new_X = np.repeat(q_25, n_predictors).reshape(1, n_predictors)
-        # Add a column of ones for the intercept (beta_0)
-        new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas=betas)
+    # Use the pre-generated data
+    Xs = type_iii_sample['X'].reshape(-1, 3)
+    new_ys = type_iii_sample['Y']
 
-        # Predict the new observation
-        pb_new_pred = pb_forest.predict(new_X)
-        conf_new_pred = conf_forest.predict(new_X)
+    # Predict the new observations
+    pb_new_pred = pb_forest.predict(Xs[0].reshape(-1,3))
+    conf_new_pred = conf_forest.predict(Xs[0].reshape(-1,3))
 
-        pb_iii_cov[estimation, :] = (np.abs(pb_new_pred - new_y) <= oob_quantile)
-        conf_iii_cov[estimation, :] = (np.abs(conf_new_pred - new_y) <= quantile)
+    #pb_new_pred = np.tile(pb_new_pred, (MC, 1))  # Repeat the prediction for MC samples
+    pb_iii_cov = np.repeat(np.abs(pb_new_pred - new_ys.squeeze())[:, np.newaxis], 3, axis=1) <= np.tile(oob_quantile, (MC, 1))
+    conf_iii_cov = np.repeat(np.abs(conf_new_pred - new_ys.squeeze())[:, np.newaxis], 3, axis=1) <= np.tile(quantile, (MC, 1))
+
 
 ############################################################################################################
     # TYPE IV COVERAGE RESULTS
     #Generate observations to estimate the probability
+    q_25 = 2*np.sqrt(5)*(beta(2,2).ppf(.25)-1/2)
     new_X = np.repeat(q_25, MC * n_predictors).reshape(MC, n_predictors)
     new_X, new_y = simulate_data(sigma = true_sigma, X_design=new_X, betas = betas)
 
@@ -216,4 +213,4 @@ file_list = list(filter(lambda file: file.endswith(f'block_{current_block}.pkl')
 total_files = len(file_list)
 
 with tqdm_joblib(tqdm(desc="Percentage of tasks completed:", total = total_files)) as progress_bar:
-    Parallel(n_jobs=-1, verbose=2)( delayed(task)(file) for file in file_list)
+    Parallel(n_jobs=11, verbose=2)( delayed(task)(file) for file in file_list)
