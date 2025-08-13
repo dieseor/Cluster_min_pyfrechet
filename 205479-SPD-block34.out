@@ -71,3 +71,76 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
+Percentage of tasks completed::   1%|▏         | 1/80 [10:24<13:42:10, 624.43s/it]Percentage of tasks completed::  80%|████████  | 64/80 [10:25<02:36,  9.78s/it]   
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 598, in __call__
+    return [func(*args, **kwargs)
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 598, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/ALL_main_parallel_unif.py", line 174, in task
+    with open(os.path.join(os.getcwd(), 'simulations_SPD', 'type_iii_data_unif', type_iii_filename), 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/type_iii_data_unif/SPD_type_iii_N50_df15.pkl'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/ALL_main_parallel_unif.py", line 244, in <module>
+    Parallel(n_jobs=-1, verbose=2)(delayed(task)(file) for file in file_list)
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 1754, in _retrieve
+    self._raise_error_fast()
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 745, in get_result
+    return self._return_or_raise()
+  File "/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/parallel.py", line 763, in _return_or_raise
+    raise self._result
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/type_iii_data_unif/SPD_type_iii_N50_df15.pkl'
+/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 54 leaked semlock objects to clean up at shutdown
+  warnings.warn(
+fatal: Unable to create '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 792e08b19e862c2aab55cebf63d9170ec37d76d1 but expected 9db220dc4580352dcadcfaa91e6a92dfe38c849a
+Everything up-to-date
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205479)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205479
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:36:22
+CPU Efficiency: 81.48% of 05:39:12 core-walltime
+Job Wall-clock time: 00:10:36
+Memory Utilized: 5.34 GB
+Memory Efficiency: 33.39% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
