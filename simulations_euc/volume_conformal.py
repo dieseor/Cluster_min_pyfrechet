@@ -19,10 +19,13 @@ from pyfrechet.metrics import mse
 from sklearn.metrics import make_scorer
 from math import gamma
 
+# Read block parameter from command line
+n_samples=len(os.listdir(os.path.join(os.getcwd(), 'simulations_euc', 'volume_data')))
+current_block = int(sys.argv[1])
+
 data_dir = os.path.join(os.getcwd(), 'simulations_euc', 'volume_data')
 results_dir = os.path.join(os.getcwd(), 'simulations_euc', 'conf_volume_results')
 os.makedirs(results_dir, exist_ok=True)
-
 
 
 # Define parameter grid for tuning
@@ -85,8 +88,10 @@ def task(file):
     filename = os.path.join(results_dir, file[:-4] + '_volume.npy')
     np.save(filename, results)
 
-Parallel(n_jobs=12, verbose=2)(
+Parallel(n_jobs=11, verbose=2)(
     delayed(task)(file)
     for file in os.listdir(data_dir)
-    if (file.endswith('.pkl') and not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'conf_volume_results/' +  file[:-4]+ '_volume.npy' )))
+    if (file.endswith('.pkl') and 
+        file.endswith(f'_block_{current_block}.pkl') and
+        not os.path.exists(os.path.join(os.getcwd(), 'simulations_euc', 'conf_volume_results/' +  file[:-4]+ '_volume.npy' )))
 )

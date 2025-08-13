@@ -114,6 +114,12 @@ def tune_forest(X, y, forest = base_forest, param_grid=param_grid):
 # Main task
 def task(file) -> None:
     """Processes a single file for sphere data regression."""
+    # Check if results file already exists
+    results_filename = os.path.join(os.getcwd(), 'simulations_sphere', 'results', f'{file[:-4]}' + '_results.npy')
+    if os.path.exists(results_filename):
+        print(f"Results file already exists for {file}, skipping...")
+        return
+    
     with open(os.path.join(os.getcwd(), 'simulations_sphere', 'data', file), 'rb') as f:
         sample = pickle.load(f)
     
