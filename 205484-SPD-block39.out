@@ -83,3 +83,38 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/type_iii_data_unif/SPD_type_iii_N50_df5.pkl'
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 62 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main a39a000b64] Simulations SPD block 39
+ 5 files changed, 78 insertions(+)
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   3ab9612cc6..a39a000b64  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205484)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205484
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:38:21
+CPU Efficiency: 81.55% of 05:41:20 core-walltime
+Job Wall-clock time: 00:10:40
+Memory Utilized: 5.32 GB
+Memory Efficiency: 33.22% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
