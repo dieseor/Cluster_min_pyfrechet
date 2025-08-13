@@ -105,3 +105,30 @@ remote: This repository moved. Please use the new location:
 remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
 To github.com:Diegol314/Cluster_min_pyfrechet.git
    1132ee7f70..4b3ded78dc  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205493)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205493
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:25:34
+CPU Efficiency: 79.04% of 05:36:00 core-walltime
+Job Wall-clock time: 00:10:30
+Memory Utilized: 5.43 GB
+Memory Efficiency: 33.95% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
