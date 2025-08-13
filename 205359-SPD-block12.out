@@ -83,3 +83,39 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/type_iii_data_unif/SPD_type_iii_N50_df5.pkl'
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 4569c1eb7d] Simulations SPD block 12
+ 7 files changed, 77 insertions(+), 1 deletion(-)
+ create mode 100644 simulations_sphere/results_unif/sphere_samp998_N500_kappa50_block_40_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   21e939e0e8..4569c1eb7d  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205359)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205359
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:35:15
+CPU Efficiency: 80.14% of 05:43:28 core-walltime
+Job Wall-clock time: 00:10:44
+Memory Utilized: 5.20 GB
+Memory Efficiency: 32.49% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
