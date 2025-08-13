@@ -83,3 +83,52 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/type_iii_data_unif/SPD_type_iii_N50_df5.pkl'
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 0649dadd91] Simulations SPD block 11
+ 20 files changed, 462 insertions(+), 3 deletions(-)
+ create mode 100644 205363-SPD-block16.out
+ create mode 100644 205364-SPD-block17.out
+ create mode 100644 205365-SPD-block18.out
+ create mode 100644 205367-SPD-block19.out
+ create mode 100644 205368-SPD-block20.out
+ create mode 100644 205369-SPD-block21.out
+ create mode 100644 205370-SPD-block22.out
+ create mode 100644 205371-SPD-block23.out
+ create mode 100644 simulations_sphere/results_unif/sphere_samp949_N500_kappa200_block_38_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp949_N500_kappa50_block_38_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp974_N500_kappa200_block_39_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp974_N500_kappa50_block_39_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp997_N500_kappa200_block_40_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp997_N500_kappa50_block_40_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   6dd9581059..0649dadd91  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205358)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205358
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:41:03
+CPU Efficiency: 81.32% of 05:45:36 core-walltime
+Job Wall-clock time: 00:10:48
+Memory Utilized: 5.32 GB
+Memory Efficiency: 33.22% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
