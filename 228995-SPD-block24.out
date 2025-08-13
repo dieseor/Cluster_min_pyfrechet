@@ -54,4 +54,5 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
   return fit_method(estimator, *args, **kwargs)
-Percentage of tasks completed::  24%|██▍       | 19/80 [34:07<3:08:55, 185.83s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [34:13<2:11:48, 131.81s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [34:21<1:33:05, 94.67s/it] Percentage of tasks completed::  28%|██▊       | 22/80 [34:42<1:10:10, 72.60s/it]
+Percentage of tasks completed::  24%|██▍       | 19/80 [34:07<3:08:55, 185.83s/it]Percentage of tasks completed::  25%|██▌       | 20/80 [34:13<2:11:48, 131.81s/it]Percentage of tasks completed::  26%|██▋       | 21/80 [34:21<1:33:05, 94.67s/it] Percentage of tasks completed::  28%|██▊       | 22/80 [34:42<1:10:10, 72.60s/it]/mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/sklearn/base.py:1152: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (2). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
