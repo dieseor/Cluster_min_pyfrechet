@@ -85,3 +85,43 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/netapp2/Store_uni/home/otras/est/dso/min_pyfrechet/simulations_SPD/type_iii_data_unif/SPD_type_iii_N50_df5.pkl'
 /mnt/netapp2/Store_uni/home/otras/est/dso/pballs/lib/python3.9/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 64 leaked semlock objects to clean up at shutdown
   warnings.warn(
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 0c8e6f62d4] Simulations SPD block 6
+ 16 files changed, 607 insertions(+), 2 deletions(-)
+ create mode 100644 205361-SPD-block14.out
+ create mode 100644 205362-SPD-block15.out
+ create mode 100644 simulations_sphere/results_unif/sphere_samp925_N500_kappa50_block_37_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp973_N500_kappa200_block_39_results.npy
+ create mode 100644 simulations_sphere/results_unif/sphere_samp973_N500_kappa50_block_39_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   06d3ed8a67..0c8e6f62d4  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 205352)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 205352
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 04:45:37
+CPU Efficiency: 79.34% of 06:00:00 core-walltime
+Job Wall-clock time: 00:11:15
+Memory Utilized: 5.21 GB
+Memory Efficiency: 32.54% of 16.00 GB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
