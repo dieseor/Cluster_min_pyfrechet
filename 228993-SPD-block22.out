@@ -55,3 +55,61 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  94%|█████████▍| 75/80 [3:05:20<22:51, 274.38s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:07:03<14:52, 223.02s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:11:58<12:13, 244.48s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:15:09<07:37, 228.57s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:22:25<04:50, 290.77s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:24:03<00:00, 233.04s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 204.1min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:24:03<00:00, 153.05s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 00a664511b] Simulations SPD block 22
+ 66 files changed, 254 insertions(+), 9 deletions(-)
+ create mode 100644 236590-SPD-block37.out
+ create mode 100644 236591-SPD-block38.out
+ create mode 100644 simulations_SPD/results_unif/SPD_samp220_N500_df15_block_22_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp220_N500_df5_block_22_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp239_N500_df5_block_24_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp240_N500_df15_block_24_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp249_N500_df15_block_25_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp255_N200_df15_block_26_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp255_N200_df5_block_26_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp258_N50_df15_block_26_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp258_N50_df5_block_26_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp265_N200_df15_block_27_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp265_N200_df5_block_27_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp268_N50_df15_block_27_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp268_N50_df5_block_27_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp275_N200_df15_block_28_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp275_N200_df5_block_28_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp278_N50_df15_block_28_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp278_N50_df5_block_28_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp295_N200_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp295_N200_df5_block_30_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp298_N50_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp298_N50_df5_block_30_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp305_N200_df15_block_31_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp308_N50_df15_block_31_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp308_N50_df5_block_31_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp318_N100_df15_block_32_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp318_N100_df5_block_32_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp328_N100_df15_block_33_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp331_N100_df15_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp331_N100_df5_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp332_N100_df15_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp332_N100_df5_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp333_N100_df15_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp333_N100_df5_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp334_N100_df15_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp334_N100_df5_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp341_N50_df15_block_35_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp343_N50_df15_block_35_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp343_N50_df5_block_35_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp344_N50_df15_block_35_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp344_N50_df5_block_35_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp351_N50_df15_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp351_N50_df5_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp352_N50_df15_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp352_N50_df5_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp353_N50_df15_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp353_N50_df5_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp354_N50_df15_block_36_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp354_N50_df5_block_36_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   8ca3843b24..00a664511b  main -> main
