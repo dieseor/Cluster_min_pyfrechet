@@ -62,3 +62,40 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  89%|████████▉ | 71/80 [2:50:11<26:02, 173.62s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:52:25<21:34, 161.84s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:57:24<23:40, 202.92s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:57:26<14:16, 142.67s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:07:49<23:54, 286.86s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:10:49<16:58, 254.59s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:16:24<13:56, 278.72s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:17:22<07:05, 212.70s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:24:32<04:37, 277.75s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:26:39<00:00, 232.48s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 206.7min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:26:39<00:00, 154.99s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 03216c7885] Simulations SPD block 30
+ 15 files changed, 40 insertions(+), 3 deletions(-)
+ create mode 100644 simulations_SPD/results_unif/SPD_samp260_N500_df15_block_26_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp270_N500_df15_block_27_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp300_N500_df15_block_30_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp300_N500_df5_block_30_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp400_N200_df15_block_40_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp400_N200_df5_block_40_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp410_N200_df15_block_41_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp410_N200_df5_block_41_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   97e1786825..03216c7885  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 236583)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 236583
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-23:26:39
+CPU Efficiency: 64.75% of 4-14:20:48 core-walltime
+Job Wall-clock time: 03:26:54
+Memory Utilized: 14.79 GB
+Memory Efficiency: 92.44% of 16.00 GB
+
+*****************************************************************************
+
