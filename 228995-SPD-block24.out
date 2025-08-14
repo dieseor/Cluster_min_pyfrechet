@@ -65,3 +65,39 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   return fit_method(estimator, *args, **kwargs)
 Percentage of tasks completed::  76%|███████▋  | 61/80 [2:29:46<3:07:46, 592.99s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:30:08<2:06:30, 421.71s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:32:39<1:36:28, 340.49s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:33:36<1:08:06, 255.40s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:33:46<45:27, 181.84s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:33:58<30:30, 130.74s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:34:26<21:38, 99.89s/it] Percentage of tasks completed::  85%|████████▌ | 68/80 [2:34:55<15:42, 78.54s/it]Percentage of tasks completed::  86%|████████▋ | 69/80 [2:40:31<28:34, 155.86s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:40:56<19:26, 116.60s/it]Percentage of tasks completed::  89%|████████▉ | 71/80 [2:48:27<32:32, 216.98s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:50:32<25:14, 189.33s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:52:49<20:15, 173.60s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [2:54:59<16:03, 160.52s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:04:51<24:10, 290.17s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:06:34<15:35, 233.83s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:09:32<10:51, 217.06s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:16:06<09:00, 270.11s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:20:23<04:26, 266.37s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:22:43<00:00, 228.39s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 202.7min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:22:43<00:00, 152.04s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 11334209cf] Simulations SPD block 24
+ 15 files changed, 119 insertions(+), 4 deletions(-)
+ create mode 100644 236592-SPD-block39.out
+ create mode 100644 simulations_SPD/results_unif/SPD_samp240_N500_df5_block_24_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp249_N500_df5_block_25_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp288_N100_df15_block_29_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp288_N100_df5_block_29_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp308_N100_df15_block_31_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp328_N100_df5_block_33_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   00a664511b..11334209cf  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 228995)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 228995
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 2-21:55:08
+CPU Efficiency: 64.60% of 4-12:13:52 core-walltime
+Job Wall-clock time: 03:22:56
+Memory Utilized: 14.44 GB
+Memory Efficiency: 90.24% of 16.00 GB
+
+*****************************************************************************
+
