@@ -89,3 +89,36 @@ WARNING: Maximum number of iterations 32 reached. The mean may be inaccurate
 Percentage of tasks completed::  69%|██████▉   | 55/80 [1:51:04<2:01:15, 291.03s/it]Percentage of tasks completed::  70%|███████   | 56/80 [1:51:31<1:24:37, 211.58s/it]Percentage of tasks completed::  71%|███████▏  | 57/80 [1:52:21<1:02:35, 163.28s/it]Percentage of tasks completed::  72%|███████▎  | 58/80 [1:53:17<48:02, 131.04s/it]  [Parallel(n_jobs=-1)]: Done  58 out of  80 | elapsed: 113.3min remaining: 43.0min
 Percentage of tasks completed::  74%|███████▍  | 59/80 [2:12:20<2:32:06, 434.61s/it]Percentage of tasks completed::  75%|███████▌  | 60/80 [2:13:52<1:50:38, 331.92s/it]Percentage of tasks completed::  76%|███████▋  | 61/80 [2:37:28<3:28:01, 656.91s/it]Percentage of tasks completed::  78%|███████▊  | 62/80 [2:38:18<2:22:29, 474.95s/it]Percentage of tasks completed::  79%|███████▉  | 63/80 [2:38:29<1:35:09, 335.87s/it]Percentage of tasks completed::  80%|████████  | 64/80 [2:39:22<1:06:53, 250.86s/it]Percentage of tasks completed::  81%|████████▏ | 65/80 [2:40:11<47:34, 190.32s/it]  Percentage of tasks completed::  82%|████████▎ | 66/80 [2:40:36<32:48, 140.63s/it]Percentage of tasks completed::  84%|████████▍ | 67/80 [2:41:07<23:24, 108.00s/it]Percentage of tasks completed::  85%|████████▌ | 68/80 [2:41:28<16:22, 81.86s/it] Percentage of tasks completed::  86%|████████▋ | 69/80 [2:45:52<25:00, 136.42s/it]Percentage of tasks completed::  88%|████████▊ | 70/80 [2:45:58<16:12, 97.20s/it] Percentage of tasks completed::  89%|████████▉ | 71/80 [2:53:31<30:35, 203.89s/it]Percentage of tasks completed::  90%|█████████ | 72/80 [2:54:56<22:25, 168.24s/it]Percentage of tasks completed::  91%|█████████▏| 73/80 [2:59:27<23:14, 199.14s/it]Percentage of tasks completed::  92%|█████████▎| 74/80 [3:00:54<16:32, 165.42s/it]Percentage of tasks completed::  94%|█████████▍| 75/80 [3:10:21<23:50, 286.07s/it]Percentage of tasks completed::  95%|█████████▌| 76/80 [3:12:09<15:30, 232.62s/it]Percentage of tasks completed::  96%|█████████▋| 77/80 [3:17:20<12:48, 256.06s/it]Percentage of tasks completed::  98%|█████████▊| 78/80 [3:20:52<08:05, 242.91s/it]Percentage of tasks completed::  99%|█████████▉| 79/80 [3:26:12<04:26, 266.04s/it]Percentage of tasks completed:: 100%|██████████| 80/80 [3:27:43<00:00, 213.40s/it][Parallel(n_jobs=-1)]: Done  80 out of  80 | elapsed: 207.7min finished
 Percentage of tasks completed:: 100%|██████████| 80/80 [3:27:43<00:00, 155.79s/it]
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main c87f357588] Simulations SPD block 26
+ 9 files changed, 44 insertions(+), 4 deletions(-)
+ create mode 100644 simulations_SPD/results_unif/SPD_samp260_N500_df5_block_26_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp270_N500_df5_block_27_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp336_N500_df15_block_34_results.npy
+ create mode 100644 simulations_SPD/results_unif/SPD_samp341_N500_df15_block_35_results.npy
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:dieseor/Cluster_min_pyfrechet.git        
+To github.com:Diegol314/Cluster_min_pyfrechet.git
+   03216c7885..c87f357588  main -> main
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 236579)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 236579
+Cluster: finisterrae3
+User/Group: otestdso/otras
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 3-00:21:35
+CPU Efficiency: 65.22% of 4-14:56:32 core-walltime
+Job Wall-clock time: 03:28:01
+Memory Utilized: 14.55 GB
+Memory Efficiency: 90.93% of 16.00 GB
+
+*****************************************************************************
+
